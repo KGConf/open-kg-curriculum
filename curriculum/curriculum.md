@@ -176,14 +176,32 @@ Category: Context/History, Technology, Foundational, Standards, Methods, Resourc
   * Audience: Any
   * Level: Advanced
 
-* Gra.fo
-  * Category: Technology, Visualization
-  * Module Prerequisites: RDFS, Introduction to KE (r)
-  * Audience: Any
-  * Level: Intermediate
-
 * Survey of Modeling Tools
   * Category: Survey, Technology
   * Module Prerequisites: Introduction to KE
   * Audience: Any
+  * Level: Intermediate
+
+* Survey of Triplestores
+  * Category: Survey, Technology
+  * Module Prerequisites: Deploying a KG
+  * Audience: Any
+  * Level: Intermediate
+
+* History of the Semantic Web
+  * Category: History/Context
+  * Module Prerequisites: None
+  * Audience: Any
+  * Level: Beginner
+
+* Property Graphs
+* Category: Methods
+  * Module Prerequisites: RDF*
+  * Audience: Student, Developer
+  * Level: Intermediate
+
+* Nanopublications
+  * Category: Methods
+  * Module Prerequisites: RDF*
+  * Audience: Student, Developer
   * Level: Intermediate
