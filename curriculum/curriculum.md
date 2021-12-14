@@ -3,7 +3,7 @@
 The vocabulary that we use:
 Audience: Undergraduate Student, Graduate Student, Developer, Project Management, Any
 Level: Beginner, Intermediate, Advanced
-Category: Context/History, Technology, Foundational, Standards, Methods, Resources
+Category: Context/History, Technology, Foundational, Standards, Methods, Resources, Query Language, Markup Languages
 
 ## Modules List
 * Introduction to Logic
@@ -55,26 +55,32 @@ Category: Context/History, Technology, Foundational, Standards, Methods, Resourc
   * Level: Beginner
 
 * RDF
-  * Category: Standards
+  * Category: Standards, Markup Languages
   * Module Prerequisites: None
   * Content Prerequisites: XML
   * Audience: Student, Developer
   * Level: Beginner
 
 * RDFS
-  * Category: Standards
+  * Category: Standards, Markup Languages
   * Module Prerequisites: RDF
   * Audience: Student, Developer
   * Level: Beginner
 
 * RDF Serializations
-  * Category: Standards
+  * Category: Standards, Markup Languages
   * Module Prerequisites: RDFS
   * Audience: Student, Developer
   * Level: Beginner
 
+* RDF\*
+  * Category: Markup Languages
+  * Module Prerequisites: RDF
+  * Audience: Student, Developer
+  * Level: Beginner
+
 * SPARQL
-  * Category: Standards
+  * Category: Standards, Query Language
   * Module Prerequisites: RDF Serializations
   * Audience: Student, Developer
   * Level: Beginner
@@ -136,6 +142,36 @@ Category: Context/History, Technology, Foundational, Standards, Methods, Resourc
 
 * Introduction to Knowledge Engineering
   * Category: Methods
-  * Module Prerequisites: RDFS, OWL or SHACL
+  * Module Prerequisites: RDFS, Protege or OWL or SHACL
   * Audience: Any
   * Level: Intermediate
+
+* GraphQL
+  * Category: Query Language
+  * Module Prerequisites: Property Graphs
+  * Audience: Any
+  * Level: Intermediate
+
+* Survey of Documentation Practices
+  * Category: Survey, Methods
+  * Module Prerequisites: Introduction to KE
+  * Audience: Any
+  * Level: Intermediate
+
+* Survey of Visualization Tools
+  * Category: Survey, Visualization
+  * Module Prerequisites: Introduction to KE
+  * Audience: Any
+  * Level: Intermediate
+
+* Introduction to Upper Ontologies
+  * Category: Methods
+  * Module Prerequisites: Introduction to KE
+  * Audience: Any
+  * Level: Advanced 
+
+* Introduction to Modular Ontologies
+  * Category: Methods
+  * Module Prerequisites: Introduction to KE
+  * Audience: Any
+  * Level: Advanced
