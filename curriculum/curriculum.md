@@ -3,7 +3,7 @@
 The vocabulary that we use:
 Audience: Undergraduate Student, Graduate Student, Developer, Project Management, Any
 Level: Beginner, Intermediate, Advanced
-Category: Context/History, Technology, Foundational, Standards, Methods, Resources, Query Language, Markup Languages
+Category: Context/History, Technology, Foundational, Standards, Methods, Resources, Query Language, Markup Languages, Visualization
 
 ## Modules List
 * Introduction to Logic
@@ -159,7 +159,7 @@ Category: Context/History, Technology, Foundational, Standards, Methods, Resourc
   * Level: Intermediate
 
 * Survey of Visualization Tools
-  * Category: Survey, Visualization
+  * Category: Survey, Visualization, Technology
   * Module Prerequisites: Introduction to KE
   * Audience: Any
   * Level: Intermediate
@@ -175,3 +175,15 @@ Category: Context/History, Technology, Foundational, Standards, Methods, Resourc
   * Module Prerequisites: Introduction to KE
   * Audience: Any
   * Level: Advanced
+
+* Gra.fo
+  * Category: Technology, Visualization
+  * Module Prerequisites: RDFS, Introduction to KE (r)
+  * Audience: Any
+  * Level: Intermediate
+
+* Survey of Modeling Tools
+  * Category: Survey, Technology
+  * Module Prerequisites: Introduction to KE
+  * Audience: Any
+  * Level: Intermediate
