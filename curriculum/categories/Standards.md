@@ -1,0 +1,12 @@
+# Category: Standards
+* [RDF](../modules/RDF/RDF.md)
+* [RDFS](../modules/RDFS/RDFS.md)
+* [RDF Serializations](../modules/RDF_Serializations/RDF_Serializations.md)
+* [SPARQL](../modules/SPARQL/SPARQL.md)
+* [SWRL](../modules/SWRL/SWRL.md)
+* [OWL](../modules/OWL/OWL.md)
+* [Manchester Syntax](../modules/Manchester_Syntax/Manchester_Syntax.md)
+* [SHACL](../modules/SHACL/SHACL.md)
+* [SOSA & SSN](../modules/SOSA_&_SSN/SOSA_&_SSN.md)
+* [PROV-O](../modules/PROV-O/PROV-O.md)
+

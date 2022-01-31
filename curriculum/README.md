@@ -12,5 +12,10 @@
 * Category 2
 * ...
 
+## Modules by Audience
+* [All Audiences](./audiences.md)
+* Audience 1
+* Audience 2
+
 ## Module Catalog
 * [Full List of Modules](./curriculum.md)

@@ -195,7 +195,7 @@ Category: Context/History, Technology, Foundational, Standards, Methods, Resourc
   * Level: Beginner
 
 * Property Graphs
-* Category: Methods
+  * Category: Methods
   * Module Prerequisites: RDF*
   * Audience: Student, Developer
   * Level: Intermediate
