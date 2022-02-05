@@ -1,4 +1,4 @@
-# The Open Curricula Graph
+# The Open Curriculum Module List
 
 The vocabulary that we use:
 Audience: Undergraduate Student, Graduate Student, Developer, Project Management, Any
