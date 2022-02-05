@@ -23,7 +23,7 @@ with open(full_module_list_file_path) as f:
 			# Sanitize it, as well
 			line = line.split(":")[1].strip().replace("*", " Star")
 			# If this is a list, replace them with tabs
-			line = line.replace(",","\t")
+			line = line.replace(", ","\t")
 			module_row += f",{line}"
 
 with open("./modules.csv", "w") as out:
