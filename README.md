@@ -8,7 +8,7 @@ Welcome to KGC's Open Knowledge Graph Curriculum. Don't forget to join our [Slac
 It is a set of [modules](./curriculum/). These modules are organized by category, audience, and learning paths.
 
 ### Then what is a *module*?
-A module is a set of learning material. This generally consists of:
+A module is a set of learning material about some set of _concepts_. This generally consists of:
 * Metadata about the topic, including the audience, prerequistes, categories, and etc.
 * A tutorial article about the topic
 * Sample exercises and/or projects
