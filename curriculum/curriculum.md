@@ -1,9 +1,9 @@
-# The Open Curricula Graph
+# The Open Curriculum Module List
 
 The vocabulary that we use:
-Audience: Undergraduate Student, Graduate Student, Developer, Project Management, Any
-Level: Beginner, Intermediate, Advanced
-Category: Context/History, Technology, Foundational, Standards, Methods, Resources, Query Language, Markup Languages, Visualization
+- Audience: Undergraduate Student, Graduate Student, Developer, Project Management, Any
+- Level: Beginner, Intermediate, Advanced
+- Category: Context/History, Technology, Foundational, Standards, Methods, Resources, Query Language, Markup Languages, Visualization
 
 ## Modules List
 * What is Metadata?
