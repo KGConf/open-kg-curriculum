@@ -1,7 +1,7 @@
-# History of the Semantic Web
+# What is a Knowledge Graph
 ## Details
-* Category: [History_Context](../categories/History_Context.md)
-* Module Prerequisites: None
+* Category: [Foundational](../categories/Foundational.md)
+* Module Prerequisites: [What is Metadata?](../modules/What_is_Metadata?.md)
 * Audience: [Any](../audiences/Any.md)
 * Level: [Beginner](../levels/Beginner.md)
 

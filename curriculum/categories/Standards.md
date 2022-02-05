@@ -5,8 +5,11 @@
 * [SPARQL](../modules/SPARQL/SPARQL.md)
 * [SWRL](../modules/SWRL/SWRL.md)
 * [OWL](../modules/OWL/OWL.md)
+* [OWL Dialects](../modules/OWL_Dialects/OWL_Dialects.md)
 * [Manchester Syntax](../modules/Manchester_Syntax/Manchester_Syntax.md)
 * [SHACL](../modules/SHACL/SHACL.md)
 * [SOSA & SSN](../modules/SOSA_&_SSN/SOSA_&_SSN.md)
 * [PROV-O](../modules/PROV-O/PROV-O.md)
+* [SKOS](../modules/SKOS/SKOS.md)
+* [RDF Plus](../modules/RDF_Plus/RDF_Plus.md)
 

@@ -1,7 +1,7 @@
-# History of the Semantic Web
+# Open World Assumption vs Closed World Assumption
 ## Details
-* Category: [History_Context](../categories/History_Context.md)
-* Module Prerequisites: None
+* Category: [Methods](../categories/Methods.md)
+* Module Prerequisites: [Introduction to Logic](../modules/Introduction_to_Logic.md)
 * Audience: [Any](../audiences/Any.md)
 * Level: [Beginner](../levels/Beginner.md)
 

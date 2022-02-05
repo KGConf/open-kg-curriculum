@@ -1,8 +1,8 @@
-# History of the Semantic Web
+# Dublin Core
 ## Details
-* Category: [History_Context](../categories/History_Context.md)
-* Module Prerequisites: None
-* Audience: [Any](../audiences/Any.md)
+* Category: [Resources](../categories/Resources.md)
+* Module Prerequisites: [RDFS](../modules/RDFS.md)
+* Audience: [Student, Developer](../audiences/Student,_Developer.md)
 * Level: [Beginner](../levels/Beginner.md)
 
 ## Content

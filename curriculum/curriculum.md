@@ -219,7 +219,6 @@ Category: Context/History, Technology, Foundational, Standards, Methods, Resourc
 * Deploying a Knowledge Graph
   * Category: Methods, Technology
   * Module Prerequisites: None
-  * Content Prerequisites: Basic network admin
   * Audience: Student, Developer
   * Level: Intermediate
   * Covered Concepts: missing, missing

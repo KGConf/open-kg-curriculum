@@ -1,9 +1,9 @@
-# Predicate Logic
+# Introduction to Discrete Mathematics:
 ## Details
 * Category: [Foundational](../categories/Foundational.md)
-* Module Prerequisites: [Propositional Logic, Datalog (r)](../modules/Propositional_Logic,_Datalog_(r).md)
+* Module Prerequisites: [Introduction to Set Theory](../modules/Introduction_to_Set_Theory.md)
 * Audience: [Student](../audiences/Student.md)
-* Level: [Begineer](../levels/Begineer.md)
+* Level: [Intermediate](../levels/Intermediate.md)
 
 ## Content
 Content text.

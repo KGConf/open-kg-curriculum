@@ -1,7 +1,7 @@
-# Open World Assumption vs. Closed World Assumption
+# What is Metadata
 ## Details
-* Category: [Methods](../categories/Methods.md)
-* Module Prerequisites: [Introduction to Logic](../modules/Introduction_to_Logic.md)
+* Category: [Foundational](../categories/Foundational.md)
+* Module Prerequisites: None
 * Audience: [Any](../audiences/Any.md)
 * Level: [Beginner](../levels/Beginner.md)
 

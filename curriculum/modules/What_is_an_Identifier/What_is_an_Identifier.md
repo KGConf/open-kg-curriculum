@@ -1,6 +1,6 @@
-# History of the Semantic Web
+# What is an Identifier
 ## Details
-* Category: [History_Context](../categories/History_Context.md)
+* Category: [Foundational](../categories/Foundational.md)
 * Module Prerequisites: None
 * Audience: [Any](../audiences/Any.md)
 * Level: [Beginner](../levels/Beginner.md)
