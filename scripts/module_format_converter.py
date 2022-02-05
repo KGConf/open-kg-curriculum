@@ -21,7 +21,7 @@ with open(full_module_list_file_path) as f:
 			# line has the form "\s\s*\s.+?:.+?\n"
 			# We want the right hand side, and no spaces
 			# Sanitize it, as well
-			line = line.split(":")[1].strip().replace("*", " Star")
+			line = line.split(":")[1].strip().replace("*", " Star").replace("/", "_")
 			# If this is a list, replace them with tabs
 			line = line.replace(", ","\t")
 			module_row += f",{line}"

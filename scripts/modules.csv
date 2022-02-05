@@ -13,7 +13,7 @@ Introduction to Discrete Mathematics:,Foundational,Introduction to Set Theory,St
 Open World Assumption vs Closed World Assumption,Methods,Introduction to Logic,Any,Beginner,missing	missing
 RDF,Standards	Markup Languages,None,Student	Developer,Beginner,Triple	Subject	Object	Predicate	Class	Type	Namespaces	Literals	Blank Node	Property
 RDFS,Standards	Markup Languages,RDF,Student	Developer,Beginner,Subclass	Subproperty	Domain Restrictions	Range Restrictions
-RDF Serializations,Standards	Markup Languages,RDFS,Student	Developer,Beginner,RDF/XML	JSON-LD	Turtle
+RDF Serializations,Standards	Markup Languages,RDFS,Student	Developer,Beginner,RDF_XML	JSON-LD	Turtle
 RDF Star,Markup Languages,RDF,Student	Developer,Beginner,missing	missing
 SPARQL,Standards	Query Language,RDF Serializations,Student	Developer,Beginner,Query	Select	Update	Delete	Insert	Construct	Explain
 SWRL,Standards,SPARQL,Student	Developer,Intermediate,missing	missing
@@ -28,7 +28,7 @@ PROV-O,Standards	Resources,OWL	Schema.org,Student	Developer,Intermediate,Provena
 SKOS,Standards	Resources,RDF,Student	Developer,Intermediate,None
 Survey of Modeling Tools,Technology,OWL	SHACL,Student	Developer,Intermediate,Protege	TopBraid Composer	PoolParty	DataWorld
 Protege,Technology,Manchester Syntax,Student	Developer,Intermediate,missing	missing
-Deploying a Knowledge Graph,Methods	Technology,None,Basic network admin,Student	Developer,Intermediate,missing	missing
+Deploying a Knowledge Graph,Methods	Technology,None,Student	Developer,Intermediate,missing	missing
 Introduction to Knowledge Engineering,Methods,RDFS	Protege or OWL or SHACL,Any,Intermediate,missing	missing
 Reification,Methods,Introduction to Knowledge Engineering,Student	Developer,Intermediate,N-ary Relations	Blank Nodes
 GraphQL,Query Language,Property Graphs,Any,Intermediate,missing	missing
@@ -38,7 +38,7 @@ Introduction to Upper Ontologies,Methods,Introduction to KE,Any,Advanced,missing
 Introduction to Modular Ontologies,Methods,Introduction to KE,Any,Advanced,missing	missing
 Survey of Modeling Tools,Survey	Technology,Introduction to KE,Any,Intermediate,missing	missing
 Survey of Triplestores,Survey	Technology,Deploying a KG,Any,Intermediate,missing	missing
-History of the Semantic Web,History/Context,None,Any,Beginner,Ontology	Semantic Web	Taxonomy	Linked Data	Knowledge Graph
+History of the Semantic Web,History_Context,None,Any,Beginner,Ontology	Semantic Web	Taxonomy	Linked Data	Knowledge Graph
 Property Graphs,Methods,RDF Star,Student	Developer,Intermediate,missing	missing
 Nanopublications,Methods,RDF Star,Student	Developer,Intermediate,missing	missing
 Survey of Reasoners,Survey	Technology,Entailment Regimes,Any,Intermediate,Complexity	Inference

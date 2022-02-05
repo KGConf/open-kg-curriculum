@@ -30,7 +30,10 @@ with open(modules_csv) as f:
 	for line in lines:
 		# Parse row
 		module = line.split(",")
-		name, cat, prereqs, audience, level = module
+		try:
+			name, cat, prereqs, audience, level, concepts = module
+		except:
+			print(module)
 		# Sanitize name
 		filename = name.replace(" ", "_")
 		## Organize
