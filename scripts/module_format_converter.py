@@ -12,7 +12,7 @@ with open(full_module_list_file_path) as f:
 			if module_row != "":
 				module_rows += [module_row]
 			# strip away the asterisk and space, remove trailing newline
-			module_row = line[2:].strip().replace("*", " Star").replace(".", "").replace("?", "")
+			module_row = line[2:].strip().replace("*", " Star").replace(".", "").replace("?", "").replace("/", "_")
 		elif line == "" or line == "\n":
 			# Don't process empty lines
 			pass
