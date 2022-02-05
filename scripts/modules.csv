@@ -11,7 +11,7 @@ Rules,Foundational,Predicate Logic,Student,Beginner,missing	missing
 Introduction to Set Theory,Foundational,Introduction to Logic,Student,Beginner,Union	Disjunction	Disjointness	Intersection	Cardinality	Tuple	Graph
 Introduction to Discrete Mathematics:,Foundational,Introduction to Set Theory,Student,Intermediate,Functionality	Reflexivity	Transitivity	Inverse	Domain	Range
 Open World Assumption vs Closed World Assumption,Methods,Introduction to Logic,Any,Beginner,missing	missing
-RDF,Standards	Markup Languages,None,XML,Student	Developer,Beginner,Triple	Subject	Object	Predicate	Class	Type	Namespaces	Literals	Blank Node	Property
+RDF,Standards	Markup Languages,None,Student	Developer,Beginner,Triple	Subject	Object	Predicate	Class	Type	Namespaces	Literals	Blank Node	Property
 RDFS,Standards	Markup Languages,RDF,Student	Developer,Beginner,Subclass	Subproperty	Domain Restrictions	Range Restrictions
 RDF Serializations,Standards	Markup Languages,RDFS,Student	Developer,Beginner,RDF/XML	JSON-LD	Turtle
 RDF Star,Markup Languages,RDF,Student	Developer,Beginner,missing	missing
