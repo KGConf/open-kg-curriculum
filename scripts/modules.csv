@@ -1,0 +1,32 @@
+Introduction to Logic,Foundational,None,Any,Beginner
+Propositional Logic,Foundational,Introduction to Logic,Any,Beginner
+Datalog,Foundational,Propositional Logic,Student,Beginner
+Predicate Logic,Foundational,Propositional Logic	 Datalog (r),Student,Begineer
+Description Logic,Foundational,Introduction to Predicate Logic,Student,Advanced
+Rules,Foundational,Predicate Logic,Student,Beginner
+Introduction to Set Theory,Foundational,Introduction to Logic,Student,Beginner
+Open World Assumption vs Closed World Assumption,Methods,Introduction to Logic,Any,Beginner
+RDF,Standards	 Markup Languages,None,XML,Student	 Developer,Beginner
+RDFS,Standards	 Markup Languages,RDF,Student	 Developer,Beginner
+RDF Serializations,Standards	 Markup Languages,RDFS,Student	 Developer,Beginner
+RDF\ Star,Markup Languages,RDF,Student	 Developer,Beginner
+SPARQL,Standards	 Query Language,RDF Serializations,Student	 Developer,Beginner
+SWRL,Standards,SPARQL,Student	 Developer,Intermediate
+OWL,Standards,RDF Serializations	 OWAxCWA	 Description Logic,Student	 Developer,Intermediate
+Manchester Syntax,Standards,OWL,Student	 Developer,Intermediate
+SHACL,Standards,RDF serializations,Student	 Developer,Intermediate
+Schemaorg,Resources,RDFS,Student	 Developer,Beginner
+SOSA & SSN,Standards	 Resources,OWL	 Schema.org,Student	 Developer,Intermediate
+PROV-O,Standards	 Resources,OWL	 Schema.org,Student	 Developer,Intermediate
+Protege,Technology,Manchester Syntax,Student	 Developer,Intermediate
+Deploying a Knowledge Graph,Methods	 Technology,None,Basic network admin,Student	 Developer,Intermediate
+Introduction to Knowledge Engineering,Methods,RDFS	 Protege or OWL or SHACL,Any,Intermediate
+GraphQL,Query Language,Property Graphs,Any,Intermediate
+Survey of Documentation Practices,Survey	 Methods,Introduction to KE,Any,Intermediate
+Survey of Visualization Tools,Survey	 Visualization	 Technology,Introduction to KE,Any,Intermediate
+Introduction to Upper Ontologies,Methods,Introduction to KE,Any,Advanced
+Introduction to Modular Ontologies,Methods,Introduction to KE,Any,Advanced
+Survey of Modeling Tools,Survey	 Technology,Introduction to KE,Any,Intermediate
+Survey of Triplestores,Survey	 Technology,Deploying a KG,Any,Intermediate
+History of the Semantic Web,History/Context,None,Any,Beginner
+Property Graphs,Methods,RDF Star,Student	 Developer,Intermediate
