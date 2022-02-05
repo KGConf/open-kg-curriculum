@@ -1,32 +1,46 @@
-Introduction to Logic,Foundational,None,Any,Beginner
-Propositional Logic,Foundational,Introduction to Logic,Any,Beginner
-Datalog,Foundational,Propositional Logic,Student,Beginner
-Predicate Logic,Foundational,Propositional Logic	 Datalog (r),Student,Begineer
-Description Logic,Foundational,Introduction to Predicate Logic,Student,Advanced
-Rules,Foundational,Predicate Logic,Student,Beginner
-Introduction to Set Theory,Foundational,Introduction to Logic,Student,Beginner
-Open World Assumption vs Closed World Assumption,Methods,Introduction to Logic,Any,Beginner
-RDF,Standards	 Markup Languages,None,XML,Student	 Developer,Beginner
-RDFS,Standards	 Markup Languages,RDF,Student	 Developer,Beginner
-RDF Serializations,Standards	 Markup Languages,RDFS,Student	 Developer,Beginner
-RDF\ Star,Markup Languages,RDF,Student	 Developer,Beginner
-SPARQL,Standards	 Query Language,RDF Serializations,Student	 Developer,Beginner
-SWRL,Standards,SPARQL,Student	 Developer,Intermediate
-OWL,Standards,RDF Serializations	 OWAxCWA	 Description Logic,Student	 Developer,Intermediate
-Manchester Syntax,Standards,OWL,Student	 Developer,Intermediate
-SHACL,Standards,RDF serializations,Student	 Developer,Intermediate
-Schemaorg,Resources,RDFS,Student	 Developer,Beginner
-SOSA & SSN,Standards	 Resources,OWL	 Schema.org,Student	 Developer,Intermediate
-PROV-O,Standards	 Resources,OWL	 Schema.org,Student	 Developer,Intermediate
-Protege,Technology,Manchester Syntax,Student	 Developer,Intermediate
-Deploying a Knowledge Graph,Methods	 Technology,None,Basic network admin,Student	 Developer,Intermediate
-Introduction to Knowledge Engineering,Methods,RDFS	 Protege or OWL or SHACL,Any,Intermediate
-GraphQL,Query Language,Property Graphs,Any,Intermediate
-Survey of Documentation Practices,Survey	 Methods,Introduction to KE,Any,Intermediate
-Survey of Visualization Tools,Survey	 Visualization	 Technology,Introduction to KE,Any,Intermediate
-Introduction to Upper Ontologies,Methods,Introduction to KE,Any,Advanced
-Introduction to Modular Ontologies,Methods,Introduction to KE,Any,Advanced
-Survey of Modeling Tools,Survey	 Technology,Introduction to KE,Any,Intermediate
-Survey of Triplestores,Survey	 Technology,Deploying a KG,Any,Intermediate
-History of the Semantic Web,History/Context,None,Any,Beginner
-Property Graphs,Methods,RDF Star,Student	 Developer,Intermediate
+What is Metadata,Foundational,None,Any,Beginner,Metadata
+What is an Ontology,,,,,Ontology	Linked Data	Taxonomy	Schema	Statement	Triple
+What is a Knowledge Graph,Foundational,What is Metadata?,Any,Beginner,Schema	Statements	Triple
+What is an Identifier,Foundational,None,Any,Beginner,URI	Hash or Slash	Namespace
+Introduction to Logic,Foundational,None,Any,Beginner,Conjunction	Disjunction	Boolean Arithmetic
+Propositional Logic,Foundational,Introduction to Logic,Any,Beginner,missing	missing
+Datalog,Foundational,Propositional Logic,Student,Beginner,missing	missing
+Predicate Logic,Foundational,Propositional Logic	Datalog (r),Student,Begineer,missing	missing
+Description Logic,Foundational,Introduction to Predicate Logic,Student,Advanced,missing	missing
+Rules,Foundational,Predicate Logic,Student,Beginner,missing	missing
+Introduction to Set Theory,Foundational,Introduction to Logic,Student,Beginner,Union	Disjunction	Disjointness	Intersection	Cardinality	Tuple	Graph
+Introduction to Discrete Mathematics:,Foundational,Introduction to Set Theory,Student,Intermediate,Functionality	Reflexivity	Transitivity	Inverse	Domain	Range
+Open World Assumption vs Closed World Assumption,Methods,Introduction to Logic,Any,Beginner,missing	missing
+RDF,Standards	Markup Languages,None,XML,Student	Developer,Beginner,Triple	Subject	Object	Predicate	Class	Type	Namespaces	Literals	Blank Node	Property
+RDFS,Standards	Markup Languages,RDF,Student	Developer,Beginner,Subclass	Subproperty	Domain Restrictions	Range Restrictions
+RDF Serializations,Standards	Markup Languages,RDFS,Student	Developer,Beginner,RDF/XML	JSON-LD	Turtle
+RDF Star,Markup Languages,RDF,Student	Developer,Beginner,missing	missing
+SPARQL,Standards	Query Language,RDF Serializations,Student	Developer,Beginner,Query	Select	Update	Delete	Insert	Construct	Explain
+SWRL,Standards,SPARQL,Student	Developer,Intermediate,missing	missing
+OWL,Standards,RDF Serializations	OWAxCWA	Description Logic,Student	Developer,Intermediate,OWL	OWL2	Datatypes	Data Properties	Object Properties	Axiom	Equiavalence	Anonymous Class	Annotations
+OWL Dialects,Standards,OWL,Student	Developer,Intermediate,Expressivity	OWL EL	OWL QL	OWL RL	OWL DL	OWL Full
+Manchester Syntax,Standards,OWL,Student	Developer,Intermediate,missing	missing
+SHACL,Standards,RDF serializations,Student	Developer,Intermediate,missing	missing
+Schemaorg,Resources,RDFS,Student	Developer,Beginner,rangeIncludes	domainIncludes
+Dublin Core,Resources,RDFS,Student	Developer,Beginner,None
+SOSA & SSN,Standards	Resources,OWL	Schema.org,Student	Developer,Intermediate,missing	missing
+PROV-O,Standards	Resources,OWL	Schema.org,Student	Developer,Intermediate,Provenance	Lineage
+SKOS,Standards	Resources,RDF,Student	Developer,Intermediate,None
+Survey of Modeling Tools,Technology,OWL	SHACL,Student	Developer,Intermediate,Protege	TopBraid Composer	PoolParty	DataWorld
+Protege,Technology,Manchester Syntax,Student	Developer,Intermediate,missing	missing
+Deploying a Knowledge Graph,Methods	Technology,None,Basic network admin,Student	Developer,Intermediate,missing	missing
+Introduction to Knowledge Engineering,Methods,RDFS	Protege or OWL or SHACL,Any,Intermediate,missing	missing
+Reification,Methods,Introduction to Knowledge Engineering,Student	Developer,Intermediate,N-ary Relations	Blank Nodes
+GraphQL,Query Language,Property Graphs,Any,Intermediate,missing	missing
+Survey of Documentation Practices,Survey	Methods,Introduction to KE,Any,Intermediate,missing	missing
+Survey of Visualization Tools,Survey	Visualization	Technology,Introduction to KE,Any,Intermediate,missing	missing
+Introduction to Upper Ontologies,Methods,Introduction to KE,Any,Advanced,missing	missing
+Introduction to Modular Ontologies,Methods,Introduction to KE,Any,Advanced,missing	missing
+Survey of Modeling Tools,Survey	Technology,Introduction to KE,Any,Intermediate,missing	missing
+Survey of Triplestores,Survey	Technology,Deploying a KG,Any,Intermediate,missing	missing
+History of the Semantic Web,History/Context,None,Any,Beginner,Ontology	Semantic Web	Taxonomy	Linked Data	Knowledge Graph
+Property Graphs,Methods,RDF Star,Student	Developer,Intermediate,missing	missing
+Nanopublications,Methods,RDF Star,Student	Developer,Intermediate,missing	missing
+Survey of Reasoners,Survey	Technology,Entailment Regimes,Any,Intermediate,Complexity	Inference
+Entailment Regimes,Technology	Methods,OWL,Student	Developer,Intermediate,Inference
+RDF Plus,Standards	Markup Languages,RDF	OWL,Student	Developer,Intermediate,Property
