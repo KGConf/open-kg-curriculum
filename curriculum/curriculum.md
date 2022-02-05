@@ -100,7 +100,6 @@ Category: Context/History, Technology, Foundational, Standards, Methods, Resourc
 * RDF
   * Category: Standards, Markup Languages
   * Module Prerequisites: None
-  * Content Prerequisites: XML
   * Audience: Student, Developer
   * Level: Beginner
   * Covered Concepts: Triple, Subject, Object, Predicate, Class, Type, Namespaces, Literals, Blank Node, Property
