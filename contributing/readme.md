@@ -37,12 +37,12 @@ It will first help to get an idea of how contributing will work. GitHub allows u
 * Please be as descriptive as possible
 * No Trolling; be polite.
 * Make sure to label it with a label!
-* See Also: 
+* See Also: [Creating an Issue -- GitHub Docs](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)
 
 ## A Guide for Contributing to Content
 The first step to contributing is always to take a look at the [open issues page](https://github.com/KGConf/open-kg-curriculum/issues). New contributions can also be discussed on the [Slack Workspace]()! Also, keep in mind that contributions can, and often do, start quite small. As such, feel free to create a more open-ended issue and see where the discussion takes the feature-request.
 
-For example, we could start with the question, "What does a Project Manager need to know about Tiger Graph?" At the time of this writing, we'd need a Project Manager audience created, a Module describing Tiger Graph, and a list of Concepts that are useful to know about a triplestore platform. Some might be new (e.g., "What is the cloud?" or might already be in our Curriculum (e.g., "Entailment Regimes").
+For example, we could start with the question, "What does a Project Manager need to know about Tiger Graph?" At the time of this writing, we'd need a Project Manager audience created, a Module describing Tiger Graph, and a list of Concepts that are useful to know about a triplestore platform. Some might be new (e.g., "What is the cloud?") or might already be in our Curriculum (e.g., "Entailment Regimes").
 
 ### How do I contribute a _Learning Path_?
 1. Check the open issues!
