@@ -14,6 +14,10 @@ A module is a set of learning material about some set of _concepts_. This genera
 * Sample exercises and/or projects
 * Links to additional learning material, such as KGC workshop videos.
 
+### What is a *concept*?
+
+### What is a *learning path*?
+
 ## Contributing
 ### How do I contribute?
 * See the [full guide](./contributing/contributing.md).
