@@ -18,7 +18,9 @@ It will first help to get an idea of how contributing will work. GitHub allows u
 4. Discuss the Pull Request with the community and maintainers, as necessary!
 
 ### How do I "Fork" the repository?
-* details
+* First click on the Fork Button
+![Fork Button](./fork-button.png)
+
 * details
 * See Also: [Forking a Repository -- GitHub Docs](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
