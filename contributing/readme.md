@@ -20,8 +20,8 @@ It will first help to get an idea of how contributing will work. GitHub allows u
 ### How do I "Fork" the repository?
 * First click on the Fork Button
 ![Fork Button](./fork-button.png)
-
-* details
+* Choose your username from the list (This may not pop up if you don't have multiple profiles).
+* This should put the local copy (the fork) into your own profile that you can freely edit!
 * See Also: [Forking a Repository -- GitHub Docs](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
 ### How do I edit the Curriculum?
