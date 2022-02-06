@@ -18,22 +18,27 @@ It will first help to get an idea of how contributing will work. GitHub allows u
 4. Discuss the Pull Request with the community and maintainers, as necessary!
 
 ### How do I "Fork" the repository?
-* First click on the Fork Button.
-![Fork Button](./fork-button.png)
-* Choose your username from the list (This may not pop up if you don't have multiple profiles).
+* First ,click on the Fork Button.
+![Fork Button](./images/fork-button.png)
+* Choose your username from the list (this may not pop up if you don't have multiple profiles).
 * This should put the local copy (the fork) into your own profile that you can freely edit!
 * See Also: [Forking a Repository -- GitHub Docs](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
 ### How do I edit the Curriculum?
-* First navigate to the file that you wish to edit.
+* First, navigate to the file that you wish to edit.
 * Click on the Edit Button (the pencil button) to edit the particular file.
-![Edit File Button](./edit-file-button.png)
+![Edit File Button](./images/edit-file-button.png)
 * When you're done editing, at the bottom of the file, fill in a short description of the changes that you made. There is also space for an extended description.
 * See Also: [Editing Files -- GitHub Docs](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files)
 
 ### How do I make a "Pull Request"?
-* details
-* details
+* First, navigate to the Pull Request Panel
+* Then, click on the "New pull request button".
+![Pull Request Screen](./images/pull-request-screen.png)
+* If GitHub indicates that the changes can be merged, go ahead and click on the "Create pull request" button.
+![Submit Pull Request](./images/submit-pull-request.png)
+* This will bring you to a page to title and describe your changes made in this Pull Request. Try to be descriptive! If you're addressing an issue from the parent repository, put that Issue's number in your description, like "Addresses Issue #123". This will help the maintainers review the changes to be accepted! You can also leave the right panel blank; the maintainers will fill this out!
+![Final Pull Request Step](./images/final-pull-request-step.png)
 * See Also: [Creating a Pull Request -- GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
 ### How do I file an Issue?
