@@ -38,14 +38,17 @@ It will first help to get an idea of how contributing will work. GitHub allows u
 * If GitHub indicates that the changes can be merged, go ahead and click on the "Create pull request" button.
 ![Submit Pull Request](./images/submit-pull-request.png)
 * This will bring you to a page to title and describe your changes made in this Pull Request. Try to be descriptive! If you're addressing an issue from the parent repository, put that Issue's number in your description, like "Addresses Issue #123". This will help the maintainers review the changes to be accepted! You can also leave the right panel blank; the maintainers will fill this out!
+* There are guidelines below for more specific sort of information that should be included with pull requests and issues.
 ![Final Pull Request Step](./images/final-pull-request-step.png)
 * See Also: [Creating a Pull Request -- GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
 ### How do I file an Issue?
-* File an Issue [here](https://github.com/KGConf/open-kg-curriculum/issues)
-* Please be as descriptive as possible
-* No Trolling; be polite.
-* Make sure to label it with a label!
+* First, navigate to the [Issues Panel](https://github.com/KGConf/open-kg-curriculum/issues) of the Curriculum and click on the "New issue" button.
+![New Issue](./images/new-issue.png)
+* Include a description of the nature of the issue; try to be as thorough as possible. 
+* There are guidelines below for the sort of information that should be included in an issue or pull request.
+* Add labels as appropriate.
+* No Trolling; be polite!
 * See Also: [Creating an Issue -- GitHub Docs](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)
 
 ## A Guide for Contributing to Content
