@@ -18,15 +18,17 @@ It will first help to get an idea of how contributing will work. GitHub allows u
 4. Discuss the Pull Request with the community and maintainers, as necessary!
 
 ### How do I "Fork" the repository?
-* First click on the Fork Button
+* First click on the Fork Button.
 ![Fork Button](./fork-button.png)
 * Choose your username from the list (This may not pop up if you don't have multiple profiles).
 * This should put the local copy (the fork) into your own profile that you can freely edit!
 * See Also: [Forking a Repository -- GitHub Docs](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
 ### How do I edit the Curriculum?
-* details
-* details
+* First navigate to the file that you wish to edit.
+* Click on the Edit Button (the pencil button) to edit the particular file.
+![Edit File Button](./edit-file-button.png)
+* When you're done editing, at the bottom of the file, fill in a short description of the changes that you made. There is also space for an extended description.
 * See Also: [Editing Files -- GitHub Docs](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files)
 
 ### How do I make a "Pull Request"?
