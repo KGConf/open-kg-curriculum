@@ -57,25 +57,25 @@ The first step to contributing is always to take a look at the [open issues page
 For example, we could start with the question, "What does a Project Manager need to know about Tiger Graph?" At the time of this writing, we'd need a Project Manager audience created, a Module describing Tiger Graph, and a list of Concepts that are useful to know about a triplestore platform. Some might be new (e.g., "What is the cloud?") or might already be in our Curriculum (e.g., "Entailment Regimes").
 
 ### How do I contribute a _Learning Path_?
-1. Check the open issues!
+1. First, check the open issues and pull requests for related ideas! We don't want to duplicate our work :)
 2. detail
 
 ### How do I contribute to an existing _Learning Path_?
-1. Check the open issues!
+1. First, check the open issues and pull requests for related ideas! We don't want to duplicate our work :)
 2. detail
 
 ### How do I contribute new a _Module_?
-1. Check the open issues!
+1. First, check the open issues and pull requests for related ideas! We don't want to duplicate our work :)
 2. detail
 
 ### How do I contribute to an existing _Module_?
-1. Check the open issues!
+1. First, check the open issues and pull requests for related ideas! We don't want to duplicate our work :)
 2. detail
 
 ### How do I contribute a new _Concept_?
-1. Check the open issues!
+1. First, check the open issues and pull requests for related ideas! We don't want to duplicate our work :)
 2. detail
 
 ### How do I contribute to an existing _Concept_?
-1. Check the open issues!
+1. First, check the open issues and pull requests for related ideas! We don't want to duplicate our work :)
 2. detail
