@@ -61,34 +61,50 @@ The first two steps are always the same:
 2. If there isn't, open a new Issue! The following headings below will describe what the differences are between the different conceptual items, and the sort of information that will help us create or modify them!
 
 ### How do I contribute a new _Learning Path_?
-This section is for if you believe that the [currently supported learning paths](../curriculum/learning_paths.md) are not sufficient for your needs. You can either create an issue and have a discussion around the topic (see "[How do I file an Issue?](#how-do-i-file-an-issue?") or create a pull request. The following steps are for the latter and assumes that you are operating out of your local fork.
+This section is for if you believe that the [currently supported learning paths](../curriculum/learning_paths.md) are not sufficient for your needs. You can either create an issue and have a discussion around the topic (see "[How do I file an Issue?](#how-do-i-file-an-issue") or create a pull request. The following steps are for the latter and assume that you are operating out of your own fork of the curriculum.
 
 3. Every _Learning Path_ has an top-level entry in the [learning_paths.md](../curriculum/learning_paths.md) file. Add your new Learning Path's name to the list, here.
 4. Each _Learning Path_ has a customized description in [learning_paths](../curriculum/learning_paths/) directory. Create a new Markdown file titled with the name of the learning path. 
 ![Createa a File](./images/create-a-file.png)
+
 Don't forget to include the `.md` after the title name!
 ![Create a Markdown File](./images/create-a-markdown-file.png)
+
 5. A tutorial for the Markdown syntax can be found [here](https://github.com/fefong/markdown_readme/blob/master/README.md)! It's quite simple :)
 6. There are two key pieces to the _Learning Path_. First, we need an "Objectives" section, which describes the overarching learning goals. The first four learning paths, for example, are "Academic", "Customer", "Implementer", and "Practitioner". Academics, for example are likely to want to dig into the theoretical foundations of Knowledge Engineering and Knowledge Graphs. Likely, many of the modules important to them, are not so important to the Customer!
 7. Next, we need a sequence of _Modules_ in the "Module Sequence section." For example, a Practioner might start with "Introduction to Knowledge Engineering" and progress to "Deploying a Knowledge Graph", whereas a Customer might focus largely on modules from the Resources and Technology categories.
 8. These are the two key pieces! Submit your pull request and discuss your proposed changes!
 
 ### How do I contribute to an existing _Learning Path_?
-3. detail
-4. detail
+3. You can either create an issue with your concerns or you can create a pull request with proposed changes. 
 
 ### How do I contribute new a _Module_?
-3. detail
-4. detail
+This section is for if you think that there is a gap in our curriculum. You can either create an issue and have a discussion on your idea (e.g., perhaps a _set_ of modules covers the gap?) or create a pull request that adds your proposed module to the curriculum. The following steps are for the latter and assume that you are operating out of your own fork of the curriculum.
+
+3. First, every Module has an entry in the [modules.md](../curriculum/modules.md) file. Add the entry (using the details in Step 5) at the bottom of the file.
+4. If you are familiar with Python and have the appropriate environment, the `create-template-module.py` script will create a template of the module for you, requiring only your customization.
+5. A Module consists of several pieces.
+  1. Title: Name your Module
+  2. Fill out the details
+    1. Category -- Which [category or categories](../curriculum/categories.md) does this module fall into? 
+    2. Module Prerequisites -- Which [modules](../curriculum/modules.md) from the curriculum are needed in order to understand the material in this module?
+    3. Audience -- Who is the [intended audience](../curriculum/audiences.md) of this module?
+    4. Level -- What [level of expertise](../curriculum/levels.md) is expected to be able to understand and apply the material in this module?
+    5. Covered Concepts -- What top level concepts are covered in this module?
+  3. Content -- the article, tutorial, or content of the module.
+  4. Related KGC Media -- Are there existing workshops, tutorials, keynote talks, clubs, seminars, etc. that are related to this module? If so, link them here.
+  5. References -- Include any references used in your Content section.
+  6. Contributors -- Note who you are!
+6. That's it! Create the pull request and join the discussion for the review of your proposal! 
 
 ### How do I contribute to an existing _Module_?
-3. detail
-4. detail
+3. You can either create an issue with your concerns or you can create a pull request with proposed changes. 
 
+## Pardon our mess ;)
+Concepts and their implementation are currently under revision.
 ### How do I contribute a new _Concept_?
 3. detail
 4. detail
 
 ### How do I contribute to an existing _Concept_?
-3. detail
-4. detail
+3. You can either create an issue with your concerns or you can create a pull request with proposed changes. 
