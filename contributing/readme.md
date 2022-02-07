@@ -84,17 +84,17 @@ This section is for if you think that there is a gap in our curriculum. You can 
 3. First, every Module has an entry in the [modules.md](../curriculum/modules.md) file. Add the entry (using the details in Step 5) at the bottom of the file.
 4. If you are familiar with Python and have the appropriate environment, the `create-template-module.py` script will create a template of the module for you, requiring only your customization.
 5. A Module consists of several pieces.
-  1. Title: Name your Module
-  2. Fill out the details
-    1. Category -- Which [category or categories](../curriculum/categories.md) does this module fall into? 
-    2. Module Prerequisites -- Which [modules](../curriculum/modules.md) from the curriculum are needed in order to understand the material in this module?
-    3. Audience -- Who is the [intended audience](../curriculum/audiences.md) of this module?
-    4. Level -- What [level of expertise](../curriculum/levels.md) is expected to be able to understand and apply the material in this module?
-    5. Covered Concepts -- What top level concepts are covered in this module?
-  3. Content -- the article, tutorial, or content of the module.
-  4. Related KGC Media -- Are there existing workshops, tutorials, keynote talks, clubs, seminars, etc. that are related to this module? If so, link them here.
-  5. References -- Include any references used in your Content section.
-  6. Contributors -- Note who you are!
+    1. Title: Name your Module
+    2. Fill out the details
+        1. Category -- Which [category or categories](../curriculum/categories.md) does this module fall into? 
+        2. Module Prerequisites -- Which [modules](../curriculum/modules.md) from the curriculum are needed in order to understand the material in this module?
+        3. Audience -- Who is the [intended audience](../curriculum/audiences.md) of this module?
+        4. Level -- What [level of expertise](../curriculum/levels.md) is expected to be able to understand and apply the material in this module?
+        5. Covered Concepts -- What top level concepts are covered in this module?
+    3. Content -- the article, tutorial, or content of the module.
+    4. Related KGC Media -- Are there existing workshops, tutorials, keynote talks, clubs, seminars, etc. that are related to this module? If so, link them here.
+    5. References -- Include any references used in your Content section.
+    6. Contributors -- Note who you are!
 6. That's it! Create the pull request and join the discussion for the review of your proposal! 
 
 ### How do I contribute to an existing _Module_?
