@@ -6,7 +6,7 @@
 * Level: [Intermediate](../levels/Intermediate.md)
 
 ## Content
-Content text.
+There are several OWL Dialects, for example OWL EL, QL, RL, DL, Full.
 
 ## Related KGC Media
 * Workshop Example
