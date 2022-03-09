@@ -20,7 +20,7 @@ A module is a set of learning material about some set of _concepts_. This genera
 
 ## Contributing
 ### How do I contribute?
-* See the [full guide](./contributing/contributing.md).
+* See the [full guide](./contributing/readme.md).
 
 ### Contributors
 * Joaquin Melara
