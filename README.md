@@ -26,3 +26,5 @@ A module is a set of learning material about some set of _concepts_. This genera
 * Joaquin Melara
 * François Scharffe
 * [Cogan Shimizu](https://coganshimizu.com/)
+
+Test change by gclatworthy
