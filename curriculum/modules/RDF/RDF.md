@@ -8,6 +8,10 @@
 ## Content
 Content text.
 
+## Related Questions
+* RDF vs. RDFS:
+  * [What does RDFS (RDF Schema) add to RDF (the Resource Description Format)? Why would I use it in my ontology?](https://github.com/GlennClatworthy/kgc_discussion_group/wiki/Questions,-we-have-questions)
+
 ## Related KGC Media
 * Workshop Example
 * Tutorial Example
