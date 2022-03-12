@@ -8,9 +8,9 @@
 ## Content
 * From the W3C website (https://www.w3.org/RDF/): 
  
-    ```RDF is a standard model for data interchange on the Web. RDF has features that facilitate 
-data merging even if the underlying schemas differ, and it specifically supports the evolution of
-schemas over time without requiring all the data consumers to be changed.```
+    ```RDF is a standard model for data interchange on the Web. RDF has features that facilitate```
+    ```data merging even if the underlying schemas differ, and it specifically supports the evolution```
+    ```of schemas over time without requiring all the data consumers to be changed.```
 
     ```RDF extends the linking structure of the Web to use URIs to name the relationship between things
 as well as the two ends of the link (this is usually referred to as a “triple”). Using this simple 
