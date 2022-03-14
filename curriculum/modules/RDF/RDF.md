@@ -17,7 +17,7 @@ RDF, or the **Resource Description Framework**, is [a standard model for data in
 
 #### The Structure of RDF
 
-Basic RDF is composed of three-part statements, known as [*triples*]( defining the attributes of the web resources it's describing. For example:
+Basic RDF is composed of three-part statements, known as *triples*, which describe the attributes of resources on the web. For example, the statement:
 
     William Shakespeare | wrote | Hamlet
     
@@ -25,7 +25,13 @@ can resolve to:
 
     <https://en.wikipedia.org/wiki/William_Shakespeare>  <https://schema.org/author>  "Hamlet"
     
-In the RDF lexicon, these three columns are called **subject**, **predicate**, and **object**. The subject column refers to the thing the source is describing, in this case William Shakespeare. The predicate column defines some aspect, or property, that you want to attribute to William Shakespeare. The third column, object, contains the value of the property.
+In the RDF lexicon, the three columns in a triple are called **subject**, **predicate**, and **object**. The subject column refers to the thing the source is describing, in this case William Shakespeare. The predicate column defines some aspect, or property, that you want to attribute to William Shakespeare. The third column, object, contains the value of the property.
+
+Notice that the first two columns above are **URIs** (a more generalized form of URLS) and the last is a text string in quotation marks. One hard and fast rule of RDF is that subject and predicate columns must always be expressed in URI form. The object column may be expressed either as a text string or as another URI, the value of which will become apparent later.
+
+URIs serve as unique identifiers, similar to a U.S. Social Security number or the item number of a component in a warehouse. Although, theoretically, a user could mint their own fake URIs as a unique identifier, good practice is to insure that 
+
+
 
 ## Related Questions
 * RDF vs. RDFS:
@@ -41,3 +47,4 @@ In the RDF lexicon, these three columns are called **subject**, **predicate**, a
 
 ## Contributors
 * Cogan Shimizu
+* Glenn Clatworthy
