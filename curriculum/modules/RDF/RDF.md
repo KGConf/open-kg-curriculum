@@ -6,20 +6,7 @@
 * Level: [Beginner](../levels/Beginner.md)
 
 ## Content
-* From the W3C website (https://www.w3.org/RDF/): 
-
-```RDF is a standard model for data interchange on the Web. RDF has features that facilitate```
-```data merging even if the underlying schemas differ, and it specifically supports the evolution```
-```of schemas over time without requiring all the data consumers to be changed.```
-
-```RDF extends the linking structure of the Web to use URIs to name the relationship between ```
-```things as well as the two ends of the link (this is usually referred to as a “triple”). Using```
-```this simple model, it allows structured and semi-structured data to be mixed, exposed, and ```
-```shared across different applications.```
-
-```This linking structure forms a directed, labeled graph, where the edges represent the named ```
-```link between two resources, represented by the graph nodes. This graph view is the easiest ```
-```possible mental model for RDF and is often used in easy-to-understand visual explanations.```
+* RDF, or the **Resource Description Framework**, is [a standard model for data interchange on the Web](https://www.w3.org/RDF/). Maintained and promoted by the [World Wide Web Consortium (W3C)](https://www.w3.org), RDF helps individuals and organizations link, or **federate**, information from multiple websites and other internet sources in an intelligent way that promotes knowledge sharing and discovery.
 
 ## Related Questions
 * RDF vs. RDFS:
