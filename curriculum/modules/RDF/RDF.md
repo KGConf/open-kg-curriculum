@@ -38,6 +38,12 @@ RDF's structure is similar to that of spreadsheets or single-table databases in 
 
 are two perfectly valid triples.
 
+#### Serializations
+
+Note that RDF *is not* a file format. A variety of text formats, known as [Serializations](https://github.com/GlennClatworthy/open-kg-curriculum/blob/master/curriculum/modules/RDF_Serializations/RDF_Serializations.md) are available, each differing in the way triples are structured in documents. For example, the above examples are written as [n-triples](https://www.w3.org/TR/n-triples/), which arguably is the simplest way to define triples in RDF.
+
+
+
 ## Related Questions
 * RDF vs. RDFS:
   * [What does RDFS (RDF Schema) add to RDF (the Resource Description Format)? Why would I use it in my ontology?](https://github.com/GlennClatworthy/kgc_discussion_group/wiki/Questions,-we-have-questions)
