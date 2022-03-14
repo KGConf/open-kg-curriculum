@@ -7,7 +7,7 @@
 
 ## Content
 
-The world wide web serves up billions, if not trillions, of pages of content on a seemingly infinite number of topics. For comprehensive research, however, the web's strength is also its greatest weakness; the sheer number of pages and the reliance on the algorithms behind commercial search engines can make consolidating knowledge about a single subject difficult or impossible. The semantic web, linked data, and RDF provide an alternative approach.
+The world wide web serves up billions, if not trillions, of pages of content on a seemingly infinite number of topics. For comprehensive research and data sharing, however, the web's strength can also be its greatest weakness. The sheer number of pages--as well as the reliance on the algorithms behind commercial search engines--can make consolidating knowledge about a single subject difficult or impossible. The semantic web, linked data, and RDF provide an alternative approach.
 
 RDF, or the **Resource Description Framework**, is [a standard model for data interchange on the Web](https://www.w3.org/RDF/). Maintained and promoted by the [World Wide Web Consortium (W3C)](https://www.w3.org), RDF helps individuals and organizations link information from multiple websites and other internet sources in a structured format supporting advanced knowledge sharing and discovery.
 
