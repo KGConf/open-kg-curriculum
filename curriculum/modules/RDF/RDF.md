@@ -9,7 +9,7 @@
 
 #### Introduction
 
-The world wide web serves up billions, if not trillions, of pages of content describing a seemingly infinite number of subjects. For comprehensive research, however, the web's strength can also be its greatest weakness. The sheer number of pages--as well as most users' dependence on commercial search engines--can make researching, consolidating and sharing knowledge about a single topic difficult or impossible. The [semantic web](https://github.com/GlennClatworthy/open-kg-curriculum/blob/master/curriculum/modules/History_of_the_Semantic_Web/History_of_the_Semantic_Web.md), linked data, and RDF provide an alternative approach.
+The world wide web serves up billions, if not trillions, of pages of content describing a seemingly infinite number of subjects. As a mechanism for advanced research, however, the web's strength can also be its greatest weakness. The sheer number of pages--as well as most users' dependence on commercial search engines--can make researching and sharing knowledge about a single topic difficult or impossible. The [semantic web](https://github.com/GlennClatworthy/open-kg-curriculum/blob/master/curriculum/modules/History_of_the_Semantic_Web/History_of_the_Semantic_Web.md), linked data, and RDF provide an alternative approach to consolidating information from the web.
 
 #### What Is RDF?
 
