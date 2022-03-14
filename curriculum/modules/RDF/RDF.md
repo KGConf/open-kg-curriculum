@@ -14,7 +14,7 @@ Basic RDF is composed of three-part statements defining the attributes of the we
     
 can resolve to:
 
-    <https://en.wikipedia.org/wiki/William_Shakespeare> | <https://schema.org/author> | "Hamlet"
+    <https://en.wikipedia.org/wiki/William_Shakespeare>  <https://schema.org/author>  "Hamlet"
     
 In the RDF lexicon, these three columns are called **subject**, **predicate**, and **object**. The subject column refers to the thing the source is describing, in this case William Shakespeare. The predicate column defines some aspect, or property, that you want to attribute to William Shakespeare. The third column, object, contains the value of the property.
 
