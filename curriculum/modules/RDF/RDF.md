@@ -21,15 +21,15 @@ Basic RDF is composed of three-part statements, known as *triples*, which descri
 
     William Shakespeare | wrote | Hamlet
     
-can resolve to:
+can be expressed as:
 
-    <https://en.wikipedia.org/wiki/William_Shakespeare>  <https://schema.org/author>  "Hamlet"
+    <https://en.wikipedia.org/wiki/William_Shakespeare>  <https://schema.org/author>  "Hamlet".
     
-In the RDF lexicon, the three columns in a triple are called **subject**, **predicate**, and **object**. The subject column refers to the thing the source is describing, in this case William Shakespeare. The predicate column defines some aspect, or property, that you want to attribute to William Shakespeare. The third column, object, contains the value of the property.
+In the RDF lexicon, the three columns in a triple are called **subject**, **predicate**, and **object**. The subject column refers to the thing the source is describing, in this case the Wikipedia entry for William Shakespeare. The predicate column defines some aspect, or property, that you want to attribute to the subject. Here the predicate points to a property called "author" that is documented at a websited called schema.org. The third column, object, contains the value of the property--the play Hamlet.
 
-Notice that the first two columns above are **URIs** (a more generalized form of URLS) and the last is a text string in quotation marks. One hard and fast rule of RDF is that subject and predicate columns must always be expressed in URI form. The object column may be expressed either as a text string or as another URI, the value of which will become apparent later.
+Notice that the first two columns above are expressed **URIs** (a more generalized form of URLS) and the last is a text string in quotation marks. One hard and fast rule of RDF is that *subject and predicate columns must always be written in URI form*. The object column may be written either as a text string (as above) or as another URI.
 
-URIs serve as unique identifiers, similar to a U.S. Social Security number or the item number of a component in a warehouse. Although, theoretically, a user could mint their own fake URIs as a unique identifier, good practice is to insure that 
+URIs serve as unique identifiers, similar to a U.S. Social Security number or the item number of a component in a warehouse. Although there's no reason why a URI has to point to a real resource on the web, it is considered best practice to do so, allowing a user to follow a URI to its source in order to find out more about it.
 
 
 
