@@ -7,7 +7,7 @@
 
 ## Content
 * From the W3C website (https://www.w3.org/RDF/): 
- 
+
 ```RDF is a standard model for data interchange on the Web. RDF has features that facilitate```
 ```data merging even if the underlying schemas differ, and it specifically supports the evolution```
 ```of schemas over time without requiring all the data consumers to be changed.```
