@@ -7,9 +7,6 @@
 
 ## Content
 
-#### Introduction
-
-The world wide web serves up billions, if not trillions, of pages of content describing a seemingly infinite number of subjects. As a mechanism for advanced research, however, the web's strength can also be its greatest weakness. The sheer number of pages--as well as most users' dependence on commercial search engines--can make researching and sharing knowledge about a single topic a challenge. The [semantic web](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/History_of_the_Semantic_Web/History_of_the_Semantic_Web.md), linked data, and RDF provide an alternative approach to consolidating information from the web.
 
 #### What Is RDF?
 
@@ -59,9 +56,11 @@ Composing an RDF document can be as simple as opening up a text editor and writi
 
 RDF's value begins to emerge when it is loaded into a special kind of database called a [triple store.](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/Survey_of_Triplestores/Survey_of_Triplestores.md) Triple stores can be used to import, combine, update, query, and often [visualize](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/Survey_of_Visualization_Tools/Survey_of_Visualization_Tools.md) the information stored in RDF formats. Similar to modelling tools, triple stores are available as paid commercial, free commercial, and open source versions distributed by various companies and organizations. These applications employ a query language called [SPARQL](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/SPARQL/SPARQL.md), which is similar in structure to the Turtle example above.
 
+... TO BE CONTINUED
+
 #### Beyond Basic RDF
 
-While RDF provides the basic template for organizing linked data, it's only a starting point. Extensions to RDF as found in standards like RDFS ...
+While RDF provides the basic template for organizing linked data, it's only a starting point. Extensions to RDF as found in standards like RDFS ... TO BE CONTINUED
  
 ## Related Questions
 * RDF vs. RDFS:
