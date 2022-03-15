@@ -38,6 +38,8 @@ RDF's structure is similar to rows in spreadsheets in that it allows the repetit
 
 are two perfectly valid triples, differing only in the different works to which they refer.
 
+Finally, notice that the first two columns refer to resources available at two different locations. The true power of RDF lies in its ability to seemlessly combine information, whether it be Wikipedia pages, articles from commercial websites, or terms from a variety of online vocabularies. Thus the disparate, chaotic world wide web can be interconnect and organized using the simple structural components of RDF.
+
 #### Serializations
 
 It's important to note that RDF is *not* a file format. A variety of formats, known as [serializations](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/RDF_Serializations/RDF_Serializations.md), are available, each differing in the way triples are structured in text files. For example, the above examples are written as [n-triples](https://www.w3.org/TR/n-triples/), which arguably is the simplest and most straightforward RDF serialization format.
@@ -55,7 +57,11 @@ Composing an RDF document can be as simple as opening up a text editor and writi
 
 #### RDF and Triplestores
 
-RDF's real value begins to emerge when it is loaded into a special kind of database called a [triple store.](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/Survey_of_Triplestores/Survey_of_Triplestores.md) Triple stores can be used to import, combine, update, query, and often [visualize](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/Survey_of_Visualization_Tools/Survey_of_Visualization_Tools.md) the information stored in RDF formats. Similar to modelling tools, triple stores are available as paid commercial, free commercial, and open source versions distributed by various companies and organizations. These applications employ a query language called [SPARQL](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/SPARQL/SPARQL.md), which is similar in structure to the Turtle example above.
+RDF's value begins to emerge when it is loaded into a special kind of database called a [triple store.](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/Survey_of_Triplestores/Survey_of_Triplestores.md) Triple stores can be used to import, combine, update, query, and often [visualize](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/Survey_of_Visualization_Tools/Survey_of_Visualization_Tools.md) the information stored in RDF formats. Similar to modelling tools, triple stores are available as paid commercial, free commercial, and open source versions distributed by various companies and organizations. These applications employ a query language called [SPARQL](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/SPARQL/SPARQL.md), which is similar in structure to the Turtle example above.
+
+#### Beyond Basic RDF
+
+While RDF provides the basic template for organizing linked data, it's only a starting point. Extensions to RDF as found in standards like RDFS ...
  
 ## Related Questions
 * RDF vs. RDFS:
