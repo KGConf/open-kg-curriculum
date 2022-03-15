@@ -27,7 +27,7 @@ tells us that an individual (Shakespeare) has a property (wrote), the value of w
     
 In the RDF lexicon, the three columns in the above triple are called **subject**, **predicate**, and **object**. The *subject* column points to a web resource that the triple is describing, in this case the Wikipedia entry for William Shakespeare. The predicate column defines some aspect, or *property*, that you want to attribute to the subject. Here it points to a property called "author" that is documented at a website called schema.org. The third column, *object*, contains the value of the property, namely "Hamlet."
 
-Notice that the first two columns above are written as **URIs**, which are a more generalized form of URLS, and the last is a text string in quotation marks. One hard and fast rule of RDF is that *subject and predicate columns must always be written in URI form*. The object column may be written either as a text string (as above) or as another URI.
+Notice that the first two columns above are written as [**URIs**](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) (uniform resource identifiers), which are a more generalized form of URLS, and the last is a text string in quotation marks. One hard and fast rule of RDF is that *subject and predicate columns must always be written in URI form*. The object column may be written either as a text string (as above) or as another URI.
 
 URIs serve as unique identifiers, similar to a U.S. Social Security number or the item number of a component in a warehouse. Although there's no reason why a URI has to point to a real resource on the web, it is considered best practice to do so, allowing a user to follow a URI to its source in order to find out more about it.
 
