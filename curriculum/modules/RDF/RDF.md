@@ -17,30 +17,41 @@ RDF, or the **Resource Description Framework**, is [a standard model for data in
 
 #### The Structure of RDF
 
-Basic RDF is composed of three-part statements, known as *triples*, which describe the attributes of resources on the web. For example, the statement:
+Basic RDF is composed of three-part statements, known as *triples*, which point to resources on the web and assign values to properties describing them.  For example, the statement:
 
     William Shakespeare | wrote | Hamlet
     
-can be expressed as:
+tells us that an individual (Shakespeare) has a property (wrote), the value of which is "Hamlet." That statement can be expressed as:
 
     <https://en.wikipedia.org/wiki/William_Shakespeare>  <https://schema.org/author>  "Hamlet".
     
-In the RDF lexicon, the three columns in a triple are called **subject**, **predicate**, and **object**. The subject column refers to the thing the source is describing, in this case the Wikipedia entry for William Shakespeare. The predicate column defines some aspect, or property, that you want to attribute to the subject. Here it points to a property called "author" that is documented at a website called schema.org. The third column, object, contains the value of the property--the play Hamlet.
+In the RDF lexicon, the three columns in the above triple are called **subject**, **predicate**, and **object**. The *subject* column points to a web resource that the triple is describing, in this case the Wikipedia entry for William Shakespeare. The predicate column defines some aspect, or *property*, that you want to attribute to the subject. Here it points to a property called "author" that is documented at a website called schema.org. The third column, *object*, contains the value of the property, "Hamlet."
 
 Notice that the first two columns above are expressed **URIs** (a more generalized form of URLS) and the last is a text string in quotation marks. One hard and fast rule of RDF is that *subject and predicate columns must always be written in URI form*. The object column may be written either as a text string (as above) or as another URI.
 
 URIs serve as unique identifiers, similar to a U.S. Social Security number or the item number of a component in a warehouse. Although there's no reason why a URI has to point to a real resource on the web, it is considered best practice to do so, allowing a user to follow a URI to its source in order to find out more about it.
 
-RDF's structure is similar to that of spreadsheets or single-table databases in that it allows redundant elements. For example:
+RDF's structure is similar to that of spreadsheets in that it allows redundant elements. For example:
 
     <https://en.wikipedia.org/wiki/William_Shakespeare>  <https://schema.org/author>  "Hamlet".
     <https://en.wikipedia.org/wiki/William_Shakespeare>  <https://schema.org/author>  "Macbeth".
 
-are two perfectly valid triples.
+are two perfectly valid triples, differing only in the different works to which they refer.
 
 #### Serializations
 
-Note that RDF *is not* a file format. A variety of text formats, known as [Serializations](https://github.com/GlennClatworthy/open-kg-curriculum/blob/master/curriculum/modules/RDF_Serializations/RDF_Serializations.md) are available, each differing in the way triples are structured in documents. For example, the above examples are written as [n-triples](https://www.w3.org/TR/n-triples/), which arguably is the simplest way to define triples in RDF.
+It's important to note that RDF *is not* a file format. A variety of text formats, known as [Serializations](https://github.com/GlennClatworthy/open-kg-curriculum/blob/master/curriculum/modules/RDF_Serializations/RDF_Serializations.md) are available, each differing in the way triples are structured in documents. For example, the above examples are written as [n-triples](https://www.w3.org/TR/n-triples/), which arguably is the simplest way to define triples in RDF.
+
+Users choose serialization formats based on their needs and compatibility with other systems. One of the most compact and therefore popular formats is called **Turtle**. Here is the above example expressed in Turtle form:
+
+    @prefix wiki: <https://en.wikipedia.org/wiki/>.
+    @prefix sch: <https://schema.org/>
+    
+    wiki:William_Shakespeare sch:author "Hamlet", "Macbeth".
+
+#### Composing RDF documents
+
+Composing an RDF document can be as simple as opening up a text editor and writing triples in the author's preferred format. However, a wide variety of commercial and open source [modeling tools](https://github.com/GlennClatworthy/open-kg-curriculum/blob/master/curriculum/modules/Survey_of_Modeling_Tools/Survey_of_Modeling_Tools.md) are available to assist the user in composing RDF. Third party software offers two advantages: it provides a standard interface that can simplify the construction of triples; and it may provide checking capabilities to prevent the user from committing structural and logic errors.
 
 
 
