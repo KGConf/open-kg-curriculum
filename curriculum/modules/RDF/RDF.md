@@ -21,7 +21,7 @@ Basic RDF is composed of three-part statements, known as *triples*, which point 
 
     William Shakespeare | wrote | Hamlet
     
-tells us that an individual (Shakespeare) has a property (wrote), the value of which is "Hamlet." That statement can be expressed as:
+tells us that an individual (Shakespeare) has a property (wrote), the value of which is "Hamlet." That statement also can be expressed as:
 
     <https://en.wikipedia.org/wiki/William_Shakespeare>  <https://schema.org/author>  "Hamlet".
     
