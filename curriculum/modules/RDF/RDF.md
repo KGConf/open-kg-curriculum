@@ -40,7 +40,7 @@ are two perfectly valid triples, differing only in the different works to which 
 
 #### Serializations
 
-It's important to note that RDF *is not* a file format. A variety of text formats, known as [Serializations](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/RDF_Serializations/RDF_Serializations.md) are available, each differing in the way triples are structured in documents. For example, the above examples are written as [n-triples](https://www.w3.org/TR/n-triples/), which arguably is the simplest way to define triples in RDF.
+It's important to note that RDF *is not* a file format. A variety of text formats, known as [serializations](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/RDF_Serializations/RDF_Serializations.md), are available, each differing in the way triples are structured in documents. For example, the above examples are written as [n-triples](https://www.w3.org/TR/n-triples/), which arguably is the simplest way to define triples in RDF.
 
 Users choose serialization formats based on their needs and compatibility with other systems. One of the most compact and therefore popular formats is called **Turtle**. Here is the above example expressed in Turtle form:
 
