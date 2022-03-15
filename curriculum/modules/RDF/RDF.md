@@ -13,7 +13,7 @@ The world wide web serves up billions, if not trillions, of pages of content des
 
 #### What Is RDF?
 
-RDF, or the **Resource Description Framework**, is [a standard model for data interchange on the Web](https://www.w3.org/RDF/). Maintained and promoted by the [World Wide Web Consortium (W3C)](https://www.w3.org), RDF helps organizations, companies, and individuals organize information from multiple websites and other internet sources in a structured format supporting advanced knowledge sharing and discovery.
+RDF, or the **Resource Description Framework**, is ["a standard model for data interchange on the Web."](https://www.w3.org/RDF/) Maintained and promoted by the [World Wide Web Consortium (W3C)](https://www.w3.org), RDF helps organizations, companies, and individuals organize information from multiple websites and other internet sources in a structured format supporting advanced knowledge sharing and discovery.
 
 #### The Structure of RDF
 
