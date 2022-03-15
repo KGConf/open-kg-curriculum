@@ -25,7 +25,7 @@ tells us that an individual (Shakespeare) has a property (wrote), the value of w
 
     <https://en.wikipedia.org/wiki/William_Shakespeare>  <https://schema.org/author>  "Hamlet".
     
-In the RDF lexicon, the three columns in the above triple are called **subject**, **predicate**, and **object**. The *subject* column points to a web resource that the triple is describing, in this case the Wikipedia entry for William Shakespeare. The predicate column defines some aspect, or *property*, that you want to attribute to the subject. Here it points to a property called "author" that is documented at a website called schema.org. The third column, *object*, contains the value of the property, "Hamlet."
+In the RDF lexicon, the three columns in the above triple are called **subject**, **predicate**, and **object**. The *subject* column points to a web resource that the triple is describing, in this case the Wikipedia entry for William Shakespeare. The predicate column defines some aspect, or *property*, that you want to attribute to the subject. Here it points to a property called "author" that is documented at a website called schema.org. The third column, *object*, contains the value of the property, namely "Hamlet."
 
 Notice that the first two columns above are expressed **URIs** (a more generalized form of URLS) and the last is a text string in quotation marks. One hard and fast rule of RDF is that *subject and predicate columns must always be written in URI form*. The object column may be written either as a text string (as above) or as another URI.
 
