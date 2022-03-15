@@ -31,7 +31,7 @@ Notice that the first two columns above are written as [**URIs**](https://en.wik
 
 URIs serve as unique identifiers, similar to a U.S. Social Security number or the item number of a component in a warehouse. Although there's no reason why a URI has to point to a real resource on the web, it is considered best practice to do so, allowing a user to follow a URI to its source in order to find out more about it.
 
-RDF's structure is similar to that of spreadsheets in that it allows redundant elements. For example:
+RDF's structure is similar to rows in spreadsheets in that it allows the repetition of elements. For example:
 
     <https://en.wikipedia.org/wiki/William_Shakespeare>  <https://schema.org/author>  "Hamlet".
     <https://en.wikipedia.org/wiki/William_Shakespeare>  <https://schema.org/author>  "Macbeth".
