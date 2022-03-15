@@ -9,7 +9,7 @@
 
 #### Introduction
 
-The world wide web serves up billions, if not trillions, of pages of content describing a seemingly infinite number of subjects. As a mechanism for advanced research, however, the web's strength can also be its greatest weakness. The sheer number of pages--as well as most users' dependence on commercial search engines--can make researching and sharing knowledge about a single topic a challenge. The [semantic web](https://github.com/GlennClatworthy/open-kg-curriculum/blob/master/curriculum/modules/History_of_the_Semantic_Web/History_of_the_Semantic_Web.md), linked data, and RDF provide an alternative approach to consolidating information from the web.
+The world wide web serves up billions, if not trillions, of pages of content describing a seemingly infinite number of subjects. As a mechanism for advanced research, however, the web's strength can also be its greatest weakness. The sheer number of pages--as well as most users' dependence on commercial search engines--can make researching and sharing knowledge about a single topic a challenge. The [semantic web](../curriculum/blob/master/curriculum/modules/History_of_the_Semantic_Web/History_of_the_Semantic_Web.md), linked data, and RDF provide an alternative approach to consolidating information from the web.
 
 #### What Is RDF?
 
@@ -40,21 +40,23 @@ are two perfectly valid triples, differing only in the different works to which 
 
 #### Serializations
 
-It's important to note that RDF *is not* a file format. A variety of text formats, known as [Serializations](https://github.com/GlennClatworthy/open-kg-curriculum/blob/master/curriculum/modules/RDF_Serializations/RDF_Serializations.md) are available, each differing in the way triples are structured in documents. For example, the above examples are written as [n-triples](https://www.w3.org/TR/n-triples/), which arguably is the simplest way to define triples in RDF.
+It's important to note that RDF *is not* a file format. A variety of text formats, known as [Serializations](../curriculum/modules/RDF_Serializations/RDF_Serializations.md) are available, each differing in the way triples are structured in documents. For example, the above examples are written as [n-triples](https://www.w3.org/TR/n-triples/), which arguably is the simplest way to define triples in RDF.
 
 Users choose serialization formats based on their needs and compatibility with other systems. One of the most compact and therefore popular formats is called **Turtle**. Here is the above example expressed in Turtle form:
 
     @prefix wiki: <https://en.wikipedia.org/wiki/>.
-    @prefix sch: <https://schema.org/>
+    @prefix sch: <https://schema.org/>.
     
     wiki:William_Shakespeare sch:author "Hamlet", "Macbeth".
 
 #### Composing RDF documents
 
-Composing an RDF document can be as simple as opening up a text editor and writing triples in the author's preferred format. However, a wide variety of commercial and open source [modeling tools](https://github.com/GlennClatworthy/open-kg-curriculum/blob/master/curriculum/modules/Survey_of_Modeling_Tools/Survey_of_Modeling_Tools.md) are available to assist the user in composing RDF. Third party software offers two advantages: it provides a standard interface that can simplify the construction of triples; and it may provide checking capabilities to prevent the user from committing structural and logic errors.
+Composing an RDF document can be as simple as opening up a text editor and writing triples in the author's preferred format. However, a wide variety of commercial and open source [modeling tools](https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Survey_of_Modeling_Tools) are available to assist the user in composing RDF. Third party software offers two advantages: it provides a standard interface that can simplify the construction of triples; and it may provide checking capabilities to prevent the user from committing structural and logic errors.
 
+##### RDF and Triplestores
 
-
+RDF's value begins to emerge when it is loaded into a special kind of database called a [triple store.](https://github.com/GlennClatworthy/open-kg-curriculum/blob/master/curriculum/modules/Survey_of_Triplestores/Survey_of_Triplestores.md). Triple stores can be used to import, update, query, and, often, [visualize](https://github.com/GlennClatworthy/open-kg-curriculum/blob/master/curriculum/modules/Survey_of_Visualization_Tools/Survey_of_Visualization_Tools.md) RDF. These applications employ a query language called [SPARQL](https://github.com/GlennClatworthy/open-kg-curriculum/blob/master/curriculum/modules/SPARQL/SPARQL.md), which is similar in structure to the Turtle example above.
+ 
 ## Related Questions
 * RDF vs. RDFS:
   * [What does RDFS (RDF Schema) add to RDF (the Resource Description Format)? Why would I use it in my ontology?](https://github.com/GlennClatworthy/kgc_discussion_group/wiki/Questions,-we-have-questions)
