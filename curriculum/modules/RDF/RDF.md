@@ -51,7 +51,7 @@ Users choose serialization formats based on their needs and compatibility with o
 
 #### Composing RDF documents
 
-Composing an RDF document can be as simple as opening up a text editor and writing triples in the author's preferred format. However, a wide variety of commercial and open source [modeling tools](../curriculum/modules/Survey_of_Modeling_Tools/Survey_of_Modeling_Tools.md) are available to assist the user in composing RDF. Third party software offers two advantages: it provides a standard interface that can simplify the construction of triples; and it may provide checking capabilities to prevent the user from committing structural and logic errors.
+Composing an RDF document can be as simple as opening up a text editor and writing triples in the author's preferred format. However, a wide variety of commercial and open source [modeling tools](https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Survey_of_Modeling_Tools/Survey_of_Modeling_Tools.md) are available to assist the user in composing RDF. Third party software offers two advantages: it provides a standard interface that can simplify the construction of triples; and it may provide checking capabilities to prevent the user from committing structural and logic errors.
 
 ##### RDF and Triplestores
 
