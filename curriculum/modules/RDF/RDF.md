@@ -51,11 +51,11 @@ Users choose serialization formats based on their needs and compatibility with o
 
 #### Composing RDF documents
 
-Composing an RDF document can be as simple as opening up a text editor and writing triples in the author's preferred format. However, a wide variety of commercial and open source [modeling tools](https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Survey_of_Modeling_Tools) are available to assist the user in composing RDF. Third party software offers two advantages: it provides a standard interface that can simplify the construction of triples; and it may provide checking capabilities to prevent the user from committing structural and logic errors.
+Composing an RDF document can be as simple as opening up a text editor and writing triples in the author's preferred format. However, a wide variety of commercial and open source [modeling tools](../curriculum/modules/Survey_of_Modeling_Tools/Survey_of_Modeling_Tools.md) are available to assist the user in composing RDF. Third party software offers two advantages: it provides a standard interface that can simplify the construction of triples; and it may provide checking capabilities to prevent the user from committing structural and logic errors.
 
 ##### RDF and Triplestores
 
-RDF's value begins to emerge when it is loaded into a special kind of database called a [triple store.](https://github.com/GlennClatworthy/open-kg-curriculum/blob/master/curriculum/modules/Survey_of_Triplestores/Survey_of_Triplestores.md). Triple stores can be used to import, update, query, and, often, [visualize](https://github.com/GlennClatworthy/open-kg-curriculum/blob/master/curriculum/modules/Survey_of_Visualization_Tools/Survey_of_Visualization_Tools.md) RDF. These applications employ a query language called [SPARQL](https://github.com/GlennClatworthy/open-kg-curriculum/blob/master/curriculum/modules/SPARQL/SPARQL.md), which is similar in structure to the Turtle example above.
+RDF's value begins to emerge when it is loaded into a special kind of database called a [triple store.](../curriculum/modules/Survey_of_Triplestores/Survey_of_Triplestores.md). Triple stores can be used to import, update, query, and, often, [visualize](../curriculum/modules/Survey_of_Visualization_Tools/Survey_of_Visualization_Tools.md) RDF. These applications employ a query language called [SPARQL](../curriculum/modules/SPARQL/SPARQL.md), which is similar in structure to the Turtle example above.
  
 ## Related Questions
 * RDF vs. RDFS:
