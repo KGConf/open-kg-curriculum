@@ -26,7 +26,7 @@ In the RDF lexicon, the three columns in the above triple are called **subject**
 
 Notice that the first two columns above are written as [**URIs**](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) (uniform resource identifiers), which are a more generalized form of URLs, and the last is a text string in quotation marks. A fundamental rule of RDF is that *subject and predicate columns must always contain URIs*. The object column may be written either as a text string (as above) or as another URI.
 
-URIs serve as unique identifiers, similar to a U.S. Social Security number or the item number of a component in a warehouse. Although there's no reason why a URI has to point to a real resource on the web, it is considered best practice to do so, allowing a user to follow a URI to its source in order to find out more about it.
+URIs serve as unique identifiers, similar to a U.S. Social Security number or the item number of a component in a warehouse. Although there's no rule stating that a URI *has* to point to a real resource on the web, it is considered best practice to do so, allowing a user to follow a URI to its source in order to find out more about it.
 
 RDF's structure is similar to rows in spreadsheets in that it allows the repetition of elements. For example:
 
