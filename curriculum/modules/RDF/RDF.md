@@ -33,7 +33,7 @@ RDF's structure is similar to rows in spreadsheets in that it allows the repetit
     <https://en.wikipedia.org/wiki/William_Shakespeare>  <https://schema.org/author>  "Hamlet".
     <https://en.wikipedia.org/wiki/William_Shakespeare>  <https://schema.org/author>  "Macbeth".
 
-are two perfectly valid triples, differing only in the different works to which they refer.
+are two perfectly valid triples, differing only in the works to which they refer.
 
 Finally, notice that the first two columns refer to resources available at two different locations. The true power of RDF lies in its ability to seemlessly combine information, whether it be Wikipedia pages, articles from commercial websites, or terms from a variety of online vocabularies. Thus the disparate, chaotic world wide web can be interconnect and organized using the simple structural components of RDF.
 
