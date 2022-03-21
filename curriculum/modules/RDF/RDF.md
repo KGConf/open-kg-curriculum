@@ -70,10 +70,10 @@ RDF's value begins to emerge when it is loaded into a special kind of database c
 | Macbeth    |
 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| First Header  |
+| ------------- |
+| Content Cell  |
+| Content Cell  |
 
        
 
