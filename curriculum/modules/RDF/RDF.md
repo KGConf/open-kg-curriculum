@@ -73,11 +73,11 @@ returns the results:
 
        
 
-The number of triples you can store in one database repository is limited only to the software itself. Importing triples from a variety of sources--and defining connections between subjects, predicates, and objects from those sources--is the first step in the the consolidation of disparate collections and subsequent knowledge discovery.
+The number of triples you can store in one database repository is limited only to the software itself and the amount of room you have on your local drive. Importing triples from a variety of sources--and defining connections between subjects, predicates, and objects from those sources--is the first step in the the consolidation of disparate collections and subsequent knowledge discovery.
 
 #### Beyond Basic RDF
 
-While RDF provides the basic template for organizing linked data, it's only a starting point. Standards like [RDFS](//master/curriculum/modules/RDFS/RDFS.md), [SKOS](//master/curriculum/modules/SKOS/SKOS.md), and [OWL](//curriculum/modules/OWL/OWL.md) extend RDF to allow for the grouping of resources into "classes," creating hierarchical taxonomies of vocabulary terms, and defining complex relationships and constraints among resources based on advanced principles of logic.
+While RDF provides the basic template for organizing linked data, it's only a starting point. Standards like [RDFS](../../../curriculum/modules/RDFS/RDFS.md), [SKOS](../../..÷curriculum/modules/SKOS/SKOS.md), and [OWL](../../../curriculum/modules/OWL/OWL.md) extend RDF to allow for the grouping of resources into "classes," creating hierarchical taxonomies of vocabulary terms, and defining complex relationships and constraints among resources based on advanced principles of logic.
  
 ## Related Questions
 * RDF vs. RDFS:
