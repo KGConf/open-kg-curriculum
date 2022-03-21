@@ -66,10 +66,10 @@ RDF's value begins to emerge when it is loaded into a special kind of database c
 
 returns the results:
 
-    | ?Play         |
-    | :---          |
-    | Hamlet        |
-    | Macbeth       |
+| ?Play         |
+| :---          |
+| Hamlet        |
+| Macbeth       |
 
        
 
