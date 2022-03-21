@@ -64,14 +64,10 @@ RDF's value begins to emerge when it is loaded into a special kind of database c
         wiki:William_Shakespeare sch:author ?Play .
           }
 
-| ?Play      |
-  ----------
-| Hamlet     |
-| Macbeth    |
-
+returns the results:
 
 | ?Play         |
-| ------------- |
+| :---          |
 | Hamlet        |
 | Macbeth       |
 
