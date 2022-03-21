@@ -77,7 +77,7 @@ The number of triples you can store in one database repository is limited only t
 
 #### Beyond Basic RDF
 
-While RDF provides the basic template for organizing linked data, it's only a starting point. Standards like [RDFS](../../../curriculum/modules/RDFS/RDFS.md), [SKOS](../../../curriculum/modules/SKOS/SKOS.md), and [OWL](../../../curriculum/modules/OWL/OWL.md) extend RDF to allow for the grouping of resources into classes and implementing of basic restrictions on relationships (RDFS), creating hierarchical taxonomies of vocabulary terms (SKOS), and defining complex relationships and constraints among resources based on advanced principles of logic.
+While RDF provides the basic template for organizing linked data, it's only a starting point. RDF-based standards like [RDFS](../../../curriculum/modules/RDFS/RDFS.md), [SKOS](../../../curriculum/modules/SKOS/SKOS.md), and [OWL](../../../curriculum/modules/OWL/OWL.md) extend the framework to allow for the grouping of resources into classes and implementing of basic restrictions on relationships (RDFS), creating hierarchical taxonomies of vocabulary terms (SKOS), and defining complex relationships and constraints among resources based on advanced principles of logic (OWL).
 
 ## Related KGC Media
 * Knowledge Graph Conference Bookclub Session: [Semantic Web for the Working Ontologist, Third Edition, Chapters 1-3](https://watch.knowledgegraph.tech/packages/kgc-21-attendees/videos/bookclub2)
