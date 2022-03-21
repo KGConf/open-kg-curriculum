@@ -14,7 +14,7 @@ RDF, or the **Resource Description Framework**, is ["a standard model for data i
 
 #### The Structure of RDF
 
-The RDF format is composed of three-part statements, known as *triples*, which point to resources on the web and assign values to properties describing them.  For example, the statement:
+RDF's structure is comprised of three-part statements, known as *triples*, which point to resources on the web and assign values to properties describing them.  For example, the statement:
 
     William Shakespeare | wrote | Hamlet
     
