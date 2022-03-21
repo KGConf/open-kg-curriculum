@@ -64,14 +64,12 @@ RDF's value begins to emerge when it is loaded into a special kind of database c
         wiki:William_Shakespeare sch:author ?Play .
           }
 
-    <TABLE>
-        <th>?Play</th>
-            <tr>
-                <td>Hamlet</td>
-            </tr>
-    </TABLE>
-        
+    | ?Play          |
+      --------------
+    | Hamlet         |
+    | Macbeth        |
 
+       
 
 The number of triples you can store in one database repository is limited only to the software itself. Importing triples from a variety of sources--and defining connections between subjects, predicates, and objects from those sources--is the first step in the the consolidation of disparate collections and subsequent knowledge discovery.
 
