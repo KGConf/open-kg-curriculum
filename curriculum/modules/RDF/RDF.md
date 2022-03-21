@@ -77,7 +77,7 @@ The number of triples you can store in one database repository is limited only t
 
 #### Beyond Basic RDF
 
-While RDF provides the basic template for organizing linked data, it's only a starting point. Extensions to RDF as found in standards like RDFS ... TO BE CONTINUED
+While RDF provides the basic template for organizing linked data, it's only a starting point. Standards like [RDFS](//master/curriculum/modules/RDFS/RDFS.md), [SKOS](//master/curriculum/modules/SKOS/SKOS.md), and [OWL](//curriculum/modules/OWL/OWL.md) extend RDF to allow for the grouping of resources into "classes," creating hierarchical taxonomies of vocabulary terms, and defining complex relationships and constraints among resources based on first order logic.
  
 ## Related Questions
 * RDF vs. RDFS:
