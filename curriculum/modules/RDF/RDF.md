@@ -54,7 +54,7 @@ Composing an RDF document can be as simple as opening up a text editor and writi
 
 #### RDF and Triplestores
 
-RDF's value begins to emerge when it is loaded into a special kind of database called a [triple store.](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/Survey_of_Triplestores/Survey_of_Triplestores.md) Triple stores can be used to import, combine, update, query, and often [visualize](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/Survey_of_Visualization_Tools/Survey_of_Visualization_Tools.md) the information stored in RDF formats. Similar to modelling tools, triple stores are available as paid commercial, free commercial, and open source versions distributed by various companies and organizations. These applications employ a query language called [SPARQL](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/SPARQL/SPARQL.md), which is similar in structure to the Turtle example above. For example:
+RDF's value begins to emerge when it is loaded into a special kind of database called a [triple store.](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/Survey_of_Triplestores/Survey_of_Triplestores.md) Triple stores can be used to import, combine, update, query, and often [visualize](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/Survey_of_Visualization_Tools/Survey_of_Visualization_Tools.md) the information stored in RDF formats. Similar to modelling tools, triple stores are available as paid commercial, free commercial, and open source versions distributed by various companies and organizations. These applications employ a query language called [SPARQL](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/SPARQL/SPARQL.md), which is similar in structure to the Turtle example above. For example, the query:
 
     PREFIX wiki: <https://en.wikipedia.org/wiki/>.
     PREFIX sch: <https://schema.org/>.
@@ -70,10 +70,10 @@ RDF's value begins to emerge when it is loaded into a special kind of database c
 | Macbeth    |
 
 
-| First Header  |
+| Play          |
 | ------------- |
-| Content Cell  |
-| Content Cell  |
+| Hamlet        |
+| Macbeth       |
 
        
 
