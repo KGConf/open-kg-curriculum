@@ -2,7 +2,7 @@
 ## Details
 * Category: [Standards](../../categories/Standards.md), [Markup Languages](../../categories/Markup_Languages.md)
 * Module Prerequisites: None
-* Audience: [Student, Developer](../audiences/Student,_Developer.md)
+* Audience: [Student](../../audiences/Studen.md), [Developer](../../audiences/Developer.md)
 * Level: [Beginner](../../levels/Beginner.md)
 
 ## Content
