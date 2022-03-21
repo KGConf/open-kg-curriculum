@@ -1,6 +1,6 @@
 # RDF
 ## Details
-* Category: [Standards, Markup Languages](../../categories/Standards,_Markup_Languages.md)
+* Category: [Standards, Markup Languages](../../levels/Standards,_Markup_Languages.md)
 * Module Prerequisites: None
 * Audience: [Student, Developer](../audiences/Student,_Developer.md)
 * Level: [Beginner](../levels/Beginner.md)
