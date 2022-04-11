@@ -29,19 +29,19 @@ The initial schema, known as the Dublin Core Metadata Element Set, featured fift
 
 An extended set of terms was created in 2001. The initial and extended sets were combined as the [Dublin Core terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) vocabulary in 2008. The terms vocabulary is more restrictive than the initial element set, specifying where the object of a property can be a literal or must refer to a member of a class. For example, here are the differences between the dc and dcterms:namespace for the property "format":
 
-    URI	http://purl.org/dc/elements/1.1/format
-    Label	Format
-    Definition	The file format, physical medium, or dimensions of the resource.
-    Comment	Recommended practice is to use a controlled vocabulary where available. For example, for file formats one could use the list of Internet Media Types [MIME].
+```URI:     http://purl.org/dc/elements/1.1/format
+Label:      Format
+Definition:     The file format, physical medium, or dimensions of the resource.
+Comment:        Recommended practice is to use a controlled vocabulary where available. For example, for file formats one could use the list of Internet Media Types [MIME].```
     
-    URI	http://purl.org/dc/terms/format
-    Label	Format
-    Definition	The file format, physical medium, or dimensions of the resource.
-    Comment	Recommended practice is to use a controlled vocabulary where available. For example, for file formats one could use the list of Internet Media Types [MIME]. Examples of dimensions include size and duration.
-    Type of Term	Property
-    Range Includes	
+```URI:     http://purl.org/dc/terms/format
+Label:      Format
+Definition:     The file format, physical medium, or dimensions of the resource.
+Comment:        Recommended practice is to use a controlled vocabulary where available. For example, for file formats one could use the list of Internet Media Types [MIME]. Examples of dimensions include size and duration.
+Type of Term:       Property
+Range Includes:     
       http://purl.org/dc/terms/MediaType
-      http://purl.org/dc/terms/Extent
+      http://purl.org/dc/terms/Extent```
 
 
 
