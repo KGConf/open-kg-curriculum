@@ -9,7 +9,7 @@
 
 ### Definition
 
-Dublin Core is a widely used metadata standard first developed at a 1995 conference held in Dublin, Ohio, and hosted by the [OCLC](https://www.oclc.org/en/about.html?cmpid=md_ab) and the [National Center for Supercomputing Applications](https://www.ncsa.illinois.edu) (NCSA). Although Dublin Core was initially expressed in the form of HTML, the standard is now [RDF](../modules/RDF/RDF.md)-compliant and simple to incorporate into users' own ontologies.
+Dublin Core is a foundational metadata standard first developed at a 1995 conference hosted by [OCLC](https://www.oclc.org/en/about.html?cmpid=md_ab) and the [National Center for Supercomputing Applications](https://www.ncsa.illinois.edu) (NCSA). The standard was named after the conference location, Dublin, Ohio. Although initially expressed in the form of HTML, the Dublin Core is now [RDF](../modules/RDF/RDF.md)-compliant and straightforward to incorporate into users' own ontologies.
 
 The initial schema, known as the Dublin Core Metadata Element Set, featured fifteen elements (i.e., properties) covering a broad range of library applications:
 
