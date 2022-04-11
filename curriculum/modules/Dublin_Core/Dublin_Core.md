@@ -1,7 +1,7 @@
 # Dublin Core
 ## Details
 * Category: [Resources](../../categories/Resources.md)
-* Module Prerequisites: [RDFS](../../curriculum/modules/rdfs/RDFS.md)
+* Module Prerequisites: [RDFS](../../modules/RDFS/RDFS.md)
 * Audience: [Student](../../audiences/Student.md), [Developer](../../audiences/Developer.md)
 * Level: [Beginner](../../levels/Beginner.md)
 
@@ -52,7 +52,7 @@ An extended set of terms was created starting in 2001, and the initial and exten
 It's natural for a beginning ontologist to want to start from scratch, minting a complete set of unique properties and related Universal Resource Identifiers (URIs) to meet their unique requirements. However, much of the power of the semantic web springs from its inherent ability to combine, in the triple format, multiple vocabularies from an enormous and increasingly diverse number of online resources. Dublin Core has wide applicability to the worlds of publishing and media and should be a first stop for any user working in those subject areas.
 
 ## Related KGC Media
-* (Semantic Web for the Working Ontologist, Third Edition, Chapter 4, p72.)[https://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1564]
+* [Semantic Web for the Working Ontologist, Third Edition, Chapter 4, p72.](https://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1564)
 * Workshop Example
 * Tutorial Example
 
