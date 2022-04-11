@@ -1,15 +1,15 @@
 # Dublin Core
 ## Details
-* Category: [Resources](../categories/Resources.md)
-* Module Prerequisites: [RDFS](../modules/RDFS.md)
-* Audience: [Student, Developer](../audiences/Student,_Developer.md)
-* Level: [Beginner](../levels/Beginner.md)
+* Category: [Resources](../../categories/Resources.md)
+* Module Prerequisites: [RDFS](../../modules/RDFS.md)
+* Audience: [Student](../../audiences/Student.md),[Developer](../../audiences/Developer.md)
+* Level: [Beginner](../../levels/Beginner.md)
 
 ## Content
 
 ### Definition
 
-Dublin Core is a widely used metadata standard first developed at a 1995 conference held in Dublin, Ohio, and hosted by the [OCLC](https://www.oclc.org/en/about.html?cmpid=md_ab) and the [National Center for Supercomputing Applications](https://www.ncsa.illinois.edu)(NCSA). Although Dublin Core was initially expressed in the form of HTML, the standard is now [RDF](../modules/RDF/RDF.md)-compliant and simple to incorporate into users' own ontologies.
+Dublin Core is a widely used metadata standard first developed at a 1995 conference held in Dublin, Ohio, and hosted by the [OCLC](https://www.oclc.org/en/about.html?cmpid=md_ab) and the [National Center for Supercomputing Applications](https://www.ncsa.illinois.edu) (NCSA). Although Dublin Core was initially expressed in the form of HTML, the standard is now [RDF](../modules/RDF/RDF.md)-compliant and simple to incorporate into users' own ontologies.
 
 The initial schema, known as the Dublin Core Metadata Element Set, featured fifteen elements (i.e., properties) covering a broad range of library applications:
 
@@ -44,14 +44,15 @@ An extended set of terms was created starting in 2001, and the initial and exten
                    list of Internet Media Types [MIME]. Examples of dimensions include size and duration.
     Type of Term:  Property
     Range Includes:     
-          http://purl.org/dc/terms/MediaType
-          http://purl.org/dc/terms/Extent
+                   http://purl.org/dc/terms/MediaType
+                   http://purl.org/dc/terms/Extent
       
-### Use Case
+### Application
 
 It's natural for a beginning ontologist to want to start from scratch, minting a complete set of unique properties and related Universal Resource Identifiers (URIs) to meet their unique requirements. However, much of the power of the semantic web springs from its inherent ability to combine, in the triple format, multiple vocabularies from an enormous and increasingly diverse number of online resources. Dublin Core has wide applicability to the worlds of publishing and media and should be a first stop for any user working in those subject areas.
 
 ## Related KGC Media
+* (Semantic Web for the Working Ontologist, Third Edition, Chapter 4, p72.)[https://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1564]
 * Workshop Example
 * Tutorial Example
 
