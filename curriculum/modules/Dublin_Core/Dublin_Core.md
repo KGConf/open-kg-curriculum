@@ -1,8 +1,8 @@
 # Dublin Core
 ## Details
 * Category: [Resources](../../categories/Resources.md)
-* Module Prerequisites: [RDFS](../../modules/RDFS.md)
-* Audience: [Student](../../audiences/Student.md),[Developer](../../audiences/Developer.md)
+* Module Prerequisites: [RDFS](../../modules/rdfs/RDFS.md)
+* Audience: [Student](../../audiences/Student.md), [Developer](../../audiences/Developer.md)
 * Level: [Beginner](../../levels/Beginner.md)
 
 ## Content
