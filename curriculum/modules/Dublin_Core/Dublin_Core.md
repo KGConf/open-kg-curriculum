@@ -29,7 +29,7 @@ The initial schema, known as the Dublin Core Metadata Element Set, featured fift
 * title
 * type
 
-An extended set of terms was created starting in 2001, and the initial and extended sets were combined as the [Dublin Core terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) vocabulary in 2008. Note that the terms vocabulary is more restrictive than the original element set, specifying when the object of a property can be a literal or must refer to a member of a class. For example, here are the differences between the dc:elements and dc:terms namespaces for the property "format":
+The initial fifteen elements and an extended set were combined as the [Dublin Core terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) vocabulary in 2008. Note that the elements in the dc:terms collection, while mirroring the original fifteen, are more restrictive, specifying when the object of a property can be a literal or must refer to a member of a class. For example, here are the differences between the dc:elements and dc:terms namespaces for the property "format":
 
 #### Elements Namespace:
 
@@ -85,7 +85,6 @@ Here is a quick example of Dublin Core in the Turtle format. The ontology below 
     :Publishing_company
       rdf:type rdfs:Class ;
       rdfs:label "Publishing Company" ;
-      rdfs:subClassOf rdfs:Class ;
     .
 
 ### Application
