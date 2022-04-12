@@ -44,8 +44,9 @@ The initial fifteen elements and an extended set were combined as the [Dublin Co
     URI:           http://purl.org/dc/terms/format
     Label:         Format
     Definition:    The file format, physical medium, or dimensions of the resource.
-    Comment:       Recommended practice is to use a controlled vocabulary where available. For example, for file formats one could use the
-                   list of Internet Media Types [MIME]. Examples of dimensions include size and duration.
+    Comment:       Recommended practice is to use a controlled vocabulary where available. For example, for file 
+                   formats one could use the list of Internet Media Types [MIME]. Examples of dimensions include 
+                   size and duration.
     Type of Term:  Property
     Range Includes:     
                    http://purl.org/dc/terms/MediaType
