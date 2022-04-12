@@ -89,7 +89,7 @@ Here is a quick example of Dublin Core in the Turtle format. The ontology below 
 
 ### Application
 
-It's natural for a beginning ontologist to want to start from scratch, minting a complete set of unique properties and related Universal Resource Identifiers (URIs) to meet their unique requirements. However, much of the power of the semantic web springs from its inherent ability to combine, as triples, multiple vocabularies from an enormous and increasingly diverse number of online resources. Here are two important reasons for making use of Dublin Core (or other existing standard ontologies) as a basic for independent work:
+It's natural for a beginning ontologist to want to start from scratch, minting a complete set of unique properties and related Universal Resource Identifiers (URIs) to meet their unique requirements. However, much of the power of the semantic web springs from its inherent ability to combine, as triples, multiple vocabularies from established online resources. Here are two important reasons for making use of Dublin Core (or other existing standard ontologies) as a basic for independent work:
 
 * Dublin Core is well-documented, well-supported, and so universally adopted that the potential for it continuing as a long-term, internationally applicable resource is very high. Other vocabularies, including those local to organizations, are more likely to disappear over time.
 * Adopting a standard like Dublin Core simplifies the process of merging or connecting disparate ontologies. If two ontologists managing similar information employee the same DC elements (e.g., creator, publisher), they are much less likely to have to create new triples relating properties and classes from one dataset to another.
