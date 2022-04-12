@@ -29,7 +29,7 @@ The initial schema, known as the Dublin Core Metadata Element Set, featured fift
 * title
 * type
 
-An extended set of terms was created starting in 2001, and the initial and extended sets were combined as the [Dublin Core terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) vocabulary in 2008. Note that the terms vocabulary is more restrictive than the original element set, specifying when the object of a property can be a literal or must refer to a member of a class. For example, here are the differences between the dc elements and dc terms namespaces for the property "format":
+An extended set of terms was created starting in 2001, and the initial and extended sets were combined as the [Dublin Core terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) vocabulary in 2008. Note that the terms vocabulary is more restrictive than the original element set, specifying when the object of a property can be a literal or must refer to a member of a class. For example, here are the differences between the dc:elements and dc:terms namespaces for the property "format":
 
 Elements Namespace:
 ==================
@@ -55,9 +55,9 @@ Terms Namespace:
                    
 ### Example
 
-Here is a quick example of Dublin Core in the Turtle format. The "entry" describes a book, its author, and the company that published it:
+Here is a quick example of Dublin Core in the Turtle format. The ontology below defines two new classes--"Author" and "Publishing_company"--and three resources. Notice how the details of the book *The New Adventures of Melvin Cowznofski* are expressed entirely using a dc:terms class as an object and four dc:terms properties as predicates:
 
-    @prefix : <http://tutorial.topbraid.com/unnamed#> .
+    @prefix : <http://tutorial.madmen.com/pub#> .
     @prefix dcterms: <http://purl.org/dc/terms/> .
     @prefix owl: <http://www.w3.org/2002/07/owl#> .
     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -68,31 +68,37 @@ Here is a quick example of Dublin Core in the Turtle format. The "entry" describ
       rdfs:label "Author" ;
       rdfs:subClassOf dcterms:Agent ;
     .
-    :Flemington_Ridgeway_III
+    :Harvey_Kurtzman
       rdf:type :Author ;
-      rdfs:label "Flemington Ridgeway III" ; 
+      rdfs:label "Harvey Kurtzman" ;
     .
-    :Fly_by_Night_Publications
-      rdf:type :Production_company ;
-      rdfs:label "Fly by Night Publications" ;
-    .
-    :NewAdventuresMelvin
-      rdf:type rdfs:Resource ;
-      dcterms:creator :Flemington_Ridgeway_III ;
+    :NewAdventuresMelvinCowznofski
+      rdf:type dcterms:BibliographicResource ;
+      dcterms:creator :Harvey_Kurtzman ;
       dcterms:identifier "0134589" ;
-      dcterms:publisher :Fly_by_Night_Publications ;
-      rdfs:label "The New Adventures of Melvin" ;
+      dcterms:publisher :Potrzebie_Publications ;
+      dcterms:title "The New Adventures of Melvin Cowznofski" ;
     .
-    :Production_company
+    :Potrzebie_Publications
+      rdf:type :Publishing_company ;
+      rdfs:label "Potrzebie Publications" ;
+    .
+    :Publishing_company
       rdf:type rdfs:Class ;
-      rdfs:label "Production Company" ;
-      rdfs:subClassOf rdfs:Resource ;
+      rdfs:label "Publishing Company" ;
+      rdfs:subClassOf rdfs:Class ;
     .
 
-      
 ### Application
 
-It's natural for a beginning ontologist to want to start from scratch, minting a complete set of unique properties and related Universal Resource Identifiers (URIs) to meet their unique requirements. However, much of the power of the semantic web springs from its inherent ability to combine, in the triple format, multiple vocabularies from an enormous and increasingly diverse number of online resources. Dublin Core has wide applicability to the worlds of publishing and media and should be a first stop for any user working in those subject areas.
+It's natural for a beginning ontologist to want to start from scratch, minting a complete set of unique properties and related Universal Resource Identifiers (URIs) to meet their unique requirements. However, much of the power of the semantic web springs from its inherent ability to combine, as triples, multiple vocabularies from an enormous and increasingly diverse number of online resources. Here are two important reasons for making use of Dublin Core (or other existing standard ontologies) as a basic for independent work:
+
+* Dublin Core is well-documented, well-supported, and so universally adopted that the potential for it continuing as a long-term, internationally applicable resource is very high. Other vocabularies, including those local to organizations, are more likely to disappear over time.
+* Adopting a standard like Dublin Core simplifies the process of merging or connecting disparate ontologies. If two ontologists managing similar information employee the same DC elements (e.g., creator, publisher), they are much less likely to have to create new triples relating properties and classes from one dataset to another.
+
+### In Summary
+
+Dublin Core is broadly applicable to content managed by libraries, publishing, media, and other entities. The standard should be a first stop for any developer seeking to build an ontology in those subject areas.
 
 ## Related KGC Media
 * [Semantic Web for the Working Ontologist, Third Edition, Chapter 4, p72.](https://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1564)
