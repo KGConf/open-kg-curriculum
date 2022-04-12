@@ -31,11 +31,16 @@ The initial schema, known as the Dublin Core Metadata Element Set, featured fift
 
 An extended set of terms was created starting in 2001, and the initial and extended sets were combined as the [Dublin Core terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) vocabulary in 2008. Note that the terms vocabulary is more restrictive than the original element set, specifying when the object of a property can be a literal or must refer to a member of a class. For example, here are the differences between the dc elements and dc terms namespaces for the property "format":
 
+Elements Namespace:
+==================
     URI:           http://purl.org/dc/elements/1.1/format
     Label:         Format
     Definition:    The file format, physical medium, or dimensions of the resource.
     Comment:       Recommended practice is to use a controlled vocabulary where available. 
                    For example, for file formats one could use the list of Internet Media Types [MIME].
+                   
+Terms Namespace:
+====================================
     
     URI:           http://purl.org/dc/terms/format
     Label:         Format
@@ -46,6 +51,44 @@ An extended set of terms was created starting in 2001, and the initial and exten
     Range Includes:     
                    http://purl.org/dc/terms/MediaType
                    http://purl.org/dc/terms/Extent
+                   
+                   
+### Example
+
+Here is a quick example of Dublin Core in the Turtle format. The "entry" describes a book, its author, and the company that published it:
+
+    @prefix : <http://tutorial.topbraid.com/unnamed#> .
+    @prefix dcterms: <http://purl.org/dc/terms/> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+    :Author
+      rdf:type rdfs:Class ;
+      rdfs:label "Author" ;
+      rdfs:subClassOf dcterms:Agent ;
+    .
+    :Flemington_Ridgeway_III
+      rdf:type :Author ;
+      rdfs:label "Flemington Ridgeway III" ; 
+    .
+    :Fly_by_Night_Publications
+      rdf:type :Production_company ;
+      rdfs:label "Fly by Night Publications" ;
+    .
+    :NewAdventuresMelvin
+      rdf:type rdfs:Resource ;
+      dcterms:creator :Flemington_Ridgeway_III ;
+      dcterms:identifier "0134589" ;
+      dcterms:publisher :Fly_by_Night_Publications ;
+      rdfs:label "The New Adventures of Melvin" ;
+    .
+    :Production_company
+      rdf:type rdfs:Class ;
+      rdfs:label "Production Company" ;
+      rdfs:subClassOf rdfs:Resource ;
+    .
+
       
 ### Application
 
