@@ -6,6 +6,9 @@
 * Level: [Intermediate](../levels/Intermediate.md)
 
 ## Content
+###Question
+I'm frightened by the apparent complexity of OWL (the Web Ontology Language). What problems or challenges does it solve?
+
 Content text.
 
 ## Related KGC Media
