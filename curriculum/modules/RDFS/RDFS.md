@@ -6,7 +6,9 @@
 * Level: [Beginner](../levels/Beginner.md)
 
 ## Content
-Content text.
+### Question
+What does RDFS (RDF Schema) add to RDF (the Resource Description Format)? Why would I use it in my ontology?
+
 
 ## Related KGC Media
 * Workshop Example
