@@ -24,7 +24,7 @@ tells us that an individual (Shakespeare) has a property (wrote), the value of w
     
 In the RDF lexicon, the three columns in the above triple are called **subject**, **predicate**, and **object**. The *subject* column points to a web resource that the triple is describing, in this case the Wikipedia entry for William Shakespeare. The predicate column defines some aspect, or *property*, that you want to attribute to the subject. Here it points to a property called "author" that is documented at a website called schema.org. The third column, *object*, contains the value of the property, namely "Hamlet."
 
-Notice that the first two columns above are written as [**URIs**](../../../modules/What_is_an_Identifier/What_is_an_Identifier.md), which are a more generalized form of URLs, and the last is a text string in quotation marks. A fundamental rule of RDF is that *subject and predicate columns must always contain URIs*. The object column may be written either as a text string (as above) or as another URI.
+Notice that the first two columns above are written as [**URIs**](../../modules/What_is_an_Identifier/What_is_an_Identifier.md), which are a more generalized form of URLs, and the last is a text string in quotation marks. A fundamental rule of RDF is that *subject and predicate columns must always contain URIs*. The object column may be written either as a text string (as above) or as another URI.
 
 URIs serve as unique identifiers, similar to a U.S. Social Security number or the item number of a component in a warehouse. Although there's no rule stating that a URI *has* to point to a real resource on the web, it is considered best practice to do so, allowing a user to follow a URI to its source in order to find out more about it.
 
@@ -86,9 +86,10 @@ While RDF provides the template for organizing linked data in the form of triple
 
 ## References
 [1] [RDF](https://www.w3.org/RDF/) at the W3C
-[2] [Uniform Resource Identifier](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) at the Wikipedia
-[3] [N-Triples](https://www.w3.org/TR/n-triples/)
-[4] [RDF 1.1 Turtle](https://www.w3.org/TR/turtle/ at the W3C
+
+[2] [N-Triples](https://www.w3.org/TR/n-triples/)
+
+[3] [RDF 1.1 Turtle](https://www.w3.org/TR/turtle/ at the W3C
 
 ## Contributors
 * Cogan Shimizu
