@@ -9,6 +9,7 @@ Here are some example learning paths:
 * "I am a beginner and I want to deploy a knowledge graph."
 * "I am a graduate student and I need to survey different ontology engineering paradigms."
 * "I am a project manager and I am exploring knowledge graph technologies, where do I start?"
+* "I am a beginner, and I want to know what a taxonomy is."
   
 ## Modules by [Category](./categories.md)
 
