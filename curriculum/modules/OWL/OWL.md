@@ -6,9 +6,11 @@
 * Level: [Intermediate](../levels/Intermediate.md)
 
 ## Content
-### Question
+### Questions
 
-I'm frightened by the apparent complexity of OWL (the Web Ontology Language). What problems or challenges does it solve?
+* I'm frightened by the apparent complexity of OWL (the Web Ontology Language). What problems or challenges does it solve?
+
+* OWL enables inferences by drawing on logic. So, many OWL-related references in particular refer to logic. How much logic do I really need to know to design and use ontologies?
 
 
 ## Related KGC Media
