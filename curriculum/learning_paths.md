@@ -1,5 +1,8 @@
 # Learning Paths
-* Practitioner
-* Implementer
-* Customer
-* Academic
+
+Learning Objective: * "I am a beginner, and I want to know what a taxonomy is." \
+Learning Path:
+
+* RDF
+* Subclass
+* Taxonomy
