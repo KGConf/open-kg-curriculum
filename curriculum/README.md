@@ -16,3 +16,17 @@ Here are some example learning paths:
 ## Modules by [Audience](./audiences.md)
 
 ## [Module Catalog](./curriculum.md)
+
+## Qualities of Modules
+The aim is for the Community Education Curriculum to be: 
+
+* **Scalable:** Follow a similar, integrated, extensible pattern for each module 
+* **Efficient:** A well-thought-through design isn’t going to waste anyone’s time
+* **Minimalist:** Keep it simple
+* **Strategic:** Focus on the 20% of the subject that is used 80% of the time
+* **Not serious:** Be friendly, conversational, self-deprecating, and “you” focused
+* **Coherent:** Integrate topics with clear links mapped to associated domains
+* **Graph-ic:** Use knowledge graphs to illustrate module content
+* **Practical:** Help practitioners put theory into practice
+* **Executable:** Equip participants to develop semantic models using executable syntax
+* **Authoritative:** Reference expert sources like those featured in the KGC Book Club
