@@ -49,7 +49,7 @@ If an individual is a member of a subclass, then that individual instance is als
 
 Classification is the act of forming classes and subclasses by identifying common attributes. We classify things to impose order, to find hidden relationships, to make things simpler, to help us find things. We classify to organize socks in a drawer, books in a library, groceries in the store, concepts in our mind. 
 
-The amount of available data, text, video, and programming in digital form has skyrocketed. So, how do you find things? How do you organize things? How do you interpret the data and identify patterns? Often, there is a separate repository of data for every application built, which multiplies silos. So, how can you break down siloes and make data available to multiple programs?  
+The amount of available data, text, video, and programming in digital form has skyrocketed. So, how do you find things? How do you organize things? How do you interpret the data and identify patterns? Often, there is a separate repository of data for every application built, which multiplies silos. So, learning about classes and subclasses can be one of the first steps to organizing data, breaking down siloes, and helping people find things. Now, where is my phone!  
 
 ## Related KGC Media
 * KGC Book Club: Michael Uschold, *Demystifying OWL for the Enterprise*, Spring 2021
