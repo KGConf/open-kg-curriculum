@@ -1,9 +1,9 @@
 # Class and Subclass
 ## Details
-* Category: [Standards](../../categories/Standards.md), [RDFS](../../categories/RDFS.md), [OWL](../../categories/OWL.md)
+* Category: [Standards](../../categories/Standards.md), [RDFS](../../modules/RDFS.md), [OWL](../../modules/OWL.md)
 * Module Prerequisites: None 
-* Audience: [Any](../au[RDFS]diences/Any.md)
-* Level: [Beginner](../levels/Beginner.md)
+* Audience: [Any](../../audiences/Any.md)
+* Level: [Beginner](../../levels/Beginner.md)
 
 ## Content
 ### What do we mean when we say “class” in natural language? 
@@ -43,7 +43,7 @@ Michael Uschold adds the term "individual" to his natural language definitions o
 * Subclass: There are "more specific kinds of things" 
 * Individual: There are "individual things." "An individual is an instance of a certain kind of thing" [7]
 
-If an individual is a member of a subclass, then that individual instance is also a member of the parent class. The individual member of a subclass inherits attributes from the parent class. This simple statement opens up the topic of inferences which are explored in detail in [Introduction to Logic](../../Introduction_to_Logic.md), [Introduction to Set Theory](../../Introduction_to_Set_Theory.md), and [OWL](../../OWL.md).  
+If an individual is a member of a subclass, then that individual instance is also a member of the parent class. The individual member of a subclass inherits attributes from the parent class. This simple statement opens up the topic of inferences which are explored in detail in [Introduction to Logic](../Introduction_to_Logic/Introduction_to_Logic.md), [Introduction to Set Theory](../Introduction_to_Set_Theory/Introduction_to_Set_Theory.md), and [OWL](../OWL/OWL.md).  
 
 ### Why classify things? 
 
@@ -51,7 +51,9 @@ Classification is the act of forming classes and subclasses by identifying commo
 
 The amount of available data, text, video, and programming in digital form has skyrocketed. So, how do you find things? How do you organize things? How do you interpret the data and identify patterns? Often, there is a separate repository of data for every application built, which multiplies silos. So, learning about classes and subclasses can be one of the first steps to organizing data, breaking down siloes, and helping people find things. Now, where is my phone!  
 
-![Class and Subclass](/images/Class_Subclass_Graph.png)
+This informal graph may help you visualize the Class and Subclass class content.
+
+![An informal graph for the Class and Subclass Class](images/Class_Subclass_Graph.png)
 
 ## Related KGC Media
 * KGC Book Club: Michael Uschold, *Demystifying OWL for the Enterprise*, Spring 2021
