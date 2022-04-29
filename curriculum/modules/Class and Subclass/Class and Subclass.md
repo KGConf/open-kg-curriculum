@@ -51,6 +51,8 @@ Classification is the act of forming classes and subclasses by identifying commo
 
 The amount of available data, text, video, and programming in digital form has skyrocketed. So, how do you find things? How do you organize things? How do you interpret the data and identify patterns? Often, there is a separate repository of data for every application built, which multiplies silos. So, learning about classes and subclasses can be one of the first steps to organizing data, breaking down siloes, and helping people find things. Now, where is my phone!  
 
+![Class and Subclass](/images/Class_Subclass_Graph.png)
+
 ## Related KGC Media
 * KGC Book Club: Michael Uschold, *Demystifying OWL for the Enterprise*, Spring 2021
 * KGC Book Club: Dean Allemang, *Semantic Web for the Working Ontologist*, Fall 2020
