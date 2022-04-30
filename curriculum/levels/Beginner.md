@@ -16,3 +16,5 @@
 * [Schemaorg](../modules/Schemaorg/Schemaorg.md)
 * [Dublin Core](../modules/Dublin_Core/Dublin_Core.md)
 * [History of the Semantic Web](../modules/History_of_the_Semantic_Web/History_of_the_Semantic_Web.md)
+* [Class and Subclass](../modules/Class_and_Subclass/Class_and_Subclass.md)
+
