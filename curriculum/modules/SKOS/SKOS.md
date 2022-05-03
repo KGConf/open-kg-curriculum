@@ -19,48 +19,89 @@ Our first concept, which we'll call LEGO_brick_4X4, represents a single type of 
 
 In our second example, our original, generic 4X4 brick relates downward to more specific, _narrower_ versions in specific colors. It also relates upward to an even more general brick concept representing all of the possible variations in brick type, including as 1X2, 4X8, etc. Notice also that the blue and red variations of the are identified as _related to_ each other. They have some things in common without being in the same line of succession from our original brick.
 
-So concept can relate to another concept in one of three primary ways:
+So a concept can relate to another concept in one of three primary ways:
 
 * It can be **broader**, as in "Transportation" is a more general concept than "Automobile";
 * It can be **narrower**, as in "Electric boat" represents a subset of the category "Boat";
 * It can be **related** to another, similar concept that appears elsewhere in the model
 
+But let's take it a step further. We've mentioned that at the top level of our model sits a super concept covering all LEGO bricks. It actually sits alongside other super concepts covering other broad categories of LEGO parts, including minifigures and plates. These top-level concepts are known as **Top Concepts**:
+
 ![LegoBrick3](images/legobrick4404.JPG)
 
-Our high-level generic concept of a LEGO brick lives with other high-level umbrella concepts for things like plates and minifigures. These category concepts are known as **Top Concepts**.
-
-Finally, at the highest level, we define the **Concept Scheme**. The concept scheme defines the overall theme of the vocabulary:
+Finally, at the highest level, we wrap up our enter model in something called a **Concept Scheme**. The concept scheme defines the overall theme of the vocabulary:
 
 ![LegoBrick3](images/legobrick4405.JPG)
 
-    
-SKOS vocabularies tend to be designed hierarchically. All terms in the vocabulary fit into an overarching **concept scheme** defining its overall theme (e.g.,  "Agriculture" or "Film industry"). At the highest level of the model sit major categories known as **top concepts**. For example, a film industry vocabulary might include top concepts such as:
+As you can infer from the above examples, taxonomies tend to be designed hierarchically. The hierarchies can vary in overall design. One SKOS taxonomy could be relatively wide, with a larger number of top concepts. Another could feature a succession of "narrower than" relations going many levels deep. The purpose of the taxonomy may define its overall structure: think of an ecommerce site covering a broad portfolio of high-level categories including electronics, housewares, personal care, and toys. A different structure might have limited options at the top level but do a deep dive into subcategories.
 
-* Creative
-* Business
-* Legal
-* Production
+Now let's take a look at SKOS as it can be represented in [RDF](../modules/RDF.md). The following example was produced using the Turtle serialization, which is one of the most compact, straightforward, and popular formats for writing RDF:
 
-The vocabulary's designer then adds more specific concepts to each of the top concepts. "Creative," above, may contain underlying categories such as:
+@prefix : <http://mylegosite.com/LEGOCat#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-* Screenwriting
-* Music
-* Sets
-* Directing
+<http://melvinmasterlego.com/brick44>
+  skos:prefLabel "brick44" ;
+.
+:LEGOBricks
+  rdf:type skos:Concept ;
+  skos:definition "General-purpose interlocking square or rectangular bricks with studs on the top and holes on the bottom." ;
+  skos:narrower :LEGO_brick_4X4 ;
+  skos:narrower :LEGO_brick_4X8 ;
+  skos:prefLabel "LEGO bricks" ;
+  skos:topConceptOf :LEGOParts ;
+.
+:LEGOMinifigs
+  rdf:type skos:Concept ;
+  skos:narrower :SpacePilotMinifig ;
+  skos:prefLabel "LEGO minifigs" ;
+  skos:topConceptOf :LEGOParts ;
+.
+:LEGOParts
+  rdf:type skos:ConceptScheme ;
+  skos:prefLabel "LEGO parts" ;
+.
+:LEGOPlates
+  rdf:type skos:Concept ;
+  skos:prefLabel "LEGO plates" ;
+  skos:topConceptOf :LEGOParts ;
+.
+:LEGO_brick_4X4
+  rdf:type skos:Concept ;
+  skos:broader :LEGOBricks ;
+  skos:exactMatch <http://melvinmasterlego.com/brick44> ;
+  skos:narrower :LEGO_brick_4X4_blue ;
+  skos:narrower :LEGO_brick_4X4_red ;
+  skos:prefLabel "LEGO brick 4X4" ;
+  skos:related :LEGO_brick_4X8 ;
+.
+:LEGO_brick_4X4_blue
+  rdf:type skos:Concept ;
+  skos:broader :LEGO_brick_4X4 ;
+  skos:prefLabel "LEGO brick 4X4 blue" ;
+  skos:related :LEGO_brick_4X4_red ;
+.
+:LEGO_brick_4X4_red
+  rdf:type skos:Concept ;
+  skos:broader :LEGO_brick_4X4_red ;
+  skos:prefLabel "LEGO brick 4X4 red" ;
+  skos:related :LEGO_brick_4X4_blue ;
+.
+:LEGO_brick_4X8
+  rdf:type skos:Concept ;
+  skos:prefLabel "LEGO brick 4X8" ;
+  skos:related :LEGO_brick_4X4 ;
+.
+:SpacePilotMinifig
+  rdf:type skos:Concept ;
+  skos:historyNote "This general figure type was replaced with more specific designs pertaining to individual sets starting in 1985" ;
+  skos:prefLabel "Space pilot minifig" ;
+  skos:scopeNote "Limited to sets with product numbers 2474 to 3488" ;
+.
 
-Each of the lower-level topics can expand outward with even more concepts. "Sets," above, might have two additional concepts:
 
-* Sets
-	* Set design
-	* Set construction
 
-Thus, a SKOS model expands outward in a tree structure from the concept scheme to top concepts to as many levels as needed to fully express a vocabulary. The model can be broad or deep, depending upon the number of top concepts vs. the number of nested levels of underlying concepts.
-
-A concept can relate to another concept in one or three ways:
-
-* It can be broader, as in "Transportation" is a more general concept than "Automobile";
-* It can be narrower, as in "Electric boat" represents a subset of the category "Boat";
-* It can be related to but different from a 
 
 ## Related KGC Media
 * Workshop Example
