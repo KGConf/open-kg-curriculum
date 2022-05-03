@@ -35,7 +35,9 @@ Finally, at the highest level, we wrap up our enter model in something called a 
 
 As you can infer from the above examples, taxonomies tend to be designed hierarchically. The hierarchies can vary in overall design. One SKOS taxonomy could be relatively wide, with a larger number of top concepts. Another could feature a succession of "narrower than" relations going many levels deep. The purpose of the taxonomy may define its overall structure: think of an ecommerce site covering a broad portfolio of high-level categories including electronics, housewares, personal care, and toys. A different structure might have limited options at the top level but do a deep dive into subcategories.
 
-Now let's take a look at SKOS as it can be represented in [RDF](../modules/RDF.md). The following example was produced using the Turtle serialization, which is one of the most compact, straightforward, and popular formats for writing RDF:
+## SKOS in Action
+
+Now let's take a look at SKOS as it can be represented in [RDF](../../modules/RDF.md). The following example was produced using the Turtle serialization, which is one of the most compact, straightforward, and popular formats for writing RDF:
 
 ```
 @prefix : <http://mylegosite.com/LEGOCat#> .
@@ -102,6 +104,37 @@ Now let's take a look at SKOS as it can be represented in [RDF](../modules/RDF.m
 .
 
 ```
+The example above points to the main vocabulary's home at a mock website (so don't go there!) and all of the concepts prefaced with ":" refer to that site, a shortcut for writing out the full text. The other two prefixes represents similar shortcuts referring to terms in the SKOS and RDF ontologies.
+
+Notice that we have defined one concept scheme ("LEGOParts"), three top concepts ("LEGOBricks," "LEGOPlates," "LEGOMinifigs"), and multiple concepts. Also look for additional built-in SKOS properties that helps describe each concept in terms of library standards, including prefLabel, scopeNote, and historyNote.
+
+Finally, the concept LEGO_brick_4X4 features a different kind of relationship:
+
+``
+skos:exactMatch <http://melvinmasterlego.com/brick44> ; 
+``
+
+Let's assume that the developer of this LEGO taxonomy has discovered a _different_ LEGO taxonomy at another website. The **exactMatch** relationship allows the author to make connections between similar and, for all intents and purposes, exact matches with terms at other web locations.
+
+## The SKOS property list:
+
+Here, cribbed from [Wikipedia](https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System), is a compact representation of the entire list of properties available in SKOS:
+
+
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+| Concepts	| Labels & Notation	| Documentation	| Semantic Relations | Mapping Properties | Collections |
+| Concept	| prefLabel	| note | broader	| broadMatch	| Collection |
+| ConceptScheme	| altLabel	| changeNote	| narrower	| narrowMatch	| orderedCollection |
+| inScheme	| hiddenLabel	| definition	| related	| relatedMatch	| member |
+| hasTopConcept	| notation	| editorialNote	 | broaderTransitive	| closeMatch	| memberList |
+| topConceptOf	| example	| narrowerTransitive	| exactMatch |	
+| historyNote	| semanticRelation	| mappingRelation	
+| scopeNote			
 
 
 ## Related KGC Media
