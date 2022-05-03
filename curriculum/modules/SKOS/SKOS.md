@@ -120,13 +120,6 @@ Let's assume that the developer of this LEGO taxonomy has discovered a _differen
 
 Here, cribbed from [Wikipedia](https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System), is a compact representation of the entire list of properties available in SKOS:
 
-
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
 | Concepts	| Labels & Notation	| Documentation	| Semantic Relations | Mapping Properties | Collections |
 | --------- | ----------------- | ------------- | ------------------ | ------------------ | ----------- |
 | Concept	| prefLabel	| note | broader	| broadMatch	| Collection |
@@ -137,13 +130,21 @@ Here, cribbed from [Wikipedia](https://en.wikipedia.org/wiki/Simple_Knowledge_Or
 ||| historyNote	| semanticRelation	| mappingRelation	
 ||| scopeNote			
 
+## Summary
+
+As you can see, SKOS offers an easily understandable and comprehensive introduction to RDF taxonomies and ontologies. It's particularly well suited to library applications, providing ample options for describing the nature, history, scope, and relationship between terms in a vocabulary. Beginners are advised to start with the SKOS Simple Knowledge Organization System Primer at the reference link below.
 
 ## Related KGC Media
 * Workshop Example
 * Tutorial Example
 
 ## References
-[1] Reference example.
+[1] [SKOS homepage at the W3C](https://www.w3.org/2004/02/skos/)
+
+[2] [SKOS primer](https://www.w3.org/TR/2009/NOTE-skos-primer-20090818/)
+
+[3] [SKOS on Wikipedia](https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System)
 
 ## Contributors
 * Cogan Shimizu
+* Glenn Clatworthy
