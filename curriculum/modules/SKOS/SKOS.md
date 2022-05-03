@@ -37,7 +37,8 @@ As you can infer from the above examples, taxonomies tend to be designed hierarc
 
 Now let's take a look at SKOS as it can be represented in [RDF](../modules/RDF.md). The following example was produced using the Turtle serialization, which is one of the most compact, straightforward, and popular formats for writing RDF:
 
-```@prefix : <http://mylegosite.com/LEGOCat#> .
+```
+@prefix : <http://mylegosite.com/LEGOCat#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
