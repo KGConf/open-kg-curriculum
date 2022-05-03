@@ -13,12 +13,23 @@ The SKOS model is centered around a **concept**. Think about something that you 
 
 ![LegoBrick1](images/legobrick4401.JPG)
 
-Our first concept, LEGO_brick_4X4, represents a single type of brick, square and with four studs. But that brick doesn't exist in a vacuum. The example above is a more specific example of *all* LEGO bricks, of which there can be millions of variations. In our example, the generic 4X4 brick relates downward to more specific, _narrower_ versions of the same brick but in different colors. It also relates upward to more general kinds of overarching brick that represents variations such as 1X2, 4X8, etc.:
+Our first concept, which we'll name LEGO_brick_4X4, represents a single type of brick, square and with four studs. But that brick doesn't exist in a vacuum. There can be millions of variations of LEGO parts; the example above is both more specific than some LEGO categories and more general than others:
 
-![LegoBrick1](images/legobrick4402.JPG)
+![LegoBrick2](images/legobrick4402.JPG)
 
-Notice also that the blue and red variations of the are identified as _related to_ each other. They have some things in common without being in a direct line of succession from our original brick.
+In our example, the generic 4X4 brick relates downward to more specific, _narrower_ versions of the original brick concept but in specific  colors. It also relates upward to a more general brick concept that represents all of the possible variations such as 1X2, 4X8, etc.:
 
+Notice also that the blue and red variations of the are identified as _related to_ each other. They have some things in common without being in a the same line of succession from our original brick.
+
+So here we have cited the three primary relations between the concepts that you might want to define using SKOS: **broader**, **narrower**, and **related**. But there are additional relations:
+
+![LegoBrick3](images/legobrick4404.JPG)
+
+Our high-level generic concept of a LEGO brick lives with other high-level umbrella concepts for things like plates and minifigures. These category concepts are known as **Top Concepts**.
+
+Finally, at the highest level, we define the **Concept Scheme**. The concept scheme defines the overall theme of the vocabulary:
+
+![LegoBrick3](images/legobrick4405.JPG)
 
     
 SKOS vocabularies tend to be designed hierarchically. All terms in the vocabulary fit into an overarching **concept scheme** defining its overall theme (e.g.,  "Agriculture" or "Film industry"). At the highest level of the model sit major categories known as **top concepts**. For example, a film industry vocabulary might include top concepts such as:
