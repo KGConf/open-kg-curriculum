@@ -10,8 +10,8 @@ The [**Simple Knowledge Organization System**](https://www.w3.org/2004/02/skos/)
 
 The SKOS model is centered around a **concept**. Think about something that you might want to define and document in your own vocabulary, for example, "Sourdough bread," "Hybrid automobile," "European Union," or, in this case a LEGO brick:
 
-   ![]()  4X4 brick
-     
+![LegoBrick1](../images/legobrick4401.JPG)
+
 A LEGO brick, square and with four studs, doesn't exist in a vacuum. The example above is a more specific example of *all* LEGO bricks, of which there can be 1X1, 2X2, 2X4, and dozens of other options. So we could say:
 
     LEGO brick
