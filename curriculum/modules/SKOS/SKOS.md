@@ -133,9 +133,9 @@ Here, cribbed from [Wikipedia](https://en.wikipedia.org/wiki/Simple_Knowledge_Or
 | ConceptScheme	| altLabel	| changeNote	| narrower	| narrowMatch	| orderedCollection |
 | inScheme	| hiddenLabel	| definition	| related	| relatedMatch	| member |
 | hasTopConcept	| notation	| editorialNote	 | broaderTransitive	| closeMatch	| memberList |
-| topConceptOf	| example	| narrowerTransitive	| exactMatch |	
-| historyNote	| semanticRelation	| mappingRelation	
-| scopeNote			
+| topConceptOf	| | example	| narrowerTransitive	| exactMatch |	
+||| historyNote	| semanticRelation	| mappingRelation	
+||| scopeNote			
 
 
 ## Related KGC Media
