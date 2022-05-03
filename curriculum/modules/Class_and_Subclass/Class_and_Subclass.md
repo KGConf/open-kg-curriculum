@@ -16,15 +16,15 @@ The word “class” can be used in different ways: it could be a course of inst
 
 Webster's dictionary has an entry under “class” that is close to how it is used in semantics: “a group, set, or kind sharing common attributes” [1].  Another definition for class emphasizes the same thing: “A group, collection, category or set sharing characteristics or attributes” [2]. 
 
-Note that a members of a class, group, kind, category, or set share a common attribute or characteristic. A class member must have an attribute or some characteristics in common – a common denominator or trait – with other members. If they don't have something in common, they aren't the same kind of thing. In his book, *Demystifying OWL for the Enterprise*, Michael Uschold's says a class represents "kinds of things" [3]. 
+Note that members of a class, group, kind, category, or set share a common attribute or characteristic. A class member must have an attribute or some characteristics in common – a common denominator or trait – with other members. If they don't have something in common, they aren't the same kind of thing. In his book, *Demystifying OWL for the Enterprise*, Michael Uschold's says a class represents "kinds of things" [3]. 
 
 ### What is an attribute in natural language? 
 OxfordLanguages defines the word "attribute" as “a quality or feature regarded as a characteristic or inherent part of someone or something” [4]. Webster's dictionary defines "attribute" as: “a quality, character, or characteristic ascribed to someone or something.”
-Webster defines "characteristics" as: “a distinguishing trait, quality, or property.” To summarize, you can define an attribute as a quality, feature, characteristic, or trait ascribed to someone or something. 
+Webster defines "characteristics" as “a distinguishing trait, quality, or property.” To summarize, you can define an attribute as a quality, feature, characteristic, or trait ascribed to someone or something. 
 
 Are attributes arbitrary and subjective? Or, are they qualities inherent in the nature of people or objects? Are they something we discover rather than ascribe? There is a debate whether attributes are qualities in things or constructs of the mind, which runs into the deeper sea of philosophy, psychology, and logic. We’ll stay near the shore for now and admit it takes some thought to identify attributes in things.   
 
-This is a class about the semantic web. Semantics is a discipline of linguistics focused on meaning. In semantics, certain attributes are defined as “distinctive features”: an attribute or set of attributes unique to the class or individual. When defining words, you look for distinctive features. So identifying unique attributes or sets of attributes is important in defining classes, as well. 
+This is a class about the semantic web. Semantics is a discipline of linguistics focused on meaning. In semantics, certain attributes are defined as “distinctive features,” an attribute or set of attributes unique to the class or individual. When defining words, you look for distinctive features. So identifying unique attributes or sets of attributes is important in defining classes, as well. 
 
 ### What is a subclass?
 
@@ -36,7 +36,7 @@ We have seen that classes may contain subclasses: What else could they contain?
 
 ### What is an individual? 
 
-An individual can be a member of a class or subclass. The word "individual" happens to be a very popular word: Webster's says it's in the top 1% [6]. But what is it? Defining "individual", Webster's uses phrases like, "a particular being or thing," "an indivisible entity," or "a single organism. It is single, particular, and indivisible as distinguished from a group, class, or species. The important idea is the an individual is undivided, a single element, an instance. 
+An individual can be a member of a class or subclass. The word "individual" happens to be a very popular word: Webster's says it's in the top 1% [6]. But what is it? Defining "individual", Webster's uses phrases like, "a particular being or thing," "an indivisible entity," or "a single organism. It is single, particular, and indivisible as distinguished from a group, class, or species. The important idea is that an individual is undivided, a single element, an instance. 
 
 Michael Uschold adds the term "individual" to his natural language definitions of class and subclass:  
 * Class: There are "kinds of things" or "general kinds of things" 
