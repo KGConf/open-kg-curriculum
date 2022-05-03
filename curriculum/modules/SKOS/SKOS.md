@@ -1,8 +1,8 @@
 # SKOS
 ## Details
 * Category: [Standards]([Standards](../../categories/Standards.md), Resources](../categories/Resources.md)
-* Module Prerequisites: [RDF](../../modules/RDF.md)
-* Audience: [Student](../../audiences/Student.md),[Developer]((../../audiences/Developer.md))
+* Module Prerequisites: [RDF](../../modules/RDF/RDF.md)
+* Audience: [Student](../../audiences/Student.md), [Developer]((../../audiences/Developer.md))
 * Level: [Intermediate](../../levels/Intermediate.md)
 
 ## About SKOS
@@ -37,7 +37,7 @@ As you can infer from the above examples, taxonomies tend to be designed hierarc
 
 ## SKOS in Action
 
-Now let's take a look at SKOS as it can be represented in [RDF](../../modules/RDF.md). The following example was produced using the Turtle serialization, which is one of the most compact, straightforward, and popular formats for writing RDF:
+Now let's take a look at SKOS as it can be represented in [RDF](../../modules/RDF/RDF.md). The following example was produced using the Turtle serialization, which is one of the most compact, straightforward, and popular formats for writing RDF:
 
 ```
 @prefix : <http://mylegosite.com/LEGOCat#> .
