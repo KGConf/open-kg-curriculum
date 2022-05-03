@@ -1,8 +1,8 @@
 # SKOS
 ## Details
-* Category: [Standards]([Standards](../../categories/Standards.md), Resources](../categories/Resources.md)
+* Category: [Standards](../../categories/Standards.md), [Resources](../categories/Resources.md)
 * Module Prerequisites: [RDF](../../modules/RDF/RDF.md)
-* Audience: [Student](../../audiences/Student.md), [Developer]((../../audiences/Developer.md))
+* Audience: [Student](../../audiences/Student.md), [Developer](../../audiences/Developer.md))
 * Level: [Intermediate](../../levels/Intermediate.md)
 
 ## About SKOS
