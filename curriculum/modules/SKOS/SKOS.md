@@ -1,9 +1,9 @@
 # SKOS
 ## Details
-* Category: [Standards, Resources](../categories/Standards,_Resources.md)
-* Module Prerequisites: [RDF](../modules/RDF.md)
-* Audience: [Student, Developer](../audiences/Student,_Developer.md)
-* Level: [Intermediate](../levels/Intermediate.md)
+* Category: [Standards]([Standards](../../categories/Standards.md), Resources](../categories/Resources.md)
+* Module Prerequisites: [RDF](../../modules/RDF.md)
+* Audience: [Student](../../audiences/Student.md),[Developer]((../../audiences/Developer.md))
+* Level: [Intermediate](../../levels/Intermediate.md)
 
 ## About SKOS
 The [**Simple Knowledge Organization System**](https://www.w3.org/2004/02/skos/) (SKOS) is a linked data standard promoted by the [World Wide Web Consortium](https://www.w3.org) (W3C). SKOS is designed to represent taxonomies and other classification systems. It offers a straightforward model for defining concepts--such as you might see in a dictionary or book index--and relating them to each other. Because of its relative simplicity, SKOS is often recommended to new practitioners learning how to develop taxonomies and ontologies using linked data.
