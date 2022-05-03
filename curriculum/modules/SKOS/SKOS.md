@@ -6,7 +6,7 @@
 * Level: [Intermediate](../levels/Intermediate.md)
 
 ## About SKOS
-The [**Simple Knowledge Organization System**](https://www.w3.org/2004/02/skos/) (SKOS) is a linked data standard promoted by the [World Wide Web Consortium](https://www.w3.org) (W3C) SKOS is designed to represent taxonomies and other classification systems. It offers a straightforward model for defining concepts--such as you might see in a dictionary or book index--and relating them to each other. Because of its relative simplicity, SKOS is often recommended to new practitioners learning how to develop taxonomies and ontologies using linked data.
+The [**Simple Knowledge Organization System**](https://www.w3.org/2004/02/skos/) (SKOS) is a linked data standard promoted by the [World Wide Web Consortium](https://www.w3.org) (W3C). SKOS is designed to represent taxonomies and other classification systems. It offers a straightforward model for defining concepts--such as you might see in a dictionary or book index--and relating them to each other. Because of its relative simplicity, SKOS is often recommended to new practitioners learning how to develop taxonomies and ontologies using linked data.
 
 The SKOS model is centered around a **concept**. Think about something that you might want to define and document in your own vocabulary, for example, "Sourdough bread," "Hybrid automobile," "European Union," or, in this case, a LEGO brick:
 
@@ -17,7 +17,7 @@ Our first concept, which we'll call LEGO_brick_4X4, represents a single type of 
 
 ![LegoBrick2](images/legobrick4402.JPG)
 
-In our second example, our original, generic 4X4 brick relates downward to more specific, _narrower_ versions in specific colors. It also relates upward to an even more general brick concept representing all of the possible variations in brick type, including as 1X2, 4X8, etc. Notice also that the blue and red variations of the are identified as _related to_ each other. They have some things in common without being in the same line of succession from our original brick.
+In our second example, our original, generic 4X4 brick relates downward to more specific, _narrower_ versions in specific colors. It also relates upward to an even more general brick concept representing all of the possible variations in brick type, including as 1X2, 4X8, etc. Notice also that the blue and red variations are identified as _related to_ each other. They have some things in common without being in the same line of succession from our original brick.
 
 So a concept can relate to another concept in one of three primary ways:
 
