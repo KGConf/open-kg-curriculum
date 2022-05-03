@@ -44,9 +44,7 @@ Now let's take a look at SKOS as it can be represented in [RDF](../../modules/RD
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://melvinmasterlego.com/brick44>
-  skos:prefLabel "brick44" ;
-.
+
 :LEGOBricks
   rdf:type skos:Concept ;
   skos:definition "General-purpose interlocking square or rectangular bricks with studs on the top and holes on the bottom." ;
