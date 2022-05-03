@@ -128,6 +128,7 @@ Here, cribbed from [Wikipedia](https://en.wikipedia.org/wiki/Simple_Knowledge_Or
 | Content Cell  | Content Cell  |
 
 | Concepts	| Labels & Notation	| Documentation	| Semantic Relations | Mapping Properties | Collections |
+| --------- | ----------------- | ------------- | ------------------ | ------------------ | ----------- |
 | Concept	| prefLabel	| note | broader	| broadMatch	| Collection |
 | ConceptScheme	| altLabel	| changeNote	| narrower	| narrowMatch	| orderedCollection |
 | inScheme	| hiddenLabel	| definition	| related	| relatedMatch	| member |
