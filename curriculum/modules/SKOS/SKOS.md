@@ -8,15 +8,14 @@
 ## About SKOS
 The [**Simple Knowledge Organization System**](https://www.w3.org/2004/02/skos/) (SKOS) is a linked data standard promoted by the [World Wide Web Consortium](https://www.w3.org) (W3C) SKOS is designed to represent taxonomies and other classification systems. It offers a straightforward model for defining concepts--such as you might see in a dictionary or book index--and relating them to each other. Because of its relative simplicity, SKOS is often recommended to new practitioners learning how to develop taxonomies and ontologies using linked data.
 
-The SKOS model is centered around a **concept**. Think about something that you might want to define and document in your own vocabulary, for example, "Sourdough bread," "Hybrid automobile," "European Union," or, in this case a LEGO brick:
+The SKOS model is centered around a **concept**. Think about something that you might want to define and document in your own vocabulary, for example, "Sourdough bread," "Hybrid automobile," "European Union," or, in this case, a LEGO brick:
+
 
 ![LegoBrick1](images/legobrick4401.JPG)
 
-A LEGO brick, square and with four studs, doesn't exist in a vacuum. The example above is a more specific example of *all* LEGO bricks, of which there can be 1X1, 2X2, 2X4, and dozens of other options. So we could say:
+A LEGO brick, square and with four studs, doesn't exist in a vacuum. The example above is a more specific example of *all* LEGO bricks, of which there can be millions of variations. In our example, the generic 4X4 brick relates downward to more specific, _narrower_ brick types with different. colors. It also relates upward to more general kinds of bricks such as 1X2, 4X8, etc. Notice how these varieties are expressed in the next chart:
 
-    LEGO brick
-         has narrower
-    4X4 brick
+![LegoBrick1](images/legobrick4402.JPG)
 
 Of all the different types of LEGO bricks in the world, a 4X4 brick is a more specific, narrower example. You could take this example further:
 
