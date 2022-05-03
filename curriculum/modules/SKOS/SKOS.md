@@ -13,25 +13,13 @@ The SKOS model is centered around a **concept**. Think about something that you 
 
 ![LegoBrick1](images/legobrick4401.JPG)
 
-A LEGO brick, square and with four studs, doesn't exist in a vacuum. The example above is a more specific example of *all* LEGO bricks, of which there can be millions of variations. In our example, the generic 4X4 brick relates downward to more specific, _narrower_ brick types with different. colors. It also relates upward to more general kinds of bricks such as 1X2, 4X8, etc. Notice how these varieties are expressed in the next chart:
+Our first concept, LEGO_brick_4X4, represents a single type of brick, square and with four studs. But that brick doesn't exist in a vacuum. The example above is a more specific example of *all* LEGO bricks, of which there can be millions of variations. In our example, the generic 4X4 brick relates downward to more specific, _narrower_ versions of the same brick but in different colors. It also relates upward to more general kinds of overarching brick that represents variations such as 1X2, 4X8, etc.:
 
 ![LegoBrick1](images/legobrick4402.JPG)
 
-Of all the different types of LEGO bricks in the world, a 4X4 brick is a more specific, narrower example. You could take this example further:
+Notice also that the blue and red variations of the are identified as _related to_ each other. They have some things in common without being in a direct line of succession from our original brick.
 
-    LEGO brick
-         has narrower
-    4X4 brick
-         has narrower
-    4X4 blue brick
 
-Of course, LEGO bricks come in other colors than blue. 
-
-                             LEGO brick
-                           has narrower
-                             4X4 brick
-                         has narrower
-    4X4 blue brick   has related   4X4 red brick
     
 SKOS vocabularies tend to be designed hierarchically. All terms in the vocabulary fit into an overarching **concept scheme** defining its overall theme (e.g.,  "Agriculture" or "Film industry"). At the highest level of the model sit major categories known as **top concepts**. For example, a film industry vocabulary might include top concepts such as:
 
