@@ -29,7 +29,7 @@ But let's take it a step further. We've mentioned that at the top level of our m
 
 ![LegoBrick3](images/legobrick4404.JPG)
 
-Finally, at the highest level, we wrap up our enter model in something called a **Concept Scheme**. The concept scheme defines the overall theme of the vocabulary:
+Finally, at the highest level, we wrap our enter vocabulary model in something called a **Concept Scheme**. The concept scheme defines the overall theme of the vocabulary:
 
 ![LegoBrick3](images/legobrick4405.JPG)
 
