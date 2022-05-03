@@ -17,7 +17,7 @@ Our first concept, which we'll call LEGO_brick_4X4, represents a single type of 
 
 ![LegoBrick2](images/legobrick4402.JPG)
 
-In our second example, our original, generic 4X4 brick relates downward to more specific, _narrower_ versions in specific colors. It also relates upward to an even more general brick concept representing all of the possible variations in brick type, including as 1X2, 4X8, etc. Notice also that the blue and red variations are identified as _related to_ each other. They have some things in common without being in the same line of succession from our original brick.
+In our second example, our original, generic 4X4 brick relates downward to more specific, _narrower_ versions in different colors. It also relates upward to an even more general brick concept representing all of the possible variations in brick type, including as 1X2, 4X8, etc. Notice also that the blue and red variations are identified as _related to_ each other. They have some things in common without being in the same line of succession from our original brick.
 
 So a concept can relate to another concept in one of three primary ways:
 
