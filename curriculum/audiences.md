@@ -1,7 +1,7 @@
 # All Audiences
 * [Any](./audiences/Any.md)
 
-​		This audience type covers content that could be of interest to members of any or all of the groups listed below.
+  This audience type covers content that could be of interest to members of any or all of the groups listed below.
 
 * [Practitioner](../audiences/Practitioner.md)
 
