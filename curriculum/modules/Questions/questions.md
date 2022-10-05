@@ -1,40 +1,30 @@
-## New Preliminary Question List
+New Preliminary Question List
 
 - What is a “knowledge graph”?
 
   - Give me a straightforward high concept that doesn’t trip over itself.
     - How is it different from “linked data” or “the semantic web”?
-
 - What is a KG used for?
 
   - Why should I choose a KG over some other kind of technology?
     - If they’re so great, why haven’t they taken over the world?
-
 - Why is the subject so 🤬 complicated?
 
   - Why hasn’t anyone produced an educational starting point that isn’t mired in academic or technical jargon?
     - Why is there no single, at least *semi*-canonical source of education about the subject?
 
   - Why do people insist on muddying the subject with new variations, extensions to the basics (SHACL, entity extraction, machine learning)?
-
 - Education
-
 - [Add who, what, how designations for the learning paths]
+- What are the necessary prerequisites to learning about KG, and at what levels?
+  - Computer science?
+  - Math?
+  - Logic?
 
--  What are the necessary prerequisites to learning about KG, and at what levels?
-
-  - - Computer science?
-    - Math?
-    - Logic?
-
-  - What is the most basic starting point for learning KG?
-
-  - What is the absolute minimum I need to know about OWL?
-
-  - - What is the next-to-absolute minimum I need to know about OWL?
-
-  - How can I learn this subject, really learn it, by building understanding and memory through repetition?
-
+- What is the most basic starting point for learning KG?
+- What is the absolute minimum I need to know about OWL?\
+- What is the next-to-absolute minimum I need to know about OWL?
+- How can I learn this subject, really learn it, by building understanding and memory through repetition?
 - Implementation
 
   - Tell me how to design, build, and query a knowledge graph in a freshman learning session using readily available technology. Go.
