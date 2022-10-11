@@ -91,7 +91,7 @@ This section is for if you think that there is a gap in our curriculum. You can 
         3. Audience -- Who is the [intended audience](../curriculum/audiences.md) of this module?
         4. Level -- What [level of expertise](../curriculum/levels.md) is expected to be able to understand and apply the material in this module?
         5. Covered Concepts -- What top level concepts are covered in this module?
-    3. Content -- the article, tutorial, or content of the module.
+    3. Content -- the article, tutorial, or content of the module. For example, please see the [RDF](../curriculum/modules/rdf/RDF.md) article.
     4. Related KGC Media -- Are there existing workshops, tutorials, keynote talks, clubs, seminars, etc. that are related to this module? If so, link them here.
     5. References -- Include any references used in your Content section.
     6. Contributors -- Note who you are!
