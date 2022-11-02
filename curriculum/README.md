@@ -11,11 +11,11 @@ Here are some example learning paths:
 * "I am a project manager and I am exploring knowledge graph technologies, where do I start?"
 * "I am a beginner, and I want to know what a taxonomy is."
   
-## Modules by [Category](./categories.md)
+## Modules by [Category](./categories/README.md)
 
-## Modules by [Audience](./audiences.md)
+## Modules by [Audience](./audiences/README.md)
 
-## [Module Catalog](./curriculum.md)
+## [Module Catalog](./modules/README.md)
 
 ## Qualities of Modules
 The aim is for the KGC Open Curriculum to be: 
