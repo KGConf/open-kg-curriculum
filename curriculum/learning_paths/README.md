@@ -19,19 +19,21 @@ Learning Path:
 
 ## New Preliminary Question List
 
-What is a “knowledge graph”?
+* What is a “knowledge graph”?
 
-Give me a straightforward high concept that doesn’t trip over itself.
-How is it different from “linked data” or “the semantic web”?
-What is a KG used for?
+* Give me a straightforward high concept that doesn’t trip over itself.
 
-Why should I choose a KG over some other kind of technology?
-If they’re so great, why haven’t they taken over the world?
-Why is the subject so 🤬 complicated?
+* How is it different from “linked data” or “the semantic web”?
 
-Why hasn’t anyone produced an educational starting point that isn’t mired in academic or technical jargon?
+* What is a KG used for?
 
-Why is there no single, at least semi-canonical source of education about the subject?
+* Why should I choose a KG over some other kind of technology? If they’re so great, why haven’t they taken over the world?
+
+* Why is the subject so 🤬 complicated?
+
+* Why hasn’t anyone produced an educational starting point that isn’t mired in academic or technical jargon?
+
+* Why is there no single, at least semi-canonical source of education about the subject?
 Why do people insist on muddying the subject with new variations, extensions to the basics (SHACL, entity extraction, machine learning)?
 
 Education
