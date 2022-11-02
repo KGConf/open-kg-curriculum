@@ -1,13 +1,8 @@
-# Learning Paths
+# Learning Paths within the Open Curriculum
 
-## Open Curriculum
-
-#### Knowledge Graph
-- What is a “knowledge graph”?
-  - Can you give me a straightforward high-level concept that doesn’t trip over itself?
-  - How is a knowledge graph different from “linked data” or “the semantic web”?
 
 ##  The People Side of Knowledge Graphs
+### Steep Learning Curve and Scarce Training
 - Existing tools are not user-friendly: Why is the subject so 🤬 complicated?
 - Why hasn’t anyone produced an educational starting point that isn’t mired in academic or technical jargon?
 - Why is there no single, at least *semi*-canonical source of education about the subject?
@@ -16,15 +11,15 @@
 
 - [Add who, what, how designations for the learning paths]
 
-#### People Are At Different Learning Levels
+### Different Learning Levels
 - What are the necessary prerequisites to learning about KG, and at what levels?
   - Computer science?
   - Math?
   - Logic?
-
-### Design and Implementation
-- Tell me how to design, build, and query a knowledge graph in a freshman learning session using readily available technology. Go.
- - Tell me how to reach the next level (whatever that is) of education in a sophomore learning session. Go.
+### Knowledge Graph
+- What is a “knowledge graph”?
+  - Can you give me a straightforward high-level concept that doesn’t trip over itself?
+  - How is a knowledge graph different from “linked data” or “the semantic web”?
 
 ## The Business Side of Knowledge Graphs
 ### Use Cases in Industry
@@ -36,8 +31,13 @@
 * How do knowledge graphs play with current and emerging IT?
 * Why do people insist on muddying the subject with new variations, extensions to the basics (SHACL, entity extraction, machine learning)?
 
-## Resources for Knowledge Graphs, Taxonomies, and Ontologies 
-### Schema.org
+## The Process Side of Knowledge Graphs
+### Design and Implementation Methods
+- Tell me how to design, build, and query a knowledge graph in a freshman learning session using readily available technology. Go.
+ - Tell me how to reach the next level (whatever that is) of education in a sophomore learning session. Go.
+
+### Design and Implementation Resources 
+#### Schema.org
 * What is Schema.org?
 * How do I navigate Schema.org’s user interface?
 * How do I embed properties and classes from Schema.org into my own ontology?
@@ -65,7 +65,7 @@
 * What is the difference between an RDFS class and an OWL class?
 * At what point in an ontology design does a class turn into a resource? That is, how do you know that you're referring not to a group of things but to a specific thing?
 
-#### Taxonomy
+### Taxonomy
 Learning Objective: "I am a beginner, and I want to know what a taxonomy is." 
 Learning Path:
 
