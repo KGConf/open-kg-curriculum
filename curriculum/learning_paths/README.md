@@ -56,14 +56,24 @@
 * Many of the OWL-related references in particular seem to refer to logic. How much logic do I really need to know to design and use ontologies?
 
 ### Ontologies
-* I'm frightened by the apparent complexity of OWL (the Web Ontology Language). What problems or challenges does it solve?
-- What is the absolute minimum I need to know about OWL?
-- What is the next-to-absolute minimum I need to know about OWL?
+* What is OWL (the Web Ontology Language)?
+  * Predicate Logic, Description Logic, OWL
+  * RDFS, Entailment Regimes, OWL
+* What problems or challenges does OWL solve?
+  * What is a Knowledge Graph?, What is an Ontology?
+* What is the absolute minimum that I need to know about OWL?
+  * Entailment Regimes, Closed World vs. Open World Assumptions
+* What is the next-to-absolute minimum that I need to know about OWL?
+  * `See` "What is OWL (the Web Ontology Language)?"
 * Is there a single "right" combination of properties, classes, and resources to describe what you're modeling, or can there be many different ways of describing a collection?
+  * Survey of Ontology Engineering Methodologies
 
 #### Classes
 * What is the difference between an RDFS class and an OWL class?
+  * RDFS, OWL
+  * What is a class?
 * At what point in an ontology design does a class turn into a resource? That is, how do you know that you're referring not to a group of things but to a specific thing?
+  * Survey of Ontology Engineering Methodologies
 
 ### Taxonomy
 Learning Objective: "I am a beginner, and I want to know what a taxonomy is." 
