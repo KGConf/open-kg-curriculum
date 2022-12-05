@@ -13,7 +13,7 @@ Content text.
 * Tutorial Example
 
 ## References
-[1] Reference example.
+[1] Alan Morrison on the Semantic Web vs. Knowledge graphs: https://qr.ae/pr81kV
 
 ## Contributors
 * Cogan Shimizu
