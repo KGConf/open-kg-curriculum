@@ -1,0 +1,11 @@
+# All Categories
+* [Foundational Topics](./categories/Foundational.md)
+* [Methods](./categories/Methods.md)
+* [Standards](./categories/Standards.md)
+* [Markup Languages](./categories/Markup_Languages.md)
+* [Query Languages](./categories/Query_Language.md)
+* [Resources](./categories/Resources.md)
+* [Technologies](./categories/Technology.md)
+* [Surveys](./categories/Survey.md)
+* [Visualizations](./categories/Visualization.md)
+* [History/Context](./categories/History_Context.md)

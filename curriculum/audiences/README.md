@@ -17,7 +17,7 @@
 
 * [Practitioner](../audiences/Practitioner.md)
 
-  A Practioner is a beginner, someone who wants to gain a sufficient understanding of knowledge graphs to be able to design and implement basic ontologies as well as query data collections for individual, business, or educational purposes.
+  A Practioner is someone who wants to gain a sufficient understanding of knowledge graphs to be able to design and implement basic ontologies as well as query data collections for individual, business, or educational purposes.
 
 * [Student](../audiences/Student.md)
 

@@ -1,4 +1,22 @@
-New Preliminary Question List
+# Learning Paths
+
+Learning Objective: "I am a beginner, and I want to know what a taxonomy is." \
+Learning Path:
+
+* What is a Metadata?
+* RDF
+* RDFS
+* Turtle
+* SKOS
+* Taxonomy vs Ontology
+
+Learning Objective: "I am beginnering, and I want make a taxonomy." \
+Learning Path:
+* Taxonomy vs Ontology
+* Protege
+
+
+## New Preliminary Question List
 
 - What is a “knowledge graph”?
 
@@ -69,4 +87,3 @@ In progress and not in final order:
    * What is Schema.org?
    * How do I navigate Schema.org’s user interface?
    * How do I embed properties and classes from Schema.org into my own ontology?
-
