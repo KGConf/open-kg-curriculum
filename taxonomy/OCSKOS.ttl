@@ -467,6 +467,16 @@
   skos:exactMatch <https://www.wikidata.org/wiki/Q25104949> ;
   skos:prefLabel "GraphQL" ;
 .
+:HashURI
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://www.w3.org/wiki/HashURI>" ;
+  skos:broader :UniformResourceIdentifier ;
+  skos:closeMatch <https://en.wikipedia.org/wiki/URI_fragment> ;
+  skos:closeMatch <https://www.wikidata.org/wiki/Q1440450> ;
+  skos:definition "From W3C: A HashURI is a URI with a hash mark (\"#\") in it (technically, a URI with a fragment identifier), specifically one used to denote something which is not a traditional web page." ;
+  skos:editorialNote "Defined as \"fragment identifier\" in Wikidata and \"URI fragment\" in Wikipedia; added by gclatworthy; requires KGC URI" ;
+  skos:prefLabel "Hash URI" ;
+.
 :HealthCare
   rdf:type skos:Concept ;
   skos:broader :AppliedSemantics ;
@@ -483,6 +493,22 @@
   skos:editorialNote "Added by gclatworthy; requires KGC URI" ;
   skos:exactMatch <https://www.wikidata.org/wiki/Q8458> ;
   skos:prefLabel "Human rights" ;
+.
+:HypertextTransferProtocol
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" ;
+  skos:altLabel "HTTP" ;
+  skos:definition "From Wikipedia: The Hypertext Transfer Protocol (HTTP) is an application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems.[1] HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser." ;
+  skos:editorialNote "Added by gclatworthy; requires KGC URI" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q8777> ;
+  skos:prefLabel "Hypertext Transfer Protocol" ;
+.
+:Identifier
+  rdf:type skos:Concept ;
+  skos:broader :WorldWideWeb ;
+  skos:definition "From Wikidata: name that identifies either a unique object or a unique class of objects" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q853614> ;
+  skos:prefLabel "Identifier" ;
 .
 :InformationExtraction
   rdf:type skos:Concept ;
@@ -686,6 +712,16 @@
   skos:broader :Disciplines ;
   skos:editorialNote "Created by gclatworthy; add URI" ;
   skos:prefLabel "Linguistics" ;
+.
+:LinkedData
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://en.wikipedia.org/wiki/Linked_data>" ;
+  skos:broader :SemanticWeb ;
+  skos:definition "From Wikipedia: In computing, linked data (often capitalized as Linked Data) is structured data which is interlinked with other data so it becomes more useful through semantic queries. It builds upon standard Web technologies such as HTTP, RDF and URIs, but rather than using them to serve web pages only for human readers, it extends them to share information in a way that can be read automatically by computers. Part of the vision of linked data is for the Internet to become a global database." ;
+  skos:editorialNote "New from bookclub; requires KGC URI" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q515701> ;
+  skos:prefLabel "Linked data" ;
+  skos:related :LinkedDataFragments ;
 .
 :LinkedDataFragments
   rdf:type skos:Concept ;
@@ -914,6 +950,7 @@ A Linked Data Fragment (LDF) is characterized by a specific selector (subject UR
   skos:exactMatch <http://www.knowledgegraph.tech/iri/00330> ;
   skos:exactMatch <https://www.wikidata.org/wiki/Q188728> ;
   skos:prefLabel "Privacy" ;
+  skos:related :CaliforniaConsumerPrivacyAct ;
 .
 :ProfessionalServices
   rdf:type skos:Concept ;
@@ -1101,7 +1138,9 @@ A Linked Data Fragment (LDF) is characterized by a specific selector (subject UR
 .
 :ScholarlyCommunication
   rdf:type skos:Concept ;
+  skos:broader :Academia ;
   skos:definition "Wikidata: process of creation, transformation, dissemination and preservation of scholarly knowledge" ;
+  skos:editorialNote "Broader term is tentative; doesn't feel like a close fit." ;
   skos:exactMatch <http://www.knowledgegraph.tech/iri/00400> ;
   skos:exactMatch <https://www.wikidata.org/wiki/Q7432048> ;
   skos:prefLabel "Scholarly communication" ;
@@ -1122,9 +1161,10 @@ A Linked Data Fragment (LDF) is characterized by a specific selector (subject UR
 .
 :SemanticWeb
   rdf:type skos:Concept ;
-  skos:broader :Semantics ;
+  skos:broader :WorldWideWeb ;
   skos:exactMatch <http://www.knowledgegraph.tech/iri/00037> ;
   skos:prefLabel "Semantic web" ;
+  skos:related :Semantics ;
 .
 :Semantics
   rdf:type skos:Concept ;
@@ -1255,6 +1295,15 @@ A Linked Data Fragment (LDF) is characterized by a specific selector (subject UR
   skos:editorialNote "added by gclatworthy; needs URI" ;
   skos:prefLabel "Federal government of the United States" ;
 .
+:UniformResourceIdentifier
+  rdf:type skos:Concept ;
+  skos:altLabel "URI" ;
+  skos:broader :Identifier ;
+  skos:definition "From Wikipedia: A Uniform Resource Identifier (URI) is a unique sequence of characters that identifies a logical or physical resource used by web technologies. URIs may be used to identify anything, including real-world objects, such as people and places, concepts, or information resources such as web pages and books." ;
+  skos:editorialNote "Added by gclatworthy; requires KGC URI" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q61694> ;
+  skos:prefLabel "Uniform Resource Identifier" ;
+.
 :VirtualAssistant
   rdf:type skos:Concept ;
   dcterms:isReferencedBy "<https://en.wikipedia.org/wiki/Virtual_assistant>" ;
@@ -1268,6 +1317,14 @@ A Linked Data Fragment (LDF) is characterized by a specific selector (subject UR
   rdf:type skos:Concept ;
   skos:broader :StandardsRecommendations ;
   skos:prefLabel "W3C recommendations" ;
+.
+:WebHostingService
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://en.wikipedia.org/wiki/Web_hosting_service>" ;
+  skos:definition "From Wikipedia: A web hosting service is a type of Internet hosting service that hosts websites for clients, i.e. it offers the facilities required for them to create and maintain a site and makes it accessible on the World Wide Web. Companies providing web hosting services are sometimes called web hosts." ;
+  skos:editorialNote "Added from bookclub list; needs KGC URI" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q5892272> ;
+  skos:prefLabel "Web hosting service" ;
 .
 :WebQuery
   rdf:type skos:Concept ;
@@ -1286,6 +1343,17 @@ A Linked Data Fragment (LDF) is characterized by a specific selector (subject UR
   skos:exactMatch <http://www.knowledgegraph.tech/iri/00286> ;
   skos:exactMatch <https://www.wikidata.org/wiki/Q579439> ;
   skos:prefLabel "Web science" ;
+.
+:WebService
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://en.wikipedia.org/wiki/Web_service>" ;
+  skos:definition """From Wikipedia: A web service (WS) is either:
+
+a service offered by an electronic device to another electronic device, communicating with each other via the Internet, or
+a server running on a computer device, listening for requests at a particular port over a network, serving web documents (HTML, JSON, XML, images).""" ;
+  skos:editorialNote "Confirm that the definitions of the term relate to how it's applied to the KGC event (http://www.knowledgegraph.tech/iri/720), which mentions online services like Google and Flickr; term identified as \"_:node206\" and requires KGC URI" ;
+  skos:exactMatch <http://www.wikidata.org/entity/Q193424> ;
+  skos:prefLabel "Web service" ;
 .
 :Wikidata
   rdf:type skos:Concept ;
