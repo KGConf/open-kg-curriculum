@@ -1,4 +1,4 @@
-# What are Knowledge Graphs?
+# What is a Knowledge Graph?
 ## Details
 * Category: [Foundational](../categories/Foundational.md)
 * Module Prerequisites: [What is Metadata?](../modules/What_is_Metadata?.md)
