@@ -6,7 +6,13 @@
 * Level: [Beginner](../levels/Beginner.md)
 
 ## Content
-Content text.
+
+### What is Metadata as ir Relates to Computers and Data?
+
+### What is Metadata as it Relates to Knowledge Graphs?
+
+### Why is Metadata Important for Knowledge Graphs? How is it Used?
+
 
 ## Related KGC Media
 * Workshop Example
