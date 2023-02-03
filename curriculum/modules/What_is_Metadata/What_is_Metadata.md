@@ -7,7 +7,15 @@
 
 ## Content
 
-### What is Metadata as ir Relates to Computers and Data?
+### What is Metadata as it Relates to Computers and Data?
+
+Metadata is simply *data about data*. Just as data enables humans to organize, track, and take intelligent action on objects in the real world, metadata empowers knowledge workers to organize, track, and act intelligently on data itself.
+
+It is sometimes claimed that the first metadata was a library catalog system—specifically, if one is looking for firsts, the catalog of the ancient Library of Alexandria. Supposedly, metadata kept at Alexandria listed Genre, title, author, and length for each book [1]. In fact, books remained one of the most important domains of metadata even at the opening of the 21st century. Amazon’s early website…used many of the same pieces of information…cited as a contributing factor in its success [2].
+But we know now that the internet was by that time in the process of replacing books as humanity’s largest store of information. Enter the Semantic Web movement….tagging websites with information similar to book metadata…but was in fact much more sophisticated…
+
+The importance of metadata increases proportional to the amount of data you have to manage...[discuss briefly how growing amounts of data, and applications such as search/etc necessitate metadata use and organization].
+
 
 ### What is Metadata as it Relates to Knowledge Graphs?
 
@@ -19,7 +27,10 @@
 * Tutorial Example
 
 ## References
-[1] Reference example.
+[1] Pomerantz, Jeffrey. *Metadata*. The MIT Press, 2015. 
+
+[2] Dawson, Laura. "What We Talk About When We Talk About Metadata". Chapter from *A Futurist's Manifesto*. O'Reilly Media, 2012
 
 ## Contributors
 * Cogan Shimizu
+* Christopher Menart
