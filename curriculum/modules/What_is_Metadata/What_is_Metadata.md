@@ -19,6 +19,8 @@ The importance of metadata increases proportional to the amount of data you have
 
 ### What is Metadata as it Relates to Knowledge Graphs?
 
+Knowledge graphs are data structures that contain a collection of interlinked descriptions of concepts, entities, relationships, and events, and may be analyzed and queried like databases. The diverse data is connected and described by semantic metadata according to the knowledge model [3]. This metadata allows the developer of the knowledge graph to communicate the meaning of the data in the graph to the users.
+
 ### Why is Metadata Important for Knowledge Graphs? How is it Used?
 
 
@@ -31,6 +33,12 @@ The importance of metadata increases proportional to the amount of data you have
 
 [2] Dawson, Laura. "What We Talk About When We Talk About Metadata". Chapter from *A Futurist's Manifesto*. O'Reilly Media, 2012
 
+[3] "What is a Knowledge Graph". ontotext.com. https://www.ontotext.com/knowledgehub/fundamentals/what-is-a-knowledge-graph/ (accessed Feb. 5, 2023)
+
+## External Media References
+Canto. What is metadata? (and wy does it matter?). (Mar. 10, 2021). Accessed: Feb. 5, 2023. [Online Video]. Available: https://www.youtube.com/watch?v=fZWg0ClQkYQ
+
 ## Contributors
 * Cogan Shimizu
 * Christopher Menart
+* Alexander Moore
