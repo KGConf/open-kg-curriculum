@@ -51,3 +51,4 @@ Canto. What is metadata? (and wy does it matter?). (Mar. 10, 2021). Accessed: Fe
 * Cogan Shimizu
 * Christopher Menart
 * Alexander Moore
+* Jehan Fernando
