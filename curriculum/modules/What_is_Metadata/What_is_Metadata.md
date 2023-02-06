@@ -16,10 +16,17 @@ But we know now that the internet was by that time in the process of replacing b
 
 The importance of metadata increases proportional to the amount of data you have to manage...[discuss briefly how growing amounts of data, and applications such as search/etc necessitate metadata use and organization].
 
+Metadata broadly falls into three categories[4].
+
+* Descriptive metadata: metadata that provides information on data to facilitate discovery, source-verification, significance and identification such as tile, author, genre, date published etc.. 
+* Structural metadata: metadata that provides information on technical specifications, structure of data such as file format, page number, file sizeetc..
+* Administrative metadata: metadata used for organizatonal purposes. This can include unique identifiers, genre, keywords etc...
+
 
 ### What is Metadata as it Relates to Knowledge Graphs?
 
 Knowledge graphs are data structures that contain a collection of interlinked descriptions of concepts, entities, relationships, and events, and may be analyzed and queried like databases. The diverse data is connected and described by semantic metadata according to the knowledge model [3]. This metadata allows the developer of the knowledge graph to communicate the meaning of the data in the graph to the users.
+This includes the relevance of the graph, highlight inconsistencies among different instances and methods/links to reuse knowledge graphs in bigger or specialized graphs.
 
 ### Why is Metadata Important for Knowledge Graphs? How is it Used?
 
@@ -34,6 +41,8 @@ Knowledge graphs are data structures that contain a collection of interlinked de
 [2] Dawson, Laura. "What We Talk About When We Talk About Metadata". Chapter from *A Futurist's Manifesto*. O'Reilly Media, 2012
 
 [3] "What is a Knowledge Graph". ontotext.com. https://www.ontotext.com/knowledgehub/fundamentals/what-is-a-knowledge-graph/ (accessed Feb. 5, 2023)
+
+[4] "Metadata and Its Importance in a Data Driven World". villanovau.com. https://www.villanovau.com/resources/bi/metadata-importance-in-data-driven-world/ (accessed Feb. 5, 2023)
 
 ## External Media References
 Canto. What is metadata? (and wy does it matter?). (Mar. 10, 2021). Accessed: Feb. 5, 2023. [Online Video]. Available: https://www.youtube.com/watch?v=fZWg0ClQkYQ
