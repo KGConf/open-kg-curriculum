@@ -13,6 +13,16 @@ Metadata is simply *data about data*. Just as data enables humans to organize, t
 
 It is sometimes claimed that the first metadata was a library catalog system—specifically, if one is looking for firsts, the catalog of the ancient Library of Alexandria. Supposedly, metadata kept at Alexandria listed Genre, title, author, and length for each book [1]. In fact, books remained one of the most important domains of metadata even at the opening of the 21st century. Amazon’s website, even from its humble beginnings when it was only a digital bookstore, used many of the same pieces of information. It added the sorts of information tracked by the library of Alexandria to to more modern administrative metadata such as ISBN. Amazon's early adoption of this metadata has been cited as a contributing factor in its success. And not only did it succeed wildly as one of the world's first digital booksellers, its practices quickly spread to brick-and-mortar stores as well as libraries. Metadata enabled stores to efficiently organize their own inventory, and for consumers to efficiently discover titles they wanted to read. [2]
 
+
+<img src="alexandria_book.png" width="50%" align="left"/>  
+
+---
+
+_The Amazon store listing for a book about the Library of Alexandria contains a panel with the most important metadata: The book's length, language, publisher, publication data, physical size, and ISBN._ 
+
+---
+
+
 But we now know that the internet was, by that time, in the process of replacing books as humanity’s largest store of information. Enter the Semantic Web movement in the early 2000's. Espoused by digital luminaries such as Tim Berners-Lee, the Semantic Web was partly a vision for websites--already proliferating to a degree that made web search challenging--to be annotated with metadata not unlike those used by our booksellers. But it was also so much more. It is the Semantic Web which birthed the concept of the URI, or Universal Resource Indicator, a uniquely identifying string for _any_ resource, physical or digital. Imagine an ISBN, but for _anything you can imagine_. Complete adoption of these URIs would enable software to perform nearly any task, and locate any information, that human beings performed or located by surfing the web themselves. [1]
 
 Though many individual ideas from the Semantic Web have been realized, and influenced the internet's development since, the full vision of the Semantic Web is one in which essentially all information online is made machine-readable--in a single universal language--as well as human-readable. It is a sweeping vision, one which, it is largely acknolwedged, remains unrealized. [1]
@@ -31,6 +41,36 @@ This includes the relevance of the graph, highlight inconsistencies among differ
 
 ### Why is Metadata Important for Knowledge Graphs? How is it Used?
 
+
+<img src="alexandria_panel.png" width="40%" align="left"/>  
+
+---
+
+_A Google web search for "Library of Alexandria" brings up this panel of information sourced from Wikipedia's Wikidata. Many of the entries on this metadata, such as the library's country of origin, links to other entities in Wikidata with identifiers and metadata of their own._ 
+
+---
+
+[More stuff will have to go in this section]
+
+Good Knowledge Graphs aggregate and contextualize the type of metadata discussed in Section 1. 
+
+[Placeholder]
+
+[Placeholder]
+
+[Placeholder]
+
+[Placeholder]
+
+[Placeholder]
+
+[Placeholder]
+
+[Placeholder]
+
+[Placeholder]
+
+[Placeholder]
 
 ## Related KGC Media
 * Workshop Example
