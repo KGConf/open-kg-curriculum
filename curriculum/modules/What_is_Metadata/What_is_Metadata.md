@@ -39,6 +39,11 @@ Metadata broadly falls into three categories[4].
 Knowledge graphs are data structures that contain a collection of interlinked descriptions of concepts, entities, relationships, and events, and may be analyzed and queried like databases. The diverse data is connected and described by semantic metadata according to the knowledge model [3]. This metadata allows the developer of the knowledge graph to communicate the meaning of the data in the graph to the users.
 This includes the relevance of the graph, highlight inconsistencies among different instances and methods/links to reuse knowledge graphs in bigger or specialized graphs.
 
+
+[If below par used, must be merged with above]
+
+However, one man's metadata is another man's data. Knowledge graphs exist in no small part   ... the metadata of, say, published books, is merely the data of a knowledge. A knowledge graph's "Metadata" refers to even higher-level descriptions of that data in turn, which overlaps with what is often called a knowledge graph's "ontology". This includes categorizations of pieces of data and general rules about how data of certain types can exist. If data on a published book was contained in a knowledge graph, for example, metadata for that grpah might include the assertion that Book and Publisher are relevant categories of information, and that every Book has a Publisher.
+
 ### Why is Metadata Important for Knowledge Graphs? How is it Used?
 
 
