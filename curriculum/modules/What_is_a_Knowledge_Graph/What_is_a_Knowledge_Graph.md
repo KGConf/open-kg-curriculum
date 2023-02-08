@@ -41,15 +41,31 @@ Knowledge Graphs serve the purpose of representing a database with the functiona
 * Tutorial Example
 
 ##  External Media Reference
-* [SPOKE:  Scalable Precision Medicine Open Knowledge Engine.](https://spoke.ucsf.edu/)
-* [Inventory Management using KG](https://www.youtube.com/watch?v=WKC0i47szjU) (brownie points because its from KGC)
+* [SPOKE: Scalable Precision Medicine Open Knowledge Engine.](https://spoke.ucsf.edu/)
+* [Inventory Management using KG](https://www.youtube.com/watch?v=WKC0i47szjU)
+* [Introducing the Knowledge Graph](https://www.youtube.com/watch?v=mmQl6VGvX-c)
 * [Franz Inc's AllegroGraph](https://allegrograph.com/about-franz/)
+* [Introducing the Knowledge Graph](https://blog.google/products/search/introducing-knowledge-graph-things-not/)
+* [A Reintroduction to our Knowledge Graph and Knowledge Panels](https://blog.google/products/search/about-knowledge-graph-and-knowledge-panels/)
+* [Knowledge Graph entry for Knowledge Graph](https://kgkg.factnexus.com/@3782~6.html)
 
 
 ## References
-[1] Mayank, M. (2021, August 30). A guide to the knowledge graphs. Medium. Retrieved February 1, 2023, from https://towardsdatascience.com/a-guide-to-the-knowledge-graphs-bfb5c40272f1  
-[2] Ontotext. (n.d.). What is a Knowledge Graph? Ontotext. Retrieved February 1, 2023, from https://www.ontotext.com/knowledgehub/fundamentals/what-is-a-knowledge-graph/  
-[3] Pan, J., Simperl, E., Jiménez-Ruiz, E., & Horrocks, I. (n.d.). Knowledge graphs. The Alan Turing Institute. Retrieved February 1, 2023, from https://www.turing.ac.uk/research/interest-groups/knowledge-graphs  
+[1] Mayank, M. (2021, August 30). A guide to the knowledge graphs. Medium. Retrieved
+February 1, 2023, <br> from https://towardsdatascience.com/a-guide-to-the-knowledge-graphs-bfb5c40272f1 <br>
+
+[2] Ontotext. (n.d.). What is a Knowledge Graph? Ontotext. Retrieved February 1, 2023, <br> from
+https://www.ontotext.com/knowledgehub/fundamentals/what-is-a-knowledge-graph/ <br>
+
+[3] Pan, J., Simperl, E., Jiménez-Ruiz, E., & Horrocks, I. (n.d.). Knowledge graphs. The Alan
+Turing Institute. Retrieved February 1, 2023, <br> from
+https://www.turing.ac.uk/research/interest-groups/knowledge-graphs <br>
+
+[4] McCusker, J., McGuinness, D., Erickson, J., Chastain, K. (n.d.). What is a Knowledge Graph? Authorea. Retrieved February 8, 2023, <br> from https://www.authorea.com/users/6341/articles/107281-what-is-a-knowledge-graph/_show_article <br>
+
+[5] IBM. (n.d.). What is knowledge graph? IBM. Retrieved February 8, 2023, <br> from https://www.ibm.com/topics/knowledge-graph <br>
+
+[6] Stardog. (n.d.). How Knowledge Graphs Work. Stardog. Retrieved February 8, 2023, <br> fromhttps://www.stardog.com/knowledge-graph/
 
 ## Contributors
 * Brandon Dave
