@@ -58,6 +58,7 @@ _This diagram shows a portion of "The Enslaved Ontology", the ontology for the k
 
 However, one man's metadata is another man's data. The metadata of, say, a published book is merely the "data" of a knowledge graph. A knowledge graph's "metadata" typically refers to the even-higher-level descriptions of that data in turn, what is often called a knowledge graph's ontology or schema [5].
 A schema or ontology is a formal description of knowledge within a certain domain. This schema includes restrictions, rules and axioms governing how pieces of information in the knowledge graph exist in relation to one another. If data on a published book was contained in a knowledge graph, for example, metadata for that graph might include the assertion that Book and Publisher are relevant categories of information, and that every Book must have a Publisher.
+
 A schema is the formal description that is used when conducting inferencing and reasoning by automatic reasoners. These automatic reasoners highlight inconsistencies and showcases the context of the knowledge graph. A schema provides a sharable and resusable representation of a knowledge graph that also provides a format, standards for the addition of new knowledge to the knowledge graph. 
 
 ## Related KGC Media
