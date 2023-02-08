@@ -1,0 +1,1440 @@
+# baseURI: http://tutorial.topbraid.com/OCSKOS
+# imports: http://purl.org/dc/elements/1.1/
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix : <http://tutorial.topbraid.com/OCSKOS#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://tutorial.topbraid.com/OCSKOS>
+  rdf:type owl:Ontology ;
+  owl:imports dc: ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+  owl:versionInfo "Created with TopBraid Composer" ;
+.
+:Academia
+  rdf:type skos:Concept ;
+  skos:broader :Education ;
+  skos:closeMatch <http://www.knowledgegraph.tech/iri/00465> ;
+  skos:definition "From Wikidata: community of students and scholars engaged in higher education and research" ;
+  skos:editorialNote "Renamed from \"Academic\" in KGC; close match refers to KGC topic" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q1211427> ;
+  skos:prefLabel "Academia" ;
+.
+:Altmetrics
+  rdf:type skos:Concept ;
+  skos:broader :Education ;
+  skos:definition "From Wikidata: study of alternative metrics for analyzing and informing scholarship" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00288> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q14565201> ;
+  skos:prefLabel "Altmetrics" ;
+.
+:AntiMoneyLaundering
+  rdf:type skos:Concept ;
+  skos:broader :CrimePrevention ;
+  skos:editorialNote "URI but no description at Wikidata; may require alternate term" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00345> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q2007303> ;
+  skos:prefLabel "Anti-money laundering"@en ;
+  skos:related :Finance ;
+.
+:ApplicationSoftware
+  rdf:type skos:Concept ;
+  dcterms:references "<https://en.wikipedia.org/wiki/Application_software>" ;
+  skos:broader :InformationTechnology ;
+  skos:closeMatch <https://www.wikidata.org/wiki/Q166142> ;
+  skos:definition "From Wikipedia: An application program (software application, or application, or app for short) is a computer program designed to carry out a specific task other than one relating to the operation of the computer itself, typically to be used by end-users." ;
+  skos:prefLabel "Application software" ;
+  skos:related :SoftwareDevelopment ;
+.
+:AppliedSemantics
+  rdf:type skos:Concept ;
+  skos:editorialNote "Source: GAC" ;
+  skos:prefLabel "Applied semantics" ;
+  skos:topConceptOf :OCSKOS ;
+.
+:ArtificialIntelligence
+  rdf:type skos:Concept ;
+  skos:broader :ComputerScience ;
+  skos:definition "From Wikidata: field of computer science and engineering practices for intelligence demonstrated by machines and intelligent agents" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00053> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q11660> ;
+  skos:prefLabel "Artificial intelligence" ;
+.
+:AuthorityControl
+  rdf:type skos:Concept ;
+  skos:broader :ControlledVocabulary ;
+  skos:definition "From Wikidata: unique headings used for bibliographic information" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00366> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q36524> ;
+  skos:prefLabel "Authority control" ;
+.
+:BankingIndustry
+  rdf:type skos:Concept ;
+  skos:broader :FinancialServices ;
+  skos:changeNote "Changed from \"Bank\" in original KGC URI; \"Banking industry\" is associated with _:node109" ;
+  skos:closeMatch <http://www.knowledgegraph.tech/iri/00299> ;
+  skos:editorialNote "Source: KGC" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q22687> ;
+  skos:prefLabel "Banking industry" ;
+.
+:BinaryClassification
+  rdf:type skos:Concept ;
+  skos:broadMatch :MachineLearning ;
+  skos:definition "From Wikipedia: Statistical binary classification: statistical classification is a problem studied in machine learning. It is a type of supervised learning, a method of machine learning where the categories are predefined, and is used to categorize new probabilistic observations into said categories." ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00427> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q17005494> ;
+  skos:prefLabel "Binary classification" ;
+.
+:BusinessArchitecture
+  rdf:type skos:Concept ;
+  skos:broader :BusinessPractices ;
+  skos:definition "From Wikidata: business discipline bridging an enterprise strategy with business functionality, converting \"strategy to execution\"" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00254> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q3643219> ;
+  skos:prefLabel "Business architecture" ;
+.
+:BusinessIndustry
+  rdf:type skos:Concept ;
+  skos:broader :AppliedSemantics ;
+  skos:prefLabel "Business and organizations" ;
+.
+:BusinessPractices
+  rdf:type skos:Concept ;
+  skos:broader :BusinessIndustry ;
+  skos:definition "From Wikidata: \"contracting out of an internal business process to a third-party organization\"" ;
+  skos:editorialNote "Added by gclatworthy; create URI" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00276> ;
+  skos:narrower :IntelligenceAssessment ;
+  skos:narrower :Outsourcing ;
+  skos:narrower :RegulatoryCompliance ;
+  skos:prefLabel "Business practices" ;
+.
+:CaliforniaConsumerPrivacyAct
+  rdf:type skos:Concept ;
+  skos:broader :Government ;
+  skos:definition "From Wikidata: The California Consumer Privacy Act (CCPA) is a state statute intended to enhance privacy rights and consumer protection for residents of California, United States." ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00335> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q60754243> ;
+  skos:prefLabel "California Consumer Privacy Act" ;
+  skos:related :Law ;
+  skos:related :PersonalData ;
+.
+:ChangeManagement
+  rdf:type skos:Concept ;
+  skos:definition "From Wikidata: collective term for all approaches to prepare, support, and help individuals, teams, and organizations in making organizational change" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00314> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q116348> ;
+  skos:prefLabel "Change management" ;
+.
+:Class
+  rdf:type skos:Concept ;
+  skos:prefLabel "Class" ;
+.
+:CloudComputing
+  rdf:type skos:Concept ;
+  skos:broader :InternetIndustry ;
+  skos:definition "From Wikidata: form of Internet-based computing, whereby shared resources, software and information are provided to computers and other devices" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00150> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q483639> ;
+  skos:prefLabel "Cloud computing" ;
+.
+:CommunicationMedium
+  rdf:type skos:Concept ;
+  skos:prefLabel "Communication medium" ;
+.
+:ComputerScience
+  rdf:type skos:Concept ;
+  skos:broader :ComputerScienceIT ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00185> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q21198> ;
+  skos:prefLabel "Computer science" ;
+.
+:ComputerScienceIT
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://www.coursera.org/articles/computer-science-vs-information-technology>" ;
+  skos:broader :Disciplines ;
+  skos:definition "From Coursera:  Generally, computer science refers to designing and building computers and computer programs. Information technology, on the other hand, refers to maintaining and troubleshooting those computers and their networks, systems, and databases to ensure they run smoothly." ;
+  skos:narrower :ComputerScience ;
+  skos:narrower :InformationTechnology ;
+  skos:prefLabel "Computer science and IT" ;
+  skos:topConceptOf :OCSKOS ;
+.
+:Consulting
+  rdf:type skos:Concept ;
+  skos:broader :ProfessionalServices ;
+  skos:definition "From Wikidata: providing professional advice or sharing expertise" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00247> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q63769412> ;
+  skos:narrower :ManagementConsulting ;
+  skos:prefLabel "Consulting" ;
+.
+:ControlledVocabulary
+  rdf:type skos:Concept ;
+  skos:broader :LibraryScience ;
+  skos:definition "From Wikidata: standardized and organized sets of words and phrases for retrieval and disambiguation of information, distinguishing preferred terms from non-preferred terms" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00367> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q1469824> ;
+  skos:prefLabel "Controlled vocabulary" ;
+.
+:CrimePrevention
+  rdf:type skos:Concept ;
+  skos:broader :AppliedSemantics ;
+  skos:definition "From Wikidata: activities with the primary goal of preventing crime in the context of law enforcement and criminal justice" ;
+  skos:editorialNote "added by gclatworthy; requires KGC URI" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q855848> ;
+  skos:narrower :FraudPrevention ;
+  skos:prefLabel "Crime prevention" ;
+.
+:CustomerRelationManagement
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "https://en.wikipedia.org/wiki/Customer_relationship_management" ;
+  skos:definition "From Wikipedia: Customer relationship management (CRM) is a process in which a business or other organization administers its interactions with customers, typically using data analysis to study large amounts of information." ;
+  skos:editorialNote "Consider related category covering sales or related business practices" ;
+  skos:prefLabel "Customer relation management" ;
+.
+:CustomerRelationshipManagement
+  rdf:type skos:Concept ;
+  skos:broader :SalesMarketing ;
+  skos:definition "From Wikidata: utilization of data from a range of different communication channels to manage interactions with customers" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00439> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q485643> ;
+  skos:prefLabel "Customer relationship management" ;
+.
+:CyberSecurity
+  rdf:type skos:Concept ;
+  skos:broader :CrimePrevention ;
+  skos:closeMatch <https://www.wikidata.org/wiki/Q3510521> ;
+  skos:definition "From Wikipedia: Computer security, cybersecurity (cyber security), or information technology security (IT security) is the protection of computer systems and networks from attack by malicious actors that may result in unauthorized information disclosure, theft of, or damage to hardware, software, or data, as well as from the disruption or misdirection of the services they provide." ;
+  skos:editorialNote "No equivalent Wikidata match; close match with \"Computer security\"" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00469> ;
+  skos:exactMatch <https://en.wikipedia.org/wiki/Computer_security> ;
+  skos:prefLabel "Cyber security" ;
+.
+:DBPedia
+  rdf:type skos:Concept ;
+  skos:broader :RDFSources ;
+  skos:definition "From DBPedia: DBpedia is a crowd-sourced community effort to extract structured content from the information created in various Wikimedia projects. This structured information resembles an open knowledge graph (OKG) which is available for everyone on the Web. " ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00363> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q465> ;
+  skos:prefLabel "DBPedia" ;
+.
+:Data
+  rdf:type skos:Concept ;
+  skos:definition "From Wikidata: quantities, characters, or symbols on which operations are performed by a computer" ;
+  skos:editorialNote "Added by gclatworthy; not in KGC event data so needs URI" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q494756> ;
+  skos:prefLabel "Data" ;
+.
+:DataAnalytics
+  rdf:type skos:Concept ;
+  skos:prefLabel "Data and analytics" ;
+  skos:topConceptOf :OCSKOS ;
+.
+:DataCatalog
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://www.ibm.com/topics/data-catalog>" ;
+  skos:broader :DataGovernance ;
+  skos:definition "From IBM: A data catalog is a detailed inventory of all data assets in an organization, designed to help data professionals quickly find the most appropriate data for any analytical or business purpose." ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00341> ;
+  skos:exactMatch <https://www.ibm.com/topics/data-catalog> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q29937289> ;
+  skos:prefLabel "Data catalog" ;
+.
+:DataEconomy
+  rdf:type skos:Concept ;
+  skos:broader :BusinessIndustry ;
+  skos:definition "From Wikipedia: A data economy is a global digital ecosystem in which data is gathered, organized, and exchanged by a network of vendors for the purpose of deriving value from the accumulated information." ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00410> ;
+  skos:exactMatch <https://en.wikipedia.org/wiki/Data_economy> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q59385693> ;
+  skos:hasTopConcept :AppliedSemantics ;
+  skos:prefLabel "Data economy" ;
+.
+:DataGovernance
+  rdf:type skos:Concept ;
+  skos:broader <http://tutorial.topbraid.com/DataManagement> ;
+  skos:definition """From Wikidata: capability that enables an organization to ensure high data quality
+data goverment""" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q872685> ;
+  skos:exactMatch <ttp://www.knowledgegraph.tech/iri/00479> ;
+  skos:prefLabel "Data governance" ;
+.
+:DataManagement
+  rdf:type skos:Concept ;
+  dcterms:isPartOf "<https://en.wikipedia.org/wiki/Data_management>" ;
+  skos:broader :ComputerScience ;
+  skos:definition "From Wikipedia: Data management comprises all disciplines related to handling data as a valuable resource." ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00041> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q1149776> ;
+  skos:prefLabel "Data management" ;
+.
+:DataProtection
+  rdf:type skos:Concept ;
+  skos:hasTopConcept :DataAnalytics ;
+  skos:prefLabel "Data protection" ;
+.
+:Database
+  rdf:type skos:Concept ;
+  skos:definition "From Wikidata: organized collection of data in computing" ;
+  skos:editorialNote "Added by gclatworthy; requires KGC URI" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q8513> ;
+  skos:prefLabel "Database" ;
+.
+:DecisionSupportSystem
+  rdf:type skos:Concept ;
+  skos:broader :ApplicationSoftware ;
+  skos:definition "From Wikipedia A decision support system (DSS) is an information system that supports business or organizational decision-making activities. " ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00372> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q330268> ;
+  skos:prefLabel "Decision support system" ;
+.
+:DeepLearning
+  rdf:type skos:Concept ;
+  skos:broader :MachineLearning ;
+  skos:definition "From Wikipedia: Deep learning (also known as deep structured learning) is part of a broader family of machine learning methods based on artificial neural networks with representation learning. Learning can be supervised, semi-supervised or unsupervised.[2]" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00390> ;
+  skos:exactMatch <https://en.wikipedia.org/wiki/Deep_learning> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q197536> ;
+  skos:prefLabel "Deep learning" ;
+.
+:DeepLinking
+  rdf:type skos:Concept ;
+  dcterms:references "<https://en.wikipedia.org/wiki/Deep_linking>" ;
+  skos:definition "From Wikipedia: In the context of the World Wide Web, deep linking is the use of a hyperlink that links to a specific, generally searchable or indexed, piece of web content on a website (e.g. \"http://example.com/path/page\"), rather than the website's home page (e.g., \"http://example.com\"). The URL contains all the information needed to point to a particular item." ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00425> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q258394> ;
+  skos:prefLabel "Deep linking" ;
+.
+:Derivative
+  rdf:type skos:Concept ;
+  skos:broader :Finance ;
+  skos:definition "From Wikidata: financial instrument whose value is based on one or more underlying assets" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00449> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q66295> ;
+  skos:prefLabel "Derivative" ;
+.
+:Disciplines
+  rdf:type skos:Concept ;
+  skos:prefLabel "Disciplines" ;
+  skos:scopeNote "Create URI for this." ;
+  skos:topConceptOf :OCSKOS ;
+.
+:DrugDiscovery
+  rdf:type skos:Concept ;
+  skos:broader :HealthCare ;
+  skos:definition "From Wikidata: the process by which new candidate medications are discovered" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00481> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q1418791> ;
+  skos:prefLabel "Drug discovery" ;
+.
+:ECommerce
+  rdf:type skos:Concept ;
+  skos:broader :SalesMarketing ;
+  skos:definition "From Wikidata: type of business industry usually conducted over the Internet" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00424> ;
+  skos:exactMatch <http://www.wikidata.org/entity/Q484847> ;
+  skos:prefLabel "E-commerce" ;
+.
+:Economics
+  rdf:type skos:Concept ;
+  skos:broader :Disciplines ;
+  skos:definition "From Wikidata: social science that analyzes the production, distribution, and consumption of goods and services" ;
+  skos:editorialNote "Added by gclatworthy: create URI" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q8134> ;
+  skos:prefLabel "Economics" ;
+  skos:related :Finance ;
+.
+:Education
+  rdf:type skos:Concept ;
+  skos:broader :Disciplines ;
+  skos:prefLabel "Education" ;
+.
+:Elasticsearch
+  rdf:type skos:Concept ;
+  dcterms:references "https://en.wikipedia.org/wiki/Elasticsearch" ;
+  skos:broader :WebQuery ;
+  skos:definition "From Wikipedia: Elasticsearch is a search engine based on the Lucene library. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents." ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00435> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q3050461> ;
+  skos:prefLabel "Elasticsearch" ;
+  skos:related :WorldWideWeb ;
+.
+:EnergyIndustry
+  rdf:type skos:Concept ;
+  skos:broader :BusinessIndustry ;
+  skos:definition "Wikidata: industries involved in producing, selling, and distributing energy (in all forms, e.g. petroleum, natural gas, coal, peat, firewood, nuclear energy, solar energy, hydroelectic energy, wind energy, geothermal energy)" ;
+  skos:editorialNote "Added by gclatworthy; requires URI" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q2151621> ;
+  skos:prefLabel "Energy industry" ;
+.
+:Engineering
+  rdf:type skos:Concept ;
+  skos:broader :Disciplines ;
+  skos:editorialNote "Wikidata cites Engineering only as \"appllied science,\" so the term may be too general" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00413> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q11023> ;
+  skos:prefLabel "Engineering" ;
+.
+:EnterpriseKnowledgeGraph
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://agnos.ai/ekg>" ;
+  dcterms:isReferencedBy "<https://doi.org/10.1007/978-3-319-45654-6_1>" ;
+  skos:broader :KnowledgeGraph ;
+  skos:closeMatch <http://www.knowledgegraph.tech/iri/00377> ;
+  skos:closeMatch <https://www.wikidata.org/wiki/Q33002955> ;
+  skos:definition "As defined at Agnos.ai: An enterprise knowledge graph (EKG) connects together all the data relevant to an organization into an artificial data brain that can augment decision-making." ;
+  skos:editorialNote "Changed from KGC \"EKG\"; confirm KGC event link" ;
+  skos:prefLabel "Enterprise knowledge graph" ;
+.
+:EntityLinking
+  rdf:type skos:Concept ;
+  skos:broader :NaturalLanguageProcessing ;
+  skos:definition "From Wikipedia: In natural language processing, entity linking, also referred to as named-entity linking (NEL),[1] named-entity disambiguation (NED), named-entity recognition and disambiguation (NERD) or named-entity normalization (NEN)[2] is the task of assigning a unique identity to entities (such as famous individuals, locations, or companies) mentioned in text." ;
+  skos:editorialNote "Represented by multiple URIs; reconcile" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00407> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q17012245> ;
+  skos:prefLabel "Entity linking" ;
+.
+:EuropeanGeneralDataProtectionRegulation
+  rdf:type skos:Concept ;
+  skos:altLabel "GDPR" ;
+  skos:broaderTransitive :DataProtection ;
+  skos:definition "From Wikidata: European Union regulation on the processing of personal data" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00331> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q1172506> ;
+  skos:prefLabel "European General Data Protection Regulation" ;
+.
+:FAIRData
+  rdf:type skos:Concept ;
+  dcterms:references "<https://www.go-fair.org/fair-principles/>" ;
+  skos:broader :Standards ;
+  skos:definition "From Wikidata: data compliant with the terms of the FAIR Data Principles" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00420> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q29032648> ;
+  skos:prefLabel "FAIR data" ;
+.
+:FIBO
+  rdf:type skos:Concept ;
+  dcterms:references "<https://edmcouncil.org/page/aboutfiboreview>" ;
+  skos:altLabel "FIBO" ;
+  skos:broader :PublicOntologies ;
+  skos:definition "From EDM Council: The Financial Industry Business Ontology (FIBO) is a business conceptual model developed by our members of how all financial instruments, business entities and processes work in the financial industry." ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00448> ;
+  skos:prefLabel "Financial Industry Business Ontology Stock Index" ;
+.
+:FactChecking
+  rdf:type skos:Concept ;
+  skos:definition "From Wikidata: process of verifying information in non-fictional text in order to determine its veracity and factual correctness" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00380> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q59555084> ;
+  skos:prefLabel "Fact checking" ;
+.
+:FakeNews
+  rdf:type skos:Concept ;
+  skos:broader :News ;
+  skos:definition "From Wikidata: false or misleading information presented as news" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00381> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q28549308> ;
+  skos:prefLabel "Fake news" ;
+.
+:Finance
+  rdf:type skos:Concept ;
+  skos:broader :Disciplines ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00329> ;
+  skos:prefLabel "Finance" ;
+  skos:related :Economics ;
+.
+:FinancialServices
+  rdf:type skos:Concept ;
+  skos:broadMatch :Finance ;
+  skos:broadMatch :ProfessionalServices ;
+  skos:definition "From Wikidata: economic service provided by the finance industry" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00009> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q837171> ;
+  skos:narrower :BankingIndustry ;
+  skos:prefLabel "Financial services" ;
+.
+:FraudPrevention
+  rdf:type skos:Concept ;
+  skos:broader :CrimePrevention ;
+  skos:editorialNote "No description on file at Wikidata; may require alternate concept" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00458> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q1451528> ;
+  skos:prefLabel "Fraud prevention" ;
+  skos:related :Finance ;
+.
+:GlobalLegalEntityIdentifierFoundation
+  rdf:type skos:Concept ;
+  dcterms:references "https://www.gleif.org/en" ;
+  skos:altLabel "GLIEF" ;
+  skos:broader :Standards ;
+  skos:closeMatch <https://www.wikidata.org/wiki/Q6517388> ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00450> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q90175664> ;
+  skos:prefLabel "Global Legal Entity Identifier Foundation" ;
+  skos:related :Finance ;
+.
+:Government
+  rdf:type skos:Concept ;
+  skos:broader :AppliedSemantics ;
+  skos:definition "From Wikidata: system or group of people governing an organized community, often a state gov" ;
+  skos:editorialNote "Multiple KGC URIs need to be reconciled" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00397> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q7188> ;
+  skos:prefLabel "Government" ;
+.
+:GraphDatabase
+  rdf:type skos:Concept ;
+  skos:broader :Database ;
+  skos:definition "From Wikidata: database which utilizes structure of discrete mathematical graphs to store and search data" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00074> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q595971> ;
+  skos:prefLabel "Graph database" ;
+  skos:related :KnowledgeGraph ;
+.
+:GraphQL
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "https://en.wikipedia.org/wiki/GraphQL" ;
+  dcterms:references "https://graphql.org" ;
+  skos:broader :QueryLanguage ;
+  skos:definition "From Wikipedia: GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data.[2] GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015.[3]" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00431> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q25104949> ;
+  skos:prefLabel "GraphQL" ;
+.
+:HashURI
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://www.w3.org/wiki/HashURI>" ;
+  skos:broader :UniformResourceIdentifier ;
+  skos:closeMatch <https://en.wikipedia.org/wiki/URI_fragment> ;
+  skos:closeMatch <https://www.wikidata.org/wiki/Q1440450> ;
+  skos:definition "From W3C: A HashURI is a URI with a hash mark (\"#\") in it (technically, a URI with a fragment identifier), specifically one used to denote something which is not a traditional web page." ;
+  skos:editorialNote "Defined as \"fragment identifier\" in Wikidata and \"URI fragment\" in Wikipedia; added by gclatworthy; requires KGC URI" ;
+  skos:prefLabel "Hash URI" ;
+.
+:HealthCare
+  rdf:type skos:Concept ;
+  skos:broader :AppliedSemantics ;
+  skos:definition "Wikidata: prevention of disease and promotion of wellbeing" ;
+  skos:editorialNote "added by gclatworthy; create KGC URI" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q31207> ;
+  skos:prefLabel "Health care" ;
+  skos:related :Medicine ;
+  skos:related :PharmaceuticalIndustry ;
+.
+:HumanRights
+  rdf:type skos:Concept ;
+  skos:definition "From Wikidata: inalienable fundamental rights to which a person is inherently entitled" ;
+  skos:editorialNote "Added by gclatworthy; requires KGC URI" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q8458> ;
+  skos:prefLabel "Human rights" ;
+.
+:HypertextTransferProtocol
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" ;
+  skos:altLabel "HTTP" ;
+  skos:definition "From Wikipedia: The Hypertext Transfer Protocol (HTTP) is an application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems.[1] HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser." ;
+  skos:editorialNote "Added by gclatworthy; requires KGC URI" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q8777> ;
+  skos:prefLabel "Hypertext Transfer Protocol" ;
+.
+:Identifier
+  rdf:type skos:Concept ;
+  skos:broader :WorldWideWeb ;
+  skos:definition "From Wikidata: name that identifies either a unique object or a unique class of objects" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q853614> ;
+  skos:prefLabel "Identifier" ;
+.
+:Industry
+  rdf:type skos:Concept ;
+  skos:definition "From Wikidata: group of firms that produce a closely related set of raw materials, goods, or services" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q268592> ;
+  skos:prefLabel "Industry" ;
+.
+:InformationExtraction
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://en.wikipedia.org/wiki/Information_extraction>" ;
+  skos:broader :ComputerScience ;
+  skos:definition "From Wikipedia: nformation extraction (IE) is the task of automatically extracting structured information from unstructured and/or semi-structured machine-readable documents and other electronically represented sources. In most of the cases this activity concerns processing human language texts by means of natural language processing (NLP)." ;
+  skos:editorialNote "Represented by multiple KGC URIs; reconcile" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00353> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q1662562> ;
+  skos:prefLabel "Information extraction" ;
+.
+:InformationPrivacy
+  rdf:type skos:Concept ;
+  skos:broader :Privacy ;
+  skos:definition "From Wikidata: topic regarding the appropriate collection, use and dissemination of personal data in products and services, as well as their protection and related legal and political issues" ;
+  skos:editorialNote "Reconcile duplicate KGI URIs" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00332> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q456632> ;
+  skos:prefLabel "Information privacy" ;
+.
+:InformationTechnology
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://en.wikipedia.org/wiki/Information_technology>" ;
+  skos:broader :AppliedSemantics ;
+  skos:definition "From Wikipedia: Information technology (IT) is the use of computers to create, process, store, retrieve and exchange all kinds of data[1] and information." ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00279> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q11661> ;
+  skos:prefLabel "Information technology" ;
+.
+:InformationTechnologyConsulting
+  rdf:type skos:Concept ;
+  skos:broader :Consulting ;
+  skos:broader :InformationTechnologyIndustry ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00260> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q1540863> ;
+  skos:prefLabel "Information technology consulting" ;
+  skos:relatedMatch :SoftwareIndustry ;
+.
+:InformationTechnologyIndustry
+  rdf:type skos:Concept ;
+  skos:broader :BusinessIndustry ;
+  skos:closeMatch <https://en.wikipedia.org/wiki/Information_technology> ;
+  skos:editorialNote "Added by gclatworthy; needs KGC URI and RELATIONS" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q110702998> ;
+  skos:prefLabel "Information technology industry" ;
+.
+:IntelligenceAssessment
+  rdf:type skos:Concept ;
+  skos:broader :BusinessPractices ;
+  skos:definition "From Wikipedia: Intelligence assessment, or simply intel, is the development of behavior forecasts or recommended courses of action to the leadership of an organisation, based on wide ranges of available overt and covert information (intelligence). Assessments develop in response to leadership declaration requirements to inform decision-making. Assessment may be executed on behalf of a state, military or commercial organisation with ranges of information sources available to each." ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00415> ;
+  skos:exactMatch <https://en.wikipedia.org/wiki/Intelligence_assessment> ;
+  skos:prefLabel "Intelligence assessment" ;
+  skos:related :Government ;
+.
+:InternationalStandardIndustrialClassification
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "https://en.wikipedia.org/wiki/International_Standard_Industrial_Classification" ;
+  skos:broader :Standards ;
+  skos:definition "From Wikipedia: The International Standard Industrial Classification of All Economic Activities (ISIC) is a United Nations industry classification system. Wide use has been made of ISIC in classifying data according to kind of economic activity in the fields of employment and health data." ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00301> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q1666934> ;
+  skos:prefLabel "International standard industrial classification" ;
+.
+:Internet
+  rdf:type skos:Concept ;
+  skos:broader :Principles ;
+  skos:definition "From Wikidata: global system of connected computer networks based on IP addressing and routing protocols" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00184> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q75> ;
+  skos:prefLabel "Internet" ;
+.
+:InternetDecentralization
+  rdf:type skos:Concept ;
+  skos:broader :Internet ;
+  skos:closeMatch <http://www.knowledgegraph.tech/iri/00184> ;
+  skos:closeMatch <https://www.wikidata.org/wiki/Q10911465> ;
+  skos:editorialNote "Renamed from \"decentralization on the internet\"; see KGC and Wikidata links to original title" ;
+  skos:prefLabel "Internet decentralization" ;
+.
+:InternetIndustry
+  rdf:type skos:Concept ;
+  skos:broader :InformationTechnologyIndustry ;
+  skos:editorialNote "Blank node in data; add KGC URI" ;
+  skos:exactMatch <http://www.wikidata.org/entity/Q56611700> ;
+  skos:prefLabel "Internet industry" ;
+.
+:InternetMarketing
+  rdf:type skos:Concept ;
+  skos:broader :SalesMarketing ;
+  skos:editorialNote "Refers to node identifier so no KGC URI at this time" ;
+  skos:exactMatch <http://www.wikidata.org/entity/Q189507> ;
+  skos:prefLabel "Internet marketing" ;
+.
+:IssueTrackingSystem
+  rdf:type skos:Concept ;
+  skos:broader :ApplicationSoftware ;
+  skos:definition "From Wikidata: computer software package that manages and maintains lists of issues" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00463> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q1480561> ;
+  skos:prefLabel "Issue tracking system" ;
+.
+:JSON-LD
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/RDF_Serializations/RDF_Serializations.md>" ;
+  skos:broader :RDFSerialization ;
+  skos:prefLabel "JSON-LD" ;
+  skos:relatedMatch :N3 ;
+  skos:relatedMatch :RDFXML ;
+  skos:relatedMatch :Turtle ;
+.
+:KnowledgeGraph
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://en.wikipedia.org/wiki/Knowledge_graph>" ;
+  skos:definition "From Wikipeda: In knowledge representation and reasoning, knowledge graph is a knowledge base that uses a graph-structured data model or topology to integrate data. Knowledge graphs are often used to store interlinked descriptions of entities – objects, events, situations or abstract concepts – while also encoding the semantics underlying the used terminology." ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00044> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q33002955> ;
+  skos:narrower :EnterpriseKnowledgeGraph ;
+  skos:prefLabel "Knowledge graph" ;
+.
+:KnowledgeRepresentationReasoning
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning" ;
+  skos:broader :ArtificialIntelligence ;
+  skos:definition "From Wikipedia: Knowledge representation and reasoning (KRR, KR&R, KR²) is the field of artificial intelligence (AI) dedicated to representing information about the world in a form that a computer system can use to solve complex tasks" ;
+  skos:editorialNote "Added by gclatworthy; needs URI. No related KGC events" ;
+  skos:exactMatch <https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q3478658> ;
+  skos:prefLabel "Knowledge representation and reasoning" ;
+  skos:prefLabel "Logic" ;
+.
+:LIbraryOfCongressSubjectHeadings
+  rdf:type skos:Concept ;
+  skos:broader :LibraryOfCongress ;
+  skos:broader :Standards ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00364> ;
+  skos:exactMatch <https://www.loc.gov/catdir/cpso/wlsabt.html> ;
+  skos:prefLabel "LIbrary of Congress Subject Headings" ;
+  skos:related :LibraryOfCongressAuthorityHeadings ;
+.
+:Law
+  rdf:type skos:Concept ;
+  skos:broader :Disciplines ;
+  skos:definition "Wikidata: system of rules and guidelines, generally backed by governmental authority" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00442> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q7748> ;
+  skos:prefLabel "Law" ;
+  skos:related :LawFirm ;
+  skos:related :LegalServices ;
+  skos:related :RegulatoryCompliance ;
+.
+:LawFirm
+  rdf:type skos:Concept ;
+  skos:broader :LegalServices ;
+  skos:definition "From Wikidata: business entity formed by one or more lawyers to engage in the practice of law" ;
+  skos:editorialNote "Added by gclatworthy; create URI" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00443> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q613142> ;
+  skos:prefLabel "Law firm" ;
+  skos:related :Law ;
+.
+:LegalServices
+  rdf:type skos:Concept ;
+  skos:broader :Law ;
+  skos:broader :ProfessionalServicesIndustry ;
+  skos:closeMatch <https://www.wikidata.org/wiki/Q1494322> ;
+  skos:narrower :LawFirm ;
+  skos:prefLabel "Legal services" ;
+.
+:Library
+  rdf:type skos:Concept ;
+  skos:broader :LibraryScience ;
+  skos:changeNote "Changed from \"library\" in KGC data, which is an exact match with the Wikidata link" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00360> ;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7075> ;
+  skos:prefLabel "Library" ;
+.
+:LibraryOfCongress
+  rdf:type skos:Concept ;
+  skos:broader :Library ;
+  skos:broader :USGovernment ;
+  skos:definition "From Wikidata: (de facto) national library of the United States of America" ;
+  skos:editorialNote "Added by gclatworthy; may need KGC URI" ;
+  skos:exactMatch <https://www.loc.gov> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q131454> ;
+  skos:prefLabel "Library of Congress" ;
+.
+:LibraryOfCongressAuthorityHeadings
+  rdf:type skos:Concept ;
+  skos:broader :LibraryOfCongress ;
+  skos:broader :Standards ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00365> ;
+  skos:exactMatch <https://id.loc.gov> ;
+  skos:prefLabel "Library of Congress Authority Headings" ;
+  skos:relatedMatch :LIbraryOfCongressSubjectHeadings ;
+.
+:LibraryScience
+  rdf:type skos:Concept ;
+  skos:broader :Disciplines ;
+  skos:changeNote "Demoted from top level, moved under new top concept \"Disciplines,\" renamed from \"library science\" in KGC original" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00361> ;
+  skos:prefLabel "Library science" ;
+  skos:related :Library ;
+.
+:LifeScience
+  rdf:type skos:Concept ;
+  skos:broader :Disciplines ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00414> ;
+  skos:prefLabel "Life science" ;
+.
+:Linguistics
+  rdf:type skos:Concept ;
+  skos:broader :Disciplines ;
+  skos:editorialNote "Created by gclatworthy; add URI" ;
+  skos:prefLabel "Linguistics" ;
+.
+:LinkedData
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://en.wikipedia.org/wiki/Linked_data>" ;
+  skos:broader :SemanticWeb ;
+  skos:definition "From Wikipedia: In computing, linked data (often capitalized as Linked Data) is structured data which is interlinked with other data so it becomes more useful through semantic queries. It builds upon standard Web technologies such as HTTP, RDF and URIs, but rather than using them to serve web pages only for human readers, it extends them to share information in a way that can be read automatically by computers. Part of the vision of linked data is for the Internet to become a global database." ;
+  skos:editorialNote "New from bookclub; requires KGC URI" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q515701> ;
+  skos:prefLabel "Linked data" ;
+  skos:related :LinkedDataFragments ;
+.
+:LinkedDataFragments
+  rdf:type skos:Concept ;
+  dcterms:references "<https://linkeddatafragments.org>" ;
+  skos:broader :WorldWideWeb ;
+  skos:definition """From linkeddatafragments.org: Linked Data Fragments is a conceptual framework that provides a uniform view on all possible interfaces to RDF, by observing that each interface partitions a dataset into its own specific kind of fragments. 
+A Linked Data Fragment (LDF) is characterized by a specific selector (subject URI, SPARQL query, …), metadata (variable names, counts, …), and controls (links or URIs to other fragments).""" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00187> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q31202219> ;
+  skos:prefLabel "Linked data fragments" ;
+  skos:related :RDF ;
+  skos:related :SPARQL ;
+.
+:MachineLearning
+  rdf:type skos:Concept ;
+  skos:broader :ArtificialIntelligence ;
+  skos:definition "From Wikidata: scientific study of algorithms and statistical models that computer systems use to perform tasks without explicit instructions" ;
+  skos:editorialNote "Multiple URIs created in KGC data; reconcile and edit down to one" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00347> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q2539> ;
+  skos:narrower :MachineLearningApplications ;
+  skos:prefLabel "Machine learning" ;
+  skos:related :NaturalLanguageProcessing ;
+.
+:MachineLearningApplications
+  rdf:type skos:Concept ;
+  skos:editorialNote "Is this needed as a broader term than \"Machine learning\"?" ;
+  skos:prefLabel "Machine learning applications" ;
+.
+:ManagementConsulting
+  rdf:type skos:Concept ;
+  skos:broader :Consulting ;
+  skos:definition "From Wikidata: practice of helping organizations to improve their performance" ;
+  skos:editorialNote "Recommend removing \"industry\"" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00270> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q130286> ;
+  skos:prefLabel "Management consulting" ;
+.
+:MassMedia
+  rdf:type skos:Concept ;
+  skos:broader :Media ;
+  skos:definition "From Wikidata: media technologies that are intended to reach a large audience by mass communication" ;
+  skos:editorialNote "Added by gclatworthy; requires KGC URI" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q11033> ;
+  skos:prefLabel "Mass media" ;
+.
+:Media
+  rdf:type skos:Concept ;
+  skos:broader :AppliedSemantics ;
+  skos:definition "From Wikidata: storage and delivery agent of information or data" ;
+  skos:editorialNote "Added by gclatworthy. According to Wikidata, synonymous with \"Communication media\"; add that as alternative label instead? Need to reconcile with KGC." ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q340169> ;
+  skos:prefLabel "Media" ;
+.
+:MediaIndustry
+  rdf:type skos:Concept ;
+  skos:broader :MassMedia ;
+  skos:definition "From Wikidata: business model based on communicating information, art and entertainment to a large audience" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00070> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q56611639> ;
+  skos:prefLabel "Media industry" ;
+.
+:Medicine
+  rdf:type skos:Concept ;
+  skos:broader :Disciplines ;
+  skos:definition "From Wikidata: field of study for diagnosing, treating and preventing disease" ;
+  skos:editorialNote "Create URI" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q11190> ;
+  skos:prefLabel "Medicine" ;
+.
+:MissingPerson
+  rdf:type skos:Concept ;
+  skos:broader :CrimePrevention ;
+  skos:definition "From Wikidata: person who has disappeared and whose status as alive or dead cannot be confirmed" ;
+  skos:editorialNote "Turtle file contains node ID; assign KGC URI" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q388505> ;
+  skos:prefLabel "Missing person" ;
+.
+:MongoDB
+  rdf:type skos:Concept ;
+  dcterms:references "<https://www.mongodb.com>" ;
+  skos:broader :Database ;
+  skos:definition "From Wikidata: cross-platform document-oriented database" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00434> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q1165204> ;
+  skos:prefLabel "Mongo DB" ;
+.
+:N3
+  rdf:type skos:Concept ;
+  skos:broader :RDFSerialization ;
+  skos:prefLabel "N3" ;
+  skos:relatedMatch :JSON-LD ;
+  skos:relatedMatch :RDFXML ;
+  skos:relatedMatch :Turtle ;
+.
+:NaturalLanguageProcessing
+  rdf:type skos:Concept ;
+  skos:broader :InformationExtraction ;
+  skos:definition "From Wikipedia: Natural language processing (NLP) is an interdisciplinary subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data." ;
+  skos:editorialNote "Represented by multiple KGC URIs; reconcile" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00351> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q30642> ;
+  skos:prefLabel "Natural language processing" ;
+  skos:related :MachineLearning ;
+.
+:NetworkTheory
+  rdf:type skos:Concept ;
+  skos:broader :KnowledgeGraph ;
+  skos:definition "From Wikidata: study of graphs as a representation of relations between discrete objects" ;
+  skos:editorialNote "KGC has node ID only; requires URI" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q1192971> ;
+  skos:prefLabel "Network theory" ;
+.
+:News
+  rdf:type skos:Concept ;
+  dc:description "From Wikidata: communication of selected information on current events" ;
+  skos:broader :MassMedia ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00069> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q38926> ;
+  skos:prefLabel "News" ;
+.
+:OCSKOS
+  rdf:type skos:ConceptScheme ;
+  skos:prefLabel "Open Curriculum Concept Scheme" ;
+.
+:OWL
+  rdf:type skos:Concept ;
+  skos:broader :W3CRecommendations ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00404> ;
+  skos:prefLabel "OWL" ;
+.
+:Ontology
+  rdf:type skos:Concept ;
+  skos:broader :Principles ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00338> ;
+  skos:prefLabel "Ontology" ;
+.
+:OntologyEngineering
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "https://en.wikipedia.org/wiki/Ontology_engineering" ;
+  skos:broader :Ontology ;
+  skos:definition "From Wikipedia: In computer science, information science and systems engineering, ontology engineering is a field which studies the methods and methodologies for building ontologies, which encompasses a representation, formal naming and definition of the categories, properties and relations between the concepts, data and entities." ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00198> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q1027508> ;
+  skos:prefLabel "Ontology engineering" ;
+.
+:OpenCorporates
+  rdf:type skos:Concept ;
+  skos:broader :RDFSources ;
+  skos:definition "From Wikidata: database on corporate entities under share-alike, open licence" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00451> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q7095760> ;
+  skos:prefLabel "OpenCorporates" ;
+.
+:OpenData
+  rdf:type skos:Concept ;
+  skos:broader :PublicPrivateData ;
+  skos:definition "From Wikidata: data that is openly accessible and usable to others" ;
+  skos:editorialNote "Duplicate KGC topics; reconcile" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00368> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q309901> ;
+  skos:prefLabel "Open data" ;
+.
+:OpenSourceIntelligence
+  rdf:type skos:Concept ;
+  skos:broader :OpenData ;
+  skos:definition "From Wikidata: data collected from open and publicly available sources to be used in an intelligence context" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q1059178> ;
+  skos:prefLabel "Open source intelligence" ;
+.
+:Outsourcing
+  rdf:type skos:Concept ;
+  skos:broader :BusinessPractices ;
+  skos:definition "From Wikidata: contracting out of an internal business process to a third-party organization" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00276> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q61515> ;
+  skos:prefLabel "Outsourcing" ;
+.
+:PersonalData
+  rdf:type skos:Concept ;
+  skos:broader :PublicPrivateData ;
+  skos:definition "From Wikidata: any piece of information about a person that is not publicly known, or that allows identification of that person" ;
+  skos:editorialNote "Duplicate KGC concepts; reconcile" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00333> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q3702971> ;
+  skos:prefLabel "Personal data" ;
+.
+:PetroleumIndustry
+  rdf:type skos:Concept ;
+  skos:broader :EnergyIndustry ;
+  skos:definition "Wikidata: activities linked to handling oil products" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00461> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q862571> ;
+  skos:prefLabel "Petroleum industry" ;
+.
+:PharmaceuticalIndustry
+  rdf:type skos:Concept ;
+  skos:broader :BusinessIndustry ;
+  skos:broader :Medicine ;
+  skos:definition "From Wikidata: develops, produces, and markets drugs or pharmaceuticals licensed for use as medications" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00206> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q507443> ;
+  skos:prefLabel "Pharmaceutical industry" ;
+.
+:PredictiveAnalytics
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://en.wikipedia.org/wiki/Predictive_analytics>" ;
+  skos:broader :ComputerScience ;
+  skos:definition "From Wikipedia: Predictive analytics encompasses a variety of statistical techniques from data mining, predictive modeling, and machine learning that analyze current and historical facts to make predictions about future or otherwise unknown events." ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00358> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q1053367> ;
+  skos:prefLabel "Predictive analytics" ;
+  skos:related :MachineLearning ;
+.
+:Principles
+  rdf:type skos:Concept ;
+  skos:editorialNote "Modified from \"Organization of Information. Classification. Set Theory.\" in Steve's original" ;
+  skos:prefLabel "Principles" ;
+  skos:topConceptOf :OCSKOS ;
+.
+:Privacy
+  rdf:type skos:Concept ;
+  skos:broader :HumanRights ;
+  skos:definition "From Wikidata: ability or right of an individual or group to seclude themselves, or information about themselves" ;
+  skos:editorialNote "Duplicate KGC topics: reconcile" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00330> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q188728> ;
+  skos:prefLabel "Privacy" ;
+  skos:related :CaliforniaConsumerPrivacyAct ;
+.
+:ProfessionalServices
+  rdf:type skos:Concept ;
+  skos:broader :BusinessIndustry ;
+  skos:definition "Wikidata: services created by applying specialized abilities attained through experience and tertiary education" ;
+  skos:editorialNote "Recommend removing \"industry\" from KGC topic" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00251> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q2029911> ;
+  skos:narrower :Consulting ;
+  skos:narrower :FinancialServices ;
+  skos:narrower :LegalServices ;
+  skos:narrower :RealEstate ;
+  skos:prefLabel "Professional services" ;
+.
+:ProfessionalServicesIndustry
+  rdf:type skos:Concept ;
+  skos:broader :ProfessionalServices ;
+  skos:definition "From Wikidata: businesses offering professional services" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00251> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q23700345> ;
+  skos:prefLabel "Professional services industry" ;
+.
+:PublicData
+  rdf:type skos:Concept ;
+  skos:definition "From Wikidata: Databases, digital files, and other information created and/or acquired by public institution pursuant to the laws" ;
+  skos:editorialNote "Duplicate KGC topics; reconcile" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00398> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q42649975> ;
+  skos:prefLabel "Public data" ;
+.
+:PublicOntologies
+  rdf:type skos:Concept ;
+  skos:broader :Ontology ;
+  skos:editorialNote "Added by gclatworthy; needs KGC URI" ;
+  skos:prefLabel "Public ontologies" ;
+.
+:PublicPrivateData
+  rdf:type skos:Concept ;
+  skos:broader :Data ;
+  skos:editorialNote "Added by gclatworthy; needs URI" ;
+  skos:prefLabel "Public and private data" ;
+.
+:Publishing
+  rdf:type skos:Concept ;
+  skos:broader :MassMedia ;
+  skos:prefLabel "Publishing" ;
+.
+:Quad
+  rdf:type skos:Concept ;
+  skos:broader :RDFElement ;
+  skos:prefLabel "Quad" ;
+  skos:related :Triple ;
+.
+:QueryLanguage
+  rdf:type skos:Concept ;
+  dc:creator "http://www.dreampublic.net/public/GlennClatworthy.rdf" ;
+  skos:broader :Principles ;
+  skos:definition "From Wikipedia: Query languages, data query languages or database query languages (DQL) are computer languages used to make queries in databases and information systems." ;
+  skos:editorialNote "Added by gclatworthy; needs URI" ;
+  skos:exactMatch <https://en.wikipedia.org/wiki/Query_language> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q845739> ;
+  skos:prefLabel "Query language" ;
+.
+:RDF
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/RDF/RDF.md>" ;
+  skos:altLabel "Resource Description Framework" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00391> ;
+  skos:prefLabel "RDF" ;
+.
+:RDFElement
+  rdf:type skos:Concept ;
+  skos:prefLabel "RDF element" ;
+.
+:RDFSerialization
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy <https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/RDF_Serializations/RDF_Serializations.md> ;
+  skos:broader :RDF ;
+  skos:prefLabel "RDF serialization" ;
+.
+:RDFSources
+  rdf:type skos:Concept ;
+  skos:editorialNote "New top concept. May move under \"RDF\"" ;
+  skos:prefLabel "RDF sources" ;
+  skos:topConceptOf :OCSKOS ;
+.
+:RDFStatement
+  rdf:type skos:Concept ;
+  skos:broader :RDFElement ;
+  skos:prefLabel "RDF statement" ;
+.
+:RDFSubproperty
+  rdf:type skos:Concept ;
+  skos:broader :RDFproperty ;
+  skos:prefLabel "RDF subproperty" ;
+.
+:RDFXML
+  rdf:type skos:Concept ;
+  skos:broader :RDFSerialization ;
+  skos:prefLabel "RDF XML" ;
+  skos:relatedMatch :JSON-LD ;
+  skos:relatedMatch :N3 ;
+  skos:relatedMatch :Turtle ;
+.
+:RDFclass
+  rdf:type skos:Concept ;
+  skos:broader :RDF ;
+  skos:prefLabel "RDF class" ;
+.
+:RDFproperty
+  rdf:type skos:Concept ;
+  skos:broader :RDFElement ;
+  skos:prefLabel "RDF property" ;
+.
+:RealEstate
+  rdf:type skos:Concept ;
+  skos:broader :BusinessIndustry ;
+  skos:editorialNote "No Wikidata equivalent" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00173> ;
+  skos:prefLabel "Real estate" ;
+.
+:Reasoning
+  rdf:type skos:Concept ;
+  skos:broader :KnowledgeRepresentationReasoning ;
+  skos:definition "From Wikidata: type of thought and capacity of consciously making sense of things, applying logic, and adapting or justifying practices, institutions, and beliefs based on new or existing information" ;
+  skos:editorialNote "Multiple KGC URIs; consolidate" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00348> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q1156402> ;
+  skos:prefLabel "Reasoning" ;
+.
+:RecommenderSystem
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://en.wikipedia.org/wiki/Recommender_system>" ;
+  skos:broader :ApplicationSoftware ;
+  skos:definition "From Wikipedia: A recommender system, or a recommendation system (sometimes replacing 'system' with a synonym such as platform or engine), is a subclass of information filtering system that provide suggestions for items that are most pertinent to a particular user.[1][2] Typically, the suggestions refer to various decision-making processes, such as what product to purchase, what music to listen to, or what online news to read.[1]" ;
+  skos:editorialNote "Multiple KGC topic URIs; consolidate" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00339> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q554950> ;
+  skos:prefLabel "Recommender system" ;
+.
+:RegulatoryCompliance
+  rdf:type skos:Concept ;
+  skos:broader :BusinessPractices ;
+  skos:definition "From Wikidata: organizational efforts to comply with relevant laws, policies, and regulations" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q626741> ;
+  skos:prefLabel "Regulatory compliance" ;
+  skos:related :Law ;
+.
+:Reification
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://en.wikipedia.org/wiki/Reification_(knowledge_representation)>" ;
+  skos:definition "From Wikipedia: Reification in knowledge representation is the process of turning a predicate or statement into an addressable object. Reification allows the representation of assertions so that they can be referred to or qualified by other assertions, i.e., meta-knowledge." ;
+  skos:editorialNote "No KGC event references; requires URI" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q7310068> ;
+  skos:prefLabel "Reification" ;
+.
+:Retail
+  rdf:type skos:Concept ;
+  skos:broader :SalesMarketing ;
+  skos:definition "From Wikidata: sale of goods and services from individuals or businesses to the end-user" ;
+  skos:editorialNote "Referenced by node ID; needs KGC URI" ;
+  skos:exactMatch <http://www.wikidata.org/entity/Q126793> ;
+  skos:prefLabel "Retail" ;
+.
+:SKOS
+  rdf:type skos:Concept ;
+  skos:altLabel "Simple Knowledge Organization System" ;
+  skos:broader :W3CRecommendations ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00386> ;
+  skos:prefLabel "SKOS" ;
+.
+:SPARQL
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy <https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/SPARQL/SPARQL.md> ;
+  skos:altLabel "SPARQL Protocol and RDF Query Language" ;
+  skos:broader :QueryLanguage ;
+  skos:broader :W3CRecommendations ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00432> ;
+  skos:prefLabel "SPARQL" ;
+.
+:SalesMarketing
+  rdf:type skos:Concept ;
+  skos:broader :BusinessIndustry ;
+  skos:prefLabel "Sales and marketing" ;
+.
+:ScholarlyCommunication
+  rdf:type skos:Concept ;
+  skos:broader :Academia ;
+  skos:definition "Wikidata: process of creation, transformation, dissemination and preservation of scholarly knowledge" ;
+  skos:editorialNote "Broader term is tentative; doesn't feel like a close fit." ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00400> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q7432048> ;
+  skos:prefLabel "Scholarly communication" ;
+.
+:Security
+  rdf:type skos:Concept ;
+  skos:broader :Finance ;
+  skos:definition "From Wikidata: tradable financial asset" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00453> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q169489> ;
+  skos:prefLabel "Security" ;
+.
+:SemanticNetwork
+  rdf:type skos:Concept ;
+  skos:broader :KnowledgeGraph ;
+  skos:definition "From Wikidata: directed graph structure with labeled edges serving to encode and represent knowledge, whether knowledge of definitions or assertions" ;
+  skos:prefLabel "Semantic network" ;
+.
+:SemanticWeb
+  rdf:type skos:Concept ;
+  skos:broader :WorldWideWeb ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00037> ;
+  skos:prefLabel "Semantic web" ;
+  skos:related :Semantics ;
+.
+:Semantics
+  rdf:type skos:Concept ;
+  skos:broader :Disciplines ;
+  skos:definition "From Wikipedia: Semantics (from Ancient Greek: σημαντικός sēmantikós, \"significant\")[a][1] is the study of reference, meaning, or truth. The term can be used to refer to subfields of several distinct disciplines, including philosophy, linguistics and computer science." ;
+  skos:editorialNote "Create KGC URI" ;
+  skos:prefLabel "Semantics" ;
+.
+:SocialScience
+  rdf:type skos:Concept ;
+  skos:broader :Disciplines ;
+  skos:changeNote "Moved from \"Industries, Disciplines\" to separate \"Industries\" top concept" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00394> ;
+  skos:prefLabel "Social science" ;
+.
+:SoftwareDevelopment
+  rdf:type skos:Concept ;
+  skos:broader :ComputerScience ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00262> ;
+  skos:prefLabel "Software development" ;
+  skos:related :ComputerScience ;
+  skos:related :SoftwareIndustry ;
+.
+:SoftwareIndustry
+  rdf:type skos:Concept ;
+  skos:broader :InformationTechnologyIndustry ;
+  skos:definition "From Wikidata: businesses for development, maintenance and publication of software" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00038> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q880371> ;
+  skos:prefLabel "Software industry" ;
+  skos:related :ComputerScienceIT ;
+  skos:related :InformationTechnologyConsulting ;
+.
+:Standards
+  rdf:type skos:Concept ;
+  skos:broader :StandardsRecommendations ;
+  skos:prefLabel "Standards" ;
+.
+:StandardsRecommendations
+  rdf:type skos:Concept ;
+  skos:narrower :W3CRecommendations ;
+  skos:prefLabel "Standards and recommendations" ;
+  skos:topConceptOf :OCSKOS ;
+.
+:StockManagement
+  rdf:type skos:Concept ;
+  skos:broader :SupplyChainManagement ;
+  skos:definition "From Wikidata: inventory management" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00356> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q3761396> ;
+  skos:prefLabel "Stock management" ;
+.
+:SupplyChainManagement
+  rdf:type skos:Concept ;
+  skos:broader :BusinessIndustry ;
+  skos:definition "From Wikidata: management flow of goods and services" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00356> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q492886> ;
+  skos:prefLabel "Supply chain management" ;
+.
+:Taxonomy
+  rdf:type skos:Concept ;
+  skos:broader :TaxonomyControlledVocabulary ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00311> ;
+  skos:prefLabel "Taxonomy" ;
+.
+:TaxonomyControlledVocabulary
+  rdf:type skos:Concept ;
+  skos:broader :Principles ;
+  skos:prefLabel "Taxonomy and controlled vocabulary" ;
+  skos:scopeNote "Review range of related topics (e.g., thesaurus, etc.) in The Accidental Taxonomist for full scope" ;
+.
+:Technology
+  rdf:type skos:Concept ;
+  skos:broader :Disciplines ;
+  skos:definition "From Wikidata: making, modification, usage, and knowledge of tools, machines, techniques, crafts, systems, and methods of organization" ;
+  skos:editorialNote "Wikidata identifies this as a subclass of \"Applied science,\" which currently is not in the design" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00217> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q11016> ;
+  skos:prefLabel "Technology" ;
+  skos:related :TechnologyIndustry ;
+  skos:topConceptOf :OCSKOS ;
+.
+:TechnologyIndustry
+  rdf:type skos:Concept ;
+  skos:broader :BusinessIndustry ;
+  skos:definition "From Wikidata: group of companies producing technology" ;
+  skos:editorialNote "Identified with node ID in original; needs KGC URI. Also, doesn't appear to have related event" ;
+  skos:exactMatch <http://www.wikidata.org/entity/Q21157865> ;
+  skos:prefLabel "Technology industry" ;
+  skos:related :Technology ;
+.
+:TranslationalMedicine
+  rdf:type skos:Concept ;
+  skos:broader :Medicine ;
+  skos:definition "From Wikidata: conversion of discoveries in basic biomedical research into applications that directly benefit humans" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00421> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q17112037> ;
+  skos:prefLabel "Translational medicine" ;
+  skos:related :PharmaceuticalIndustry ;
+.
+:TriG
+  rdf:type skos:Concept ;
+  skos:broader :Turtle ;
+  skos:prefLabel "TriG" ;
+  skos:related :JSON-LD ;
+  skos:related :N3 ;
+  skos:related :RDFXML ;
+.
+:Triple
+  rdf:type skos:Concept ;
+  skos:broadMatch :RDFElement ;
+  skos:prefLabel "Triple" ;
+  skos:relatedMatch :Quad ;
+.
+:Turtle
+  rdf:type skos:Concept ;
+  skos:broader :RDFSerialization ;
+  skos:prefLabel "Turtle" ;
+  skos:relatedMatch :JSON-LD ;
+  skos:relatedMatch :N3 ;
+  skos:relatedMatch :RDFXML ;
+.
+:USGovernment
+  rdf:type skos:Concept ;
+  skos:broader :Government ;
+  skos:closeMatch <https://www.wikidata.org/wiki/Q48525> ;
+  skos:editorialNote "added by gclatworthy; needs URI" ;
+  skos:prefLabel "Federal government of the United States" ;
+.
+:UniformResourceIdentifier
+  rdf:type skos:Concept ;
+  skos:altLabel "URI" ;
+  skos:broader :Identifier ;
+  skos:definition "From Wikipedia: A Uniform Resource Identifier (URI) is a unique sequence of characters that identifies a logical or physical resource used by web technologies. URIs may be used to identify anything, including real-world objects, such as people and places, concepts, or information resources such as web pages and books." ;
+  skos:editorialNote "Added by gclatworthy; requires KGC URI" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q61694> ;
+  skos:prefLabel "Uniform Resource Identifier" ;
+.
+:VirtualAssistant
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://en.wikipedia.org/wiki/Virtual_assistant>" ;
+  skos:broader :ApplicationSoftware ;
+  skos:broader :ArtificialIntelligence ;
+  skos:definition "From Wikipedia: An intelligent virtual assistant (IVA) or intelligent personal assistant (IPA) is a software agent that can perform tasks or services for an individual based on commands or questions." ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00371> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q3467906> ;
+  skos:prefLabel "Virtual assistant" ;
+.
+:W3CRecommendations
+  rdf:type skos:Concept ;
+  skos:broader :StandardsRecommendations ;
+  skos:prefLabel "W3C recommendations" ;
+.
+:WebHostingService
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://en.wikipedia.org/wiki/Web_hosting_service>" ;
+  skos:definition "From Wikipedia: A web hosting service is a type of Internet hosting service that hosts websites for clients, i.e. it offers the facilities required for them to create and maintain a site and makes it accessible on the World Wide Web. Companies providing web hosting services are sometimes called web hosts." ;
+  skos:editorialNote "Added from bookclub list; needs KGC URI" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q5892272> ;
+  skos:prefLabel "Web hosting service" ;
+.
+:WebQuery
+  rdf:type skos:Concept ;
+  skos:broader :WorldWideWeb ;
+  skos:definition "From Wikipedia: A web query or web search query is a query that a user enters into a web search engine to satisfy their information needs. " ;
+  skos:editorialNote "Changed from \"Search\" in KGC data; repurpose URI" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00313> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q995982> ;
+  skos:prefLabel "Web query" ;
+.
+:WebScience
+  rdf:type skos:Concept ;
+  skos:broader :Disciplines ;
+  skos:definition "From Wikipedia: \"Web science is an emerging interdisciplinary field concerned with the study of large-scale socio-technical systems, particularly the World Wide Web.[1][2] It considers the relationship between people and technology, the ways that society and technology co-constitute one another and the impact of this co-constitution on broader society. Web Science combines research from disciplines as diverse as sociology, computer science, economics, and mathematics.[3]\"" ;
+  skos:editorialNote "Consider adding higher-level category for \"Scientific (etc.) disciplines." ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00286> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q579439> ;
+  skos:prefLabel "Web science" ;
+.
+:WebService
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://en.wikipedia.org/wiki/Web_service>" ;
+  skos:definition """From Wikipedia: A web service (WS) is either:
+
+a service offered by an electronic device to another electronic device, communicating with each other via the Internet, or
+a server running on a computer device, listening for requests at a particular port over a network, serving web documents (HTML, JSON, XML, images).""" ;
+  skos:editorialNote "Confirm that the definitions of the term relate to how it's applied to the KGC event (http://www.knowledgegraph.tech/iri/720), which mentions online services like Google and Flickr; term identified as \"_:node206\" and requires KGC URI" ;
+  skos:exactMatch <http://www.wikidata.org/entity/Q193424> ;
+  skos:prefLabel "Web service" ;
+.
+:Wikidata
+  rdf:type skos:Concept ;
+  skos:broader :RDFSources ;
+  skos:definition "From Wikidata: free knowledge graph hosted by Wikimedia and edited by volunteers" ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00362> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q2013> ;
+  skos:prefLabel "Wikidata" ;
+.
+:WorldWideWeb
+  rdf:type skos:Concept ;
+  dcterms:references "<https://en.wikipedia.org/wiki/World_Wide_Web>" ;
+  skos:broader :Internet ;
+  skos:definition "From Wikipedia: The World Wide Web (WWW), commonly known as the Web, is an information system enabling documents and other web resources to be accessed over the Internet." ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00186> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q466> ;
+  skos:prefLabel "World Wide Web" ;
+.
+:rdfType
+  rdf:type skos:Concept ;
+  skos:broader :RDFproperty ;
+  skos:prefLabel "RDF type" ;
+.
