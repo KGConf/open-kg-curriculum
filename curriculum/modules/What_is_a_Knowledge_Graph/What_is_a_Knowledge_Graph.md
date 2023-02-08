@@ -1,7 +1,7 @@
 # What is a Knowledge Graph?
 ## Details
 * Category: [Foundational](../categories/Foundational.md)
-* Module Prerequisites: [What is Metadata?](../modules/What_is_Metadata?.md)
+* Module Prerequisites: [What is Metadata?](../modules/What_is_Metadata/What_is_Metadata.md), [What is an Ontology?](../modules/What_is_an_Ontology/What_is_an_Ontology.md)
 * Audience: [Any](../audiences/Any.md)
 * Level: [Beginner](../levels/Beginner.md)
 
