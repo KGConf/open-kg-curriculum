@@ -46,7 +46,7 @@ _A Google web search for "Library of Alexandria" brings up this panel of informa
 
 Knowledge graphs are data structures, containing interlinked descriptions of concepts, entities, relationships, and events, which may be analyzed and queried like databases. (See "What are Knowledge Graphs?" for more.) Diverse pieces of data can be described and related to one another by making connections between their metadata, in what is called the knowledge model [3]. For example, the search result shown to the left provides metadata about the historical entity "The Library of Alexandria", including its country of origin, "The Ptolemaic Kingdom". But what if the searcher does not know what the Ptolomaic Kingdom is? Without connections, this piece of metadata might not be very useful. But because it is embedded in a knowlege graph, the searcher can discover what other pieces of metadata are connected to it, discovering more about what the Ptolomaic Kingdom is (in this case, by following a Wikipedia link). The developer of a knowledge graph collects and contextualizes metadata, which makes it more effective at communicating the meaning of the related data and entitites to users. A knowledge graph can be used to discover new related information, understand how information fits into a larger whole, and even highlight inconsistencies between related data that might otherwise remain disparate. 
 
-
+<br><br>
 
 <img src="slavery_schema.png" width="50%" align="right"/>  
 
