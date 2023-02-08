@@ -15,7 +15,7 @@ A Knowledge Graph is an alternative form for representing relationships between 
 - Modeling Real-World information:  knowledge graphs are modeled similar to how a human may comprehend a set of information
 - Performing Logical Reasoning:  traversal of vertices between nodes results in  connections from the starting node to the end node and all relationships in between  
 
-Although the focus of a knowledge graph is on relationship within data, the benefits of a knowledge graph includes [1]:
+Although the focus of a knowledge graph is on relationship within data, the benefits of a knowledge graph include [1]:
 - Structured Representation of Data compared to text-based display of information
 - Removing Redundancy:  tabular databases require the use of empty columns and rows to represent new facts about the data
 - Querying for Complex Information:  tabular databases may incorporate multiple statements to join varying tables together to extract a piece of information whereas a knowledge graph can simplify and improve the efficiency of querying.  
@@ -41,7 +41,6 @@ Knowledge Graphs serve the purpose of representing a database with the functiona
 ## External Media Reference
 * [SPOKE: Scalable Precision Medicine Open Knowledge Engine.](https://spoke.ucsf.edu/)
 * [Inventory Management using KG](https://www.youtube.com/watch?v=WKC0i47szjU)
-* [Introducing the Knowledge Graph](https://www.youtube.com/watch?v=mmQl6VGvX-c)
 * [Franz Inc's AllegroGraph](https://allegrograph.com/about-franz/)
 * [Introducing the Knowledge Graph](https://blog.google/products/search/introducing-knowledge-graph-things-not/)
 * [A Reintroduction to our Knowledge Graph and Knowledge Panels](https://blog.google/products/search/about-knowledge-graph-and-knowledge-panels/)
