@@ -45,7 +45,6 @@ _A Google web search for "Library of Alexandria" brings up this panel of informa
 ---
 
 Knowledge graphs are data structures, containing interlinked descriptions of concepts, entities, relationships, and events, which may be analyzed and queried like databases. (See "What are Knowledge Graphs?" for more.) Diverse pieces of data can be described and related to one another by making connections between their metadata, in what is called the knowledge model [3]. For example, the search result shown to the left provides metadata about the historical entity "The Library of Alexandria", including its country of origin, "The Ptolemaic Kingdom". But what if the searcher does not know what the Ptolomaic Kingdom is? Without connections, this piece of metadata might not be very useful. But because it is embedded in a knowlege graph, the searcher can discover what other pieces of metadata are connected to it, discovering more about what the Ptolomaic Kingdom is (in this case, by following a Wikipedia link). The developer of a knowledge graph collects and contextualizes metadata, which makes it more effective at communicating the meaning of the related data and entitites to users. A knowledge graph can be used to discover new related information, understand how information fits into a larger whole, and even highlight inconsistencies between related data that might otherwise remain disparate. 
-[[Integrate or delete: This includes the relevance of the graph, highlight inconsistencies among different instances and methods/links to reuse knowledge graphs in bigger or specialized graphs.]]
 
 
 
@@ -53,16 +52,13 @@ Knowledge graphs are data structures, containing interlinked descriptions of con
 
 ---
 
-_This diagram shows a portion of "The Enslaved Ontology", the ontology for the knowledge graph hosted at enslaved.org. We can see here that a "ParticipantRoleRecord" is the class of all records of agents (such as people) participating or otherwise being part of a particular event. Their participation in that event can be one of several types, and records of participation in events are one of several kinds of "AgentRecords"--all the possible kinds of historical records of an agent. It may look pedantic, but this machine-readable, unambiguous taxonomization of historical records enables powerful semantic search queries (such as "What are all the events where Frederick Douglass participated as a speaker?") to be answered precisely, including many that may not have been forseen when the database was assembled._ 
+_This diagram shows a portion of "The Enslaved Ontology", the ontology for the knowledge graph hosted at enslaved.org. [Describe what this particular module is stating]._ 
 
 ---
 
-However, one man's metadata is another man's data. The metadata of, say, a published book is merely the "data" of a knowledge graph. A knowledge graph's "metadata" typically refers to the even-higher-level descriptions of that data in turn, what is often called a knowledge graph's ontology or schema [5]. This schema includes rules and patterns governing how pieces of information in the knowledge graph exist in relation to one another. If data on a published book was contained in a knowledge graph, for example, metadata for that graph might include the assertion that Book and Publisher are relevant categories of information, and that every Book has a Publisher.
-
-[Probably add a brief note about how ontology also enables automatic reasoners/other programmatic interface with the information.]
-
-
-
+However, one man's metadata is another man's data. The metadata of, say, a published book is merely the "data" of a knowledge graph. A knowledge graph's "metadata" typically refers to the even-higher-level descriptions of that data in turn, what is often called a knowledge graph's ontology or schema [5].
+A schema or ontology is a formal description of knowledge within a certain domain. This schema includes restrictions, rules and axioms governing how pieces of information in the knowledge graph exist in relation to one another. If data on a published book was contained in a knowledge graph, for example, metadata for that graph might include the assertion that Book and Publisher are relevant categories of information, and that every Book must have a Publisher.
+A schema is the formal description that is used when conducting inferencing and reasoning by automatic reasoners. These automatic reasoners highlight inconsistencies and showcases the context of the knowledge graph. A schema provides a sharable and resusable representation of a knowledge graph that also provides a format, standards for the addition of new knowledge to the knowledge graph. 
 
 ## Related KGC Media
 * Workshop Example
@@ -79,12 +75,13 @@ However, one man's metadata is another man's data. The metadata of, say, a publi
 
 [5] Shimizu, Cogan. (2023). CS7810, Metadata Representation Languages: Modular Ontology Modeling. [Wright State University campus 2/2/2023].
 
+[6] "What are Ontologies?". ontotext.com. https://www.ontotext.com/knowledgehub/fundamentals/what-are-ontologies/ (accessed Feb. 8, 2023)
+
 ## External Media References
 Canto. What is metadata? (and wy does it matter?). (Mar. 10, 2021). Accessed: Feb. 5, 2023. [Online Video]. Available: https://www.youtube.com/watch?v=fZWg0ClQkYQ
 
 ## Contributors
-* Alexander Moore
-* Christopher Menart
 * Cogan Shimizu
+* Christopher Menart
+* Alexander Moore
 * Jehan Fernando
-
