@@ -26,12 +26,10 @@ When compared against a traditional tabular database, a knowledge graph provides
 ### Implementation of a Knowledge Graph
 The process in implementing a knowledge graph begins with a collection of data and representative relationships between the different pieces of data.  Defining how the data should be used is critical with formulating the relationships connecting data points.  A formal ontology of the dataset not only provides how the data and relationships can be utilized together to formulate queries to provide explicit and implicit understanding of the information, but also limits the implementation to a specific topic which provides the scope of the knowledge graph’s usage.  
 
-#### Terms Namespace:
-
 ### Example
+Google’s extended use of Knowledge Graph provides a resource to create a summarized box of relevant information within a search result.  With a large pool of data sources to logically reason with, users are able to efficiently find relevant information in these panels known as Knowledge Panels.  
 
 ### Application
-Google’s extended use of Knowledge Graph provides a resource to create a summarized box of relevant information within a search result.  With a large pool of data sources to logically reason with, users are able to efficiently find relevant information in these panels known as Knowledge Panels.  
 
 ### In Summary
 Knowledge Graphs serve the purpose of representing a database with the functionality to query the information,  allowing users to understand deeper meaning found through undefined relationships.  While tabular databases can still serve a purpose for data storage, knowledge graphs provide an efficient method for querying.  
