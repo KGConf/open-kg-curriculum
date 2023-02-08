@@ -42,7 +42,7 @@ This includes the relevance of the graph, highlight inconsistencies among differ
 
 [If below par used, must be merged with above]
 
-However, one man's metadata is another man's data. Knowledge graphs exist in no small part   ... the metadata of, say, published books, is merely the data of a knowledge. A knowledge graph's "Metadata" refers to even higher-level descriptions of that data in turn, which overlaps with what is often called a knowledge graph's "ontology". This includes categorizations of pieces of data and general rules about how data of certain types can exist. If data on a published book was contained in a knowledge graph, for example, metadata for that grpah might include the assertion that Book and Publisher are relevant categories of information, and that every Book has a Publisher.
+However, one man's metadata is another man's data. Knowledge graphs exist in no small part   ... the metadata of, say, published books, is merely the data of a knowledge. A knowledge graph's "Metadata" refers to even higher-level descriptions of that data in turn, which overlaps with what is often called a knowledge graph's "ontology" [5]. This includes categorizations of pieces of data and general rules about how data of certain types can exist. If data on a published book was contained in a knowledge graph, for example, metadata for that graph might include the assertion that Book and Publisher are relevant categories of information, and that every Book has a Publisher.
 
 ### Why is Metadata Important for Knowledge Graphs? How is it Used?
 
@@ -89,6 +89,8 @@ Good Knowledge Graphs aggregate and contextualize the type of metadata discussed
 [3] "What is a Knowledge Graph". ontotext.com. https://www.ontotext.com/knowledgehub/fundamentals/what-is-a-knowledge-graph/ (accessed Feb. 5, 2023)
 
 [4] "Metadata and Its Importance in a Data Driven World". villanovau.com. https://www.villanovau.com/resources/bi/metadata-importance-in-data-driven-world/ (accessed Feb. 5, 2023)
+
+[5] Shimizu, Cogan. (2023). CS7810, Metadata Representation Languages: Modular Ontology Modeling. [Wright State University campus 2/2/2023].
 
 ## External Media References
 Canto. What is metadata? (and wy does it matter?). (Mar. 10, 2021). Accessed: Feb. 5, 2023. [Online Video]. Available: https://www.youtube.com/watch?v=fZWg0ClQkYQ
