@@ -7,7 +7,7 @@
 
 ## Content
 
-### What is Metadata as it Relates to Computers and Data?
+### What is Metadata?
 
 Metadata is simply *data about data*. Just as data enables humans to organize, track, and take intelligent action on objects in the real world, metadata empowers knowledge workers to organize, track, and act intelligently on data itself.
 
@@ -36,28 +36,31 @@ Metadata broadly falls into three categories[4].
 
 ### What is Metadata as it Relates to Knowledge Graphs?
 
-Knowledge graphs are data structures that contain a collection of interlinked descriptions of concepts, entities, relationships, and events, and may be analyzed and queried like databases. The diverse data is connected and described by semantic metadata according to the knowledge model [3]. This metadata allows the developer of the knowledge graph to communicate the meaning of the data in the graph to the users.
-This includes the relevance of the graph, highlight inconsistencies among different instances and methods/links to reuse knowledge graphs in bigger or specialized graphs.
-
-
-[If below par used, must be merged with above]
-
-However, one man's metadata is another man's data. Knowledge graphs exist in no small part   ... the metadata of, say, published books, is merely the data of a knowledge. A knowledge graph's "Metadata" refers to even higher-level descriptions of that data in turn, which overlaps with what is often called a knowledge graph's "ontology" [5]. This includes categorizations of pieces of data and general rules about how data of certain types can exist. If data on a published book was contained in a knowledge graph, for example, metadata for that graph might include the assertion that Book and Publisher are relevant categories of information, and that every Book has a Publisher.
-
-### Why is Metadata Important for Knowledge Graphs? How is it Used?
-
-
 <img src="alexandria_panel.png" width="40%" align="left"/>  
 
 ---
 
-_A Google web search for "Library of Alexandria" brings up this panel of information sourced from Wikipedia's Wikidata. Many of the entries on this metadata, such as the library's country of origin, links to other entities in Wikidata with identifiers and metadata of their own._ 
+_A Google web search for "Library of Alexandria" brings up this panel of information sourced from Wikipedia's Wikidata. Many of the entries on this metadata, such as the library's country of origin, are in fact links to other entities in Wikidata with identifiers and metadata of their own._ 
 
 ---
 
-[More stuff will have to go in this section]
+Knowledge graphs are data structures, containing interlinked descriptions of concepts, entities, relationships, and events, which may be analyzed and queried like databases. (See "What are Knowledge Graphs?" for more.) Diverse pieces of data can be described and related to one another by making connections between their metadata, in what is called the knowledge model [3]. For example, the search result shown to the left provides metadata about the historical entity "The Library of Alexandria", including its country of origin, "The Ptolemaic Kingdom". But what if the searcher does not know what the Ptolomaic Kingdom is? Without connections, this piece of metadata might not be very useful. But because it is embedded in a knowlege graph, the searcher can discover what other pieces of metadata are connected to it, discovering more about what the Ptolomaic Kingdom is (in this case, by following a Wikipedia link). The developer of a knowledge graph collects and contextualizes metadata, which makes it more effective at communicating the meaning of the related data and entitites to users. A knowledge graph can be used to discover new related information, understand how information fits into a larger whole, and even highlight inconsistencies between related data that might otherwise remain disparate. 
+[[Integrate or delete: This includes the relevance of the graph, highlight inconsistencies among different instances and methods/links to reuse knowledge graphs in bigger or specialized graphs.]]
 
-Good Knowledge Graphs aggregate and contextualize the type of metadata discussed in Section 1. 
+
+
+<img src="slavery_schema.png" width="50%" align="right"/>  
+
+---
+
+_This diagram shows a portion of "The Enslaved Ontology", the ontology for the knowledge graph hosted at enslaved.org. [Describe what this particular module is stating]._ 
+
+---
+
+However, one man's metadata is another man's data. The metadata of, say, a published book is merely the "data" of a knowledge graph. A knowledge graph's "metadata" typically refers to the even-higher-level descriptions of that data in turn, what is often called a knowledge graph's ontology or schema [5]. This schema includes rules and patterns governing how pieces of information in the knowledge graph exist in relation to one another. If data on a published book was contained in a knowledge graph, for example, metadata for that graph might include the assertion that Book and Publisher are relevant categories of information, and that every Book has a Publisher.
+
+[Probably add a brief note about how ontology also enables automatic reasoners/other programmatic interface with the information.]
+
 
 [Placeholder]
 
