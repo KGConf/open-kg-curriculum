@@ -11,7 +11,7 @@
 
 Metadata is simply *data about data*. Just as data enables humans to organize, track, and take intelligent action on objects in the real world, metadata empowers knowledge workers to organize, track, and act intelligently on data itself.
 
-It is sometimes claimed that the first metadata was a library catalog system—specifically, if one is looking for firsts, the catalog of the ancient Library of Alexandria. Supposedly, metadata kept at Alexandria listed Genre, title, author, and length for each book [1]. In fact, books remained one of the most important domains of metadata even at the opening of the 21st century. Amazon’s website, even from its humble beginnings when it was only a digital bookstore, used many of the same pieces of information. It added the sorts of information tracked by the library of Alexandria to to more modern administrative metadata such as ISBN. Amazon's early adoption of this metadata has been cited as a contributing factor in its success. And not only did it succeed wildly as one of the world's first digital booksellers, its practices quickly spread to brick-and-mortar stores as well as libraries. Metadata enabled stores to efficiently organize their own inventory, and for consumers to efficiently discover titles they wanted to read. [2]
+It is sometimes claimed that the first metadata was a library catalog system—specifically, if one is looking for firsts, the catalog of the ancient Library of Alexandria. Supposedly, metadata kept at Alexandria listed Genre, title, author, and length for each book [1]. In fact, books remained one of the most important domains of metadata even at the opening of the 21st century. Amazon’s website, even from its humble beginnings when it was only a digital bookstore, used many of the same pieces of information. It added the sorts of information tracked by the library of Alexandria to more modern administrative metadata such as ISBN. Amazon's early adoption of this metadata has been cited as a contributing factor in its success. And not only did it succeed wildly as one of the world's first digital booksellers, its practices quickly spread to brick-and-mortar stores as well as libraries. Metadata enabled stores to efficiently organize their own inventory, and for consumers to efficiently discover titles they wanted to read. [2]
 
 
 <img src="alexandria_book.png" width="50%" align="left"/>  
@@ -83,7 +83,8 @@ A schema is the formal description that is used when conducting inferencing and 
 Canto. What is metadata? (and wy does it matter?). (Mar. 10, 2021). Accessed: Feb. 5, 2023. [Online Video]. Available: https://www.youtube.com/watch?v=fZWg0ClQkYQ
 
 ## Contributors
-* Cogan Shimizu
+* Jehan Fernando
 * Christopher Menart
 * Alexander Moore
-* Jehan Fernando
+* Cogan Shimizu
+
