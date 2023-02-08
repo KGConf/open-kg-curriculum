@@ -7,9 +7,9 @@
 
 ## Content
 
-###  Definition
+### Definition
 
-###  Knowledge Graph vs Other Information Databases
+### Knowledge Graph vs Other Information Databases
 A Knowledge Graph is an alternative form for representing relationships between informational data.  Unlike relational databases, a knowledge graph can provide insight to the deep understanding of the data within the scope of the defined ontology, or rules listed out to define the connections between data and relationships.  A knowledge graph provides detailed information for data integration, unification, linking, and reuse [2].  A knowledge graph differentiates itself from a normal graph by [1]:  
 - Supporting heterogeneous data:  knowledge graphs are not restricted by the typing of objects and relationships
 - Modeling Real-World information:  knowledge graphs are modeled similar to how a human may comprehend a set of information
@@ -38,7 +38,7 @@ Knowledge Graphs serve the purpose of representing a database with the functiona
 * Workshop Example
 * Tutorial Example
 
-##  External Media Reference
+## External Media Reference
 * [SPOKE: Scalable Precision Medicine Open Knowledge Engine.](https://spoke.ucsf.edu/)
 * [Inventory Management using KG](https://www.youtube.com/watch?v=WKC0i47szjU)
 * [Introducing the Knowledge Graph](https://www.youtube.com/watch?v=mmQl6VGvX-c)
