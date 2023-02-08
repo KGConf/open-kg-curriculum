@@ -62,23 +62,7 @@ However, one man's metadata is another man's data. The metadata of, say, a publi
 [Probably add a brief note about how ontology also enables automatic reasoners/other programmatic interface with the information.]
 
 
-[Placeholder]
 
-[Placeholder]
-
-[Placeholder]
-
-[Placeholder]
-
-[Placeholder]
-
-[Placeholder]
-
-[Placeholder]
-
-[Placeholder]
-
-[Placeholder]
 
 ## Related KGC Media
 * Workshop Example
