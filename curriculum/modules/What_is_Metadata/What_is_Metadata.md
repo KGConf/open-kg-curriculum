@@ -52,7 +52,7 @@ Knowledge graphs are data structures, containing interlinked descriptions of con
 
 ---
 
-_This diagram shows a portion of "The Enslaved Ontology", the ontology for the knowledge graph hosted at enslaved.org. [Describe what this particular module is stating]._   [7]
+_This diagram shows a portion of "The Enslaved Ontology", the ontology for the knowledge graph hosted at enslaved.org [7]. We can see here that a "ParticipantRoleRecord" is the class of all records of agents (such as people) participating or otherwise being part of a particular event. Their participation in that event can be one of several types, and records of participation in events are one of several kinds of "AgentRecords"--all the possible kinds of historical records of an agent. It may look pedantic, but this machine-readable, unambiguous taxonomization of historical records enables powerful semantic search queries (such as "What are all the events where Frederick Douglass participated as a speaker?") to be answered precisely, including many that may not have been forseen when the database was assembled._ 
 
 ---
 
