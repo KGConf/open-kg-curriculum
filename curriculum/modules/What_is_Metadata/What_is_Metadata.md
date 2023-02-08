@@ -99,7 +99,8 @@ However, one man's metadata is another man's data. The metadata of, say, a publi
 Canto. What is metadata? (and wy does it matter?). (Mar. 10, 2021). Accessed: Feb. 5, 2023. [Online Video]. Available: https://www.youtube.com/watch?v=fZWg0ClQkYQ
 
 ## Contributors
-* Cogan Shimizu
-* Christopher Menart
 * Alexander Moore
+* Christopher Menart
+* Cogan Shimizu
 * Jehan Fernando
+
