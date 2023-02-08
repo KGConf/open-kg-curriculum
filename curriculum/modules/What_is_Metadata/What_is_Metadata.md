@@ -52,7 +52,7 @@ Knowledge graphs are data structures, containing interlinked descriptions of con
 
 ---
 
-_This diagram shows a portion of "The Enslaved Ontology", the ontology for the knowledge graph hosted at enslaved.org. [Describe what this particular module is stating]._ 
+_This diagram shows a portion of "The Enslaved Ontology", the ontology for the knowledge graph hosted at enslaved.org. [Describe what this particular module is stating]._   [7]
 
 ---
 
@@ -76,6 +76,8 @@ A schema is the formal description that is used when conducting inferencing and 
 [5] Shimizu, Cogan. (2023). CS7810, Metadata Representation Languages: Modular Ontology Modeling. [Wright State University campus 2/2/2023].
 
 [6] "What are Ontologies?". ontotext.com. https://www.ontotext.com/knowledgehub/fundamentals/what-are-ontologies/ (accessed Feb. 8, 2023)
+
+[7] Shimizu, Cogan et al. "The enslaved ontology: Peoples of the historic slave trade". _The Journal of Web Semantics_. 2019
 
 ## External Media References
 Canto. What is metadata? (and wy does it matter?). (Mar. 10, 2021). Accessed: Feb. 5, 2023. [Online Video]. Available: https://www.youtube.com/watch?v=fZWg0ClQkYQ
