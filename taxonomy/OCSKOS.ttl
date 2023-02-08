@@ -44,6 +44,15 @@
   skos:prefLabel "Anti-money laundering"@en ;
   skos:related :Finance ;
 .
+:ApplicationSoftware
+  rdf:type skos:Concept ;
+  dcterms:references "<https://en.wikipedia.org/wiki/Application_software>" ;
+  skos:broader :InformationTechnology ;
+  skos:closeMatch <https://www.wikidata.org/wiki/Q166142> ;
+  skos:definition "From Wikipedia: An application program (software application, or application, or app for short) is a computer program designed to carry out a specific task other than one relating to the operation of the computer itself, typically to be used by end-users." ;
+  skos:prefLabel "Application software" ;
+  skos:related :SoftwareDevelopment ;
+.
 :AppliedSemantics
   rdf:type skos:Concept ;
   skos:editorialNote "Source: GAC" ;
@@ -149,6 +158,11 @@
 .
 :ComputerScienceIT
   rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://www.coursera.org/articles/computer-science-vs-information-technology>" ;
+  skos:broader :Disciplines ;
+  skos:definition "From Coursera:  Generally, computer science refers to designing and building computers and computer programs. Information technology, on the other hand, refers to maintaining and troubleshooting those computers and their networks, systems, and databases to ensure they run smoothly." ;
+  skos:narrower :ComputerScience ;
+  skos:narrower :InformationTechnology ;
   skos:prefLabel "Computer science and IT" ;
   skos:topConceptOf :OCSKOS ;
 .
@@ -223,6 +237,16 @@
   skos:prefLabel "Data and analytics" ;
   skos:topConceptOf :OCSKOS ;
 .
+:DataCatalog
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://www.ibm.com/topics/data-catalog>" ;
+  skos:broader :DataGovernance ;
+  skos:definition "From IBM: A data catalog is a detailed inventory of all data assets in an organization, designed to help data professionals quickly find the most appropriate data for any analytical or business purpose." ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00341> ;
+  skos:exactMatch <https://www.ibm.com/topics/data-catalog> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q29937289> ;
+  skos:prefLabel "Data catalog" ;
+.
 :DataEconomy
   rdf:type skos:Concept ;
   skos:broader :BusinessIndustry ;
@@ -232,6 +256,24 @@
   skos:exactMatch <https://www.wikidata.org/wiki/Q59385693> ;
   skos:hasTopConcept :AppliedSemantics ;
   skos:prefLabel "Data economy" ;
+.
+:DataGovernance
+  rdf:type skos:Concept ;
+  skos:broader <http://tutorial.topbraid.com/DataManagement> ;
+  skos:definition """From Wikidata: capability that enables an organization to ensure high data quality
+data goverment""" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q872685> ;
+  skos:exactMatch <ttp://www.knowledgegraph.tech/iri/00479> ;
+  skos:prefLabel "Data governance" ;
+.
+:DataManagement
+  rdf:type skos:Concept ;
+  dcterms:isPartOf "<https://en.wikipedia.org/wiki/Data_management>" ;
+  skos:broader :ComputerScience ;
+  skos:definition "From Wikipedia: Data management comprises all disciplines related to handling data as a valuable resource." ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00041> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q1149776> ;
+  skos:prefLabel "Data management" ;
 .
 :DataProtection
   rdf:type skos:Concept ;
@@ -247,7 +289,7 @@
 .
 :DecisionSupportSystem
   rdf:type skos:Concept ;
-  skos:broader :ComputerScience ;
+  skos:broader :ApplicationSoftware ;
   skos:definition "From Wikipedia A decision support system (DSS) is an information system that supports business or organizational decision-making activities. " ;
   skos:exactMatch <http://www.knowledgegraph.tech/iri/00372> ;
   skos:exactMatch <https://www.wikidata.org/wiki/Q330268> ;
@@ -348,7 +390,7 @@
   skos:closeMatch <http://www.knowledgegraph.tech/iri/00377> ;
   skos:closeMatch <https://www.wikidata.org/wiki/Q33002955> ;
   skos:definition "As defined at Agnos.ai: An enterprise knowledge graph (EKG) connects together all the data relevant to an organization into an artificial data brain that can augment decision-making." ;
-  skos:editorialNote "Changed from KGC \"EKG\"" ;
+  skos:editorialNote "Changed from KGC \"EKG\"; confirm KGC event link" ;
   skos:prefLabel "Enterprise knowledge graph" ;
 .
 :EntityLinking
@@ -510,6 +552,12 @@
   skos:exactMatch <https://www.wikidata.org/wiki/Q853614> ;
   skos:prefLabel "Identifier" ;
 .
+:Industry
+  rdf:type skos:Concept ;
+  skos:definition "From Wikidata: group of firms that produce a closely related set of raw materials, goods, or services" ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q268592> ;
+  skos:prefLabel "Industry" ;
+.
 :InformationExtraction
   rdf:type skos:Concept ;
   dcterms:isReferencedBy "<https://en.wikipedia.org/wiki/Information_extraction>" ;
@@ -528,6 +576,15 @@
   skos:exactMatch <http://www.knowledgegraph.tech/iri/00332> ;
   skos:exactMatch <https://www.wikidata.org/wiki/Q456632> ;
   skos:prefLabel "Information privacy" ;
+.
+:InformationTechnology
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://en.wikipedia.org/wiki/Information_technology>" ;
+  skos:broader :AppliedSemantics ;
+  skos:definition "From Wikipedia: Information technology (IT) is the use of computers to create, process, store, retrieve and exchange all kinds of data[1] and information." ;
+  skos:exactMatch <http://www.knowledgegraph.tech/iri/00279> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q11661> ;
+  skos:prefLabel "Information technology" ;
 .
 :InformationTechnologyConsulting
   rdf:type skos:Concept ;
@@ -594,9 +651,9 @@
   skos:exactMatch <http://www.wikidata.org/entity/Q189507> ;
   skos:prefLabel "Internet marketing" ;
 .
-:IssueTracking
+:IssueTrackingSystem
   rdf:type skos:Concept ;
-  skos:broader :ComputerScience ;
+  skos:broader :ApplicationSoftware ;
   skos:definition "From Wikidata: computer software package that manages and maintains lists of issues" ;
   skos:exactMatch <http://www.knowledgegraph.tech/iri/00463> ;
   skos:exactMatch <https://www.wikidata.org/wiki/Q1480561> ;
@@ -613,9 +670,11 @@
 .
 :KnowledgeGraph
   rdf:type skos:Concept ;
-  skos:definition "From Wikidata: information repository structured as a graph" ;
+  dcterms:isReferencedBy "<https://en.wikipedia.org/wiki/Knowledge_graph>" ;
+  skos:definition "From Wikipeda: In knowledge representation and reasoning, knowledge graph is a knowledge base that uses a graph-structured data model or topology to integrate data. Knowledge graphs are often used to store interlinked descriptions of entities – objects, events, situations or abstract concepts – while also encoding the semantics underlying the used terminology." ;
   skos:exactMatch <http://www.knowledgegraph.tech/iri/00044> ;
   skos:exactMatch <https://www.wikidata.org/wiki/Q33002955> ;
+  skos:narrower :EnterpriseKnowledgeGraph ;
   skos:prefLabel "Knowledge graph" ;
 .
 :KnowledgeRepresentationReasoning
@@ -669,6 +728,7 @@
 .
 :Library
   rdf:type skos:Concept ;
+  skos:broader :LibraryScience ;
   skos:changeNote "Changed from \"library\" in KGC data, which is an exact match with the Wikidata link" ;
   skos:exactMatch <http://www.knowledgegraph.tech/iri/00360> ;
   skos:exactMatch <http://www.wikidata.org/entity/Q7075> ;
@@ -1084,7 +1144,7 @@ A Linked Data Fragment (LDF) is characterized by a specific selector (subject UR
 :RecommenderSystem
   rdf:type skos:Concept ;
   dcterms:isReferencedBy "<https://en.wikipedia.org/wiki/Recommender_system>" ;
-  skos:broader :ComputerScience ;
+  skos:broader :ApplicationSoftware ;
   skos:definition "From Wikipedia: A recommender system, or a recommendation system (sometimes replacing 'system' with a synonym such as platform or engine), is a subclass of information filtering system that provide suggestions for items that are most pertinent to a particular user.[1][2] Typically, the suggestions refer to various decision-making processes, such as what product to purchase, what music to listen to, or what online news to read.[1]" ;
   skos:editorialNote "Multiple KGC topic URIs; consolidate" ;
   skos:exactMatch <http://www.knowledgegraph.tech/iri/00339> ;
@@ -1307,6 +1367,7 @@ A Linked Data Fragment (LDF) is characterized by a specific selector (subject UR
 :VirtualAssistant
   rdf:type skos:Concept ;
   dcterms:isReferencedBy "<https://en.wikipedia.org/wiki/Virtual_assistant>" ;
+  skos:broader :ApplicationSoftware ;
   skos:broader :ArtificialIntelligence ;
   skos:definition "From Wikipedia: An intelligent virtual assistant (IVA) or intelligent personal assistant (IPA) is a software agent that can perform tasks or services for an individual based on commands or questions." ;
   skos:exactMatch <http://www.knowledgegraph.tech/iri/00371> ;
