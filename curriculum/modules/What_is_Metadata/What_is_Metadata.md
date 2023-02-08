@@ -65,7 +65,7 @@ A schema is the formal description that is used when conducting inferencing and 
 * Tutorial Example
 
 ## References
-[1] Pomerantz, Jeffrey. *Metadata*. The MIT Press, 2015. 
+[1] Pomerantz, Jeffrey. *Metadata*. The MIT Press, 2015. https://doi.org/10.7551/mitpress/10237.001.0001
 
 [2] Dawson, Laura. "What We Talk About When We Talk About Metadata". Chapter from *A Futurist's Manifesto*. O'Reilly Media, 2012
 
