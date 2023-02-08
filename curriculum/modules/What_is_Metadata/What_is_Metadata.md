@@ -77,7 +77,7 @@ A schema is the formal description that is used when conducting inferencing and 
 
 [6] "What are Ontologies?". ontotext.com. https://www.ontotext.com/knowledgehub/fundamentals/what-are-ontologies/ (accessed Feb. 8, 2023)
 
-[7] Shimizu, Cogan et al. "The enslaved ontology: Peoples of the historic slave trade". _The Journal of Web Semantics_. 2019
+[7] Shimizu, Cogan et al. "The enslaved ontology: Peoples of the historic slave trade". _The Journal of Web Semantics_. 2019. https://doi.org/10.1016/j.websem.2020.100567
 
 ## External Media References
 Canto. What is metadata? (and wy does it matter?). (Mar. 10, 2021). Accessed: Feb. 5, 2023. [Online Video]. Available: https://www.youtube.com/watch?v=fZWg0ClQkYQ
