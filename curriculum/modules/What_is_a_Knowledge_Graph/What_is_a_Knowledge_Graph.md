@@ -25,6 +25,13 @@ When compared against a traditional tabular database, a knowledge graph provides
 ### Implementation of a Knowledge Graph
 The process in implementing a knowledge graph begins with a collection of data and representative relationships between the different pieces of data.  Defining how the data should be used is critical with formulating the relationships connecting data points.  Defining this data can be done through the use of ontology frameworks such as Resource Description Framework (RDF) and Web Ontology Language (OWL).  Both RDF and OWL are standardized frameworks used to represent ontologies on the web, allowing information to be expressed and exchanged across a variety of applications without losing meaning [1].  A formal ontology of the dataset not only provides how the data and relationships can be utilized together to formulate queries to provide explicit and implicit understanding of the information, but also limits the implementation to a specific topic which provides the scope of the knowledge graph’s usage.  
 
+General outline for creating a knowledge graph: 
+* Determine use cases - Define the scope of the knowledge graph.  What topic area should it address?  Where and how will it be used?  Form competency questions that show off it’s capabilities
+* Outline and organize necessary data - Determine what data is needed and what is not.  How much detail is needed? Which details can be overlooked?
+* Create ontologies from relationships - Utilize resources such as RDF and OWL to create an ontology to represent the formal semantics and schema for the dataset.  
+* Create knowledge graph and verify competency questions - Utilize the RDF triple stores created to create a visualization of the dataset, as well as verifying competency questions through SPARQL queries of the data.  
+
+
 ### Applications and Examples
 Knowledge graphs can be used to organize data from multiple sources or organizations, capture information about entities of interest in a specific domain or task (like people, places or events), and create connections and relationships between them. A few popular area's where knowledge graphs can be especially useful are: data science, natural language processing and AI/ML.  Some uses of knowledge graphs include [3]:
 * Facilitating access to and integration of data sources
