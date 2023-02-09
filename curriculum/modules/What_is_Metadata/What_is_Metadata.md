@@ -27,12 +27,16 @@ But we now know that the internet was, by that time, in the process of replacing
 
 Though many individual ideas from the Semantic Web have been realized, and influenced the internet's development since, the full vision of the Semantic Web is one in which essentially all information online is made machine-readable--in a single universal language--as well as human-readable. It is a sweeping vision, one which, it is largely acknolwedged, remains unrealized. [1]
 
-Metadata broadly falls into three categories[4].
-
+There are different types of metadata that can be categorized based on the intended usage of metadata or on the method of generation of metadata. When categorized based on usage, metadata broadly falls into three categories[4]:
 * Descriptive metadata: metadata that provides information on data to facilitate discovery, source-verification, significance and identification such as tile, author, genre, date published etc.. 
 * Structural metadata: metadata that provides information on technical specifications, structure of data such as file format, page number, file sizeetc..
 * Administrative metadata: metadata used for organizatonal purposes. This can include unique identifiers, genre, keywords etc...
 
+Metadata is categorized into two based on the methods of generation[1]:
+* Data Exhaust: metadata that is created as a by-product of conducting operations or day-to-day activities. Data exhaust is metadata that is produced as a by-product of other processes. This type of metadata include items you buy, when items were purchased, what items were searched for  etc...
+* Paradata: metadata that is produced as a result of using resources. This type of metadata includes search history, access logs, cookies.
+
+A wide-spread application of metadata is targeted-marketing. Targeted marketing is the strategy of using metadata to make inferences about individuals and personalizing ads for the specific individual. Targeted marketing can be benefical and harmful to both the advertiser and the individual being targeted. A famous example of harmful targeted advertising to the consumer is the case of Target (the store) sending a flyer of coupons for baby-related items to an individual that was most-likely pregnant based on metadata of recent purchases. The harm being that Target had announced the pregnancy of a minor to her parents. 
 
 ### What is Metadata as it Relates to Knowledge Graphs?
 
