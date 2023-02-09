@@ -21,7 +21,7 @@ Another way to describe knowledge graphs is that they’re a way to implement kn
 There’s added complexity once you get into the semantics underlying the nodes and relations. They can be represented similarly to object-oriented design with classes. Hierarchical classification of nodes can represent sub-classes and their common superclass, such as a family tree. The edges that connect the nodes have types. Relationship types get at the meaning behind the connection by describing what the entities, are, do, are a part of, etc. There is underlying logic that allows for inferences to be made with the data by defining inverse and transitive relationship types. A third way of modeling semantic data is into categories. Categories describe an aspect of what an entity is [2].
 
 ### Ontology
-The terms ontology and knowledge graph are often confused because there’s a lot of overlap in meaning. Google popularized the term knowledge graph in 2012, though they were building off of existing research such as knowledge representation, knowledge acquisition, natural language processing, ontology engineering, and the semantic web [3]. Ontologies represent the schema that uses formal semantics. When implemented correctly, the schema should map to a knowledge graph to ensure that the intended meaning has been captured. This ensures that there is a shared understanding between the creators of the graph and the users or software that will need to be able to effectively query the data [2]. There’s debate surrounding whether or not knowledge graphs and ontologies are essentially the same thing [5].
+The terms ontology and knowledge graph are often confused because there’s a lot of overlap in meaning. Google popularized the term knowledge graph in 2012, though they were building off of existing research such as knowledge representation, knowledge acquisition, natural language processing, ontology engineering, and the semantic web [3]. Ontologies represent the schema that uses formal semantics. When implemented correctly, the schema should map to a knowledge graph to ensure that the intended meaning has been captured. This ensures that there is a shared understanding between the creators of the graph and the users or software that will need to be able to effectively query the data [2]. There’s debate surrounding whether or not knowledge graphs and ontologies are essentially the same thing [4].
 
 ### Knowledge Graph vs Other Information Databases
 A Knowledge Graph, or simply referred to as KG, is an alternative form for representing relationships between informational data.  Unlike relational databases, a knowledge graph can provide insight to the deep understanding of the data within the scope of the defined ontology, or rules listed out to define the connections between data and relationships.  A knowledge graph provides detailed information for data integration, unification, linking, and reuse [2].  A knowledge graph differentiates itself from a normal graph by [1]:  
@@ -56,13 +56,13 @@ Specific examples and applications of knowledge graphs include:
 
 Google’s Knowledge Graph:  The Knowledge Graph deployed by Google provides a resource to create a summarized box of relevant information within search results. With a large pool of data sources to logically reason with, users are able to efficiently find relevant information in these panels known as Knowledge Panels.
 
-Retail Industry: Used for up-sell and cross-sell strategies, recommending products based on individual purchase behavior and tracking popular purchasing trends [5].
+Retail Industry: Used for up-sell and cross-sell strategies, recommending products based on individual purchase behavior and tracking popular purchasing trends [4].
 
-Entertainment Industry: Used alongside artificial intelligence for recommendation engines on media and social networking platforms.  Also used for leveraging online engagement behaviors to recommend new content for users to read, watch, or follow [5].
+Entertainment Industry: Used alongside artificial intelligence for recommendation engines on media and social networking platforms.  Also used for leveraging online engagement behaviors to recommend new content for users to read, watch, or follow [4].
 
-Finance Industry: Used for know-your-customer and anti-money laundering initiatives. They assist in financial crime prevention and investigation, allowing banking institutions to understand the flow of money across their clientele and identify noncompliant customers [5].
+Finance Industry: Used for know-your-customer and anti-money laundering initiatives. They assist in financial crime prevention and investigation, allowing banking institutions to understand the flow of money across their clientele and identify noncompliant customers [4].
 
-Healthcare Industry: Can be used for organizing and categorizing relationships within medical research client treatment. Information can be used to assist providers by validating diagnoses and identifying treatment plans based on individual needs [5]. 
+Healthcare Industry: Can be used for organizing and categorizing relationships within medical research client treatment. Information can be used to assist providers by validating diagnoses and identifying treatment plans based on individual needs [4]. 
 
 
 ### In Summary
@@ -92,9 +92,7 @@ https://www.ontotext.com/knowledgehub/fundamentals/what-is-a-knowledge-graph/ <b
 Turing Institute. Retrieved February 1, 2023, <br> from
 https://www.turing.ac.uk/research/interest-groups/knowledge-graphs <br>
 
-[4] McCusker, J., McGuinness, D., Erickson, J., Chastain, K. (n.d.). What is a Knowledge Graph? Authorea. Retrieved February 8, 2023, <br> from https://www.authorea.com/users/6341/articles/107281-what-is-a-knowledge-graph/_show_article <br>
-
-[5] IBM. (n.d.). What is knowledge graph? IBM. Retrieved February 8, 2023, <br> from https://www.ibm.com/topics/knowledge-graph <br>
+[4] IBM. (n.d.). What is knowledge graph? IBM. Retrieved February 8, 2023, <br> from https://www.ibm.com/topics/knowledge-graph <br>
 
 ## Contributors
 * Brandon Dave
