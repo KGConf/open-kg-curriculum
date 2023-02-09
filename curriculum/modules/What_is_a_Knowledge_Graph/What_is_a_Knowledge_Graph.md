@@ -29,12 +29,12 @@ A Knowledge Graph, or simply referred to as KG, is an alternative form for repre
 - Modeling Real-World information:  knowledge graphs are modeled similar to how a human may comprehend a set of information
 - Performing Logical Reasoning:  traversal of vertices between nodes results in  connections from the starting node to the end node and all relationships in between  
 
-Although the focus of a knowledge graph is on relationship within data, the benefits of a knowledge graph include [1]:
+Although the focus of a knowledge graph is on relationships within data, the benefits of a knowledge graph include [1]:
 - Structured Representation of Data compared to text-based display of information
 - Removing Redundancy:  tabular databases require the use of empty columns and rows to represent new facts about the data
 - Querying for Complex Information:  tabular databases may incorporate multiple statements to join varying tables together to extract a piece of information whereas a knowledge graph can simplify and improve the efficiency of querying.  
 
-When compared against a traditional tabular database, a knowledge graph provides both  flexibility with data entry, and efficiency in data storage and the computational requirements for queries.
+When compared against a traditional tabular database, a knowledge graph provides both flexibility with data entry, and efficiency in data storage and the computational requirements for queries.
 
 ### Implementation of a Knowledge Graph
 The process in implementing a knowledge graph begins with a collection of data and representative relationships between the different pieces of data.  Defining how the data should be used is critical with formulating the relationships connecting data points.  Ontology frameworks, such as Resource Description Framework (RDF) and Web Ontology Language (OWL), assist in connecting relationships between data.  Both RDF and OWL are standardized frameworks used to represent ontologies on the web, allowing information to be expressed and exchanged across a variety of applications without losing meaning [1].  A formal ontology of the dataset not only provides how the data and relationships can be utilized together to formulate queries to provide explicit and implicit understanding of the information, but also limits the implementation to a specific topic which provides the scope of the knowledge graph’s usage.  
