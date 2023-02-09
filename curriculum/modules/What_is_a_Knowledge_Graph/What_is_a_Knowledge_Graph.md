@@ -10,7 +10,7 @@
 ### Definition
 
 ### Knowledge Graph vs Other Information Databases
-A Knowledge Graph is an alternative form for representing relationships between informational data.  Unlike relational databases, a knowledge graph can provide insight to the deep understanding of the data within the scope of the defined ontology, or rules listed out to define the connections between data and relationships.  A knowledge graph provides detailed information for data integration, unification, linking, and reuse [2].  A knowledge graph differentiates itself from a normal graph by [1]:  
+A Knowledge Graph, or simply referred to as KG, is an alternative form for representing relationships between informational data.  Unlike relational databases, a knowledge graph can provide insight to the deep understanding of the data within the scope of the defined ontology, or rules listed out to define the connections between data and relationships.  A knowledge graph provides detailed information for data integration, unification, linking, and reuse [2].  A knowledge graph differentiates itself from a normal graph by [1]:  
 - Supporting heterogeneous data:  knowledge graphs are not restricted by the typing of objects and relationships
 - Modeling Real-World information:  knowledge graphs are modeled similar to how a human may comprehend a set of information
 - Performing Logical Reasoning:  traversal of vertices between nodes results in  connections from the starting node to the end node and all relationships in between  
