@@ -22,9 +22,8 @@ Although the focus of a knowledge graph is on relationship within data, the bene
 
 When compared against a traditional tabular database, a knowledge graph provides both  flexibility with data entry, and efficiency in data storage and the computational requirements for queries.
 
-### How Knowledge Graphs are Modeled
-
-### How a Knowledge Graph is Used
+### How Knowledge Graphs are Modeled and Used
+Knowledge Graphs are modeled through the use of ontology frameworks such as Resource Description Framework (RDF) and Web Ontology Language (OWL).  Both RDF and OWL are standardized frameworks used to represent ontologies on the web, allowing information to be expressed and exchanged across a variety of applications without losing meaning [1].  
 
 
 ### Implementation of a Knowledge Graph
