@@ -30,11 +30,17 @@ Knowledge graphs can be used to organize data from multiple sources or organizat
 * Facilitating access to and integration of data sources
 * Adding context, depth to other metadata to entities
 * Allowing for humans and systems to use similar logic and reasoning
+
 Specific examples and applications of knowledge graphs include:
+
 Google’s Knowledge Graph:  The google knowledge graph provides a resource to create a summarized box of relevant information within search results. With a large pool of data sources to logically reason with, users are able to efficiently find relevant information in these panels known as Knowledge Panels.
+
 Retail Industry: Used for up-sell and cross-sell strategies, recommending products based on individual purchase behavior and tracking popular purchasing trends [5].
+
 Entertainment Industry: Used alongside artificial intelligence for recommendation engines on media and social networking platforms.  Also used for leveraging online engagement behaviors to recommend new content for users to read, watch, or follow [5].
+
 Fiance Industry: Have been used for know-your-customer and anti-money laundering initiatives. They assist in financial crime prevention and investigation, allowing banking institutions to understand the flow of money across their clientele and identify noncompliant customers [5].
+
 Healthcare Industry: Can be used for organizing and categorizing relationships within medical research client treatment. Information can be used to assist providers by validating diagnoses and identifying treatment plans based on individual needs [5]. 
 
 
