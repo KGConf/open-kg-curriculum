@@ -8,7 +8,7 @@
 ## Content
 
 ### Definition
-A knowledge graph is a type of graphical representation of the connections between real-world objects or abstract concepts. The graph structure is stems from graph theory in mathematics. These connections form a conceptualization of the world in a particular domain. 
+A knowledge graph is a type of graphical representation of the connections between real-world objects or abstract concepts. The graph structure stems from graph theory in mathematics. These connections form a conceptualization of the world in a particular domain. 
 
 The basic unit of the information contained in a knowledge graph is a fact. The “facts” are stored as triplets, which are made up of 2 nodes and an edge that connects them. There is more than one way to describe the 3 elements of a triplet [1]:
 - Real-world objects: <head, relation, tail>
