@@ -25,10 +25,18 @@ When compared against a traditional tabular database, a knowledge graph provides
 ### Implementation of a Knowledge Graph
 The process in implementing a knowledge graph begins with a collection of data and representative relationships between the different pieces of data.  Defining how the data should be used is critical with formulating the relationships connecting data points.  Defining this data can be done through the use of ontology frameworks such as Resource Description Framework (RDF) and Web Ontology Language (OWL).  Both RDF and OWL are standardized frameworks used to represent ontologies on the web, allowing information to be expressed and exchanged across a variety of applications without losing meaning [1].  A formal ontology of the dataset not only provides how the data and relationships can be utilized together to formulate queries to provide explicit and implicit understanding of the information, but also limits the implementation to a specific topic which provides the scope of the knowledge graph’s usage.  
 
-### Example
-Google’s extended use of Knowledge Graph provides a resource to create a summarized box of relevant information within a search result.  With a large pool of data sources to logically reason with, users are able to efficiently find relevant information in these panels known as Knowledge Panels.  
+### Applications and Examples
+Knowledge graphs can be used to organize data from multiple sources or organizations, capture information about entities of interest in a specific domain or task (like people, places or events), and create connections and relationships between them. A popular area where knowledge graphs can be especially useful is data science and AI.  Some uses of knowledge graphs include [3]:
+* Facilitating access to and integration of data sources
+* Adding context, depth to other metadata to entities
+* Allowing for humans and systems to use similar logic and reasoning
+Specific examples and applications of knowledge graphs include:
+Google’s Knowledge Graph:  The google knowledge graph provides a resource to create a summarized box of relevant information within search results. With a large pool of data sources to logically reason with, users are able to efficiently find relevant information in these panels known as Knowledge Panels.
+Retail Industry: Used for up-sell and cross-sell strategies, recommending products based on individual purchase behavior and tracking popular purchasing trends [5].
+Entertainment Industry: Used alongside artificial intelligence for recommendation engines on media and social networking platforms.  Also used for leveraging online engagement behaviors to recommend new content for users to read, watch, or follow [5].
+Fiance Industry: Have been used for know-your-customer and anti-money laundering initiatives. They assist in financial crime prevention and investigation, allowing banking institutions to understand the flow of money across their clientele and identify noncompliant customers [5].
+Healthcare Industry: Can be used for organizing and categorizing relationships within medical research client treatment. Information can be used to assist providers by validating diagnoses and identifying treatment plans based on individual needs [5]. 
 
-### Application
 
 ### In Summary
 Knowledge Graphs serve the purpose of representing a database with the functionality to query the information,  allowing users to understand deeper meaning found through undefined relationships.  While tabular databases can still serve a purpose for data storage, knowledge graphs provide an efficient method for querying.  
