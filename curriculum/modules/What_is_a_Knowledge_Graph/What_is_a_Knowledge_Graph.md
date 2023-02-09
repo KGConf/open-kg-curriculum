@@ -22,6 +22,10 @@ Although the focus of a knowledge graph is on relationship within data, the bene
 
 When compared against a traditional tabular database, a knowledge graph provides both  flexibility with data entry, and efficiency in data storage and the computational requirements for queries.
 
+### How Knowledge Graphs are Modeled
+
+### How a Knowledge Graph is Used
+
 
 ### Implementation of a Knowledge Graph
 The process in implementing a knowledge graph begins with a collection of data and representative relationships between the different pieces of data.  Defining how the data should be used is critical with formulating the relationships connecting data points.  A formal ontology of the dataset not only provides how the data and relationships can be utilized together to formulate queries to provide explicit and implicit understanding of the information, but also limits the implementation to a specific topic which provides the scope of the knowledge graph’s usage.  
@@ -61,8 +65,6 @@ https://www.turing.ac.uk/research/interest-groups/knowledge-graphs <br>
 [4] McCusker, J., McGuinness, D., Erickson, J., Chastain, K. (n.d.). What is a Knowledge Graph? Authorea. Retrieved February 8, 2023, <br> from https://www.authorea.com/users/6341/articles/107281-what-is-a-knowledge-graph/_show_article <br>
 
 [5] IBM. (n.d.). What is knowledge graph? IBM. Retrieved February 8, 2023, <br> from https://www.ibm.com/topics/knowledge-graph <br>
-
-[6] Stardog. (n.d.). How Knowledge Graphs Work. Stardog. Retrieved February 8, 2023, <br> fromhttps://www.stardog.com/knowledge-graph/
 
 ## Contributors
 * Brandon Dave
