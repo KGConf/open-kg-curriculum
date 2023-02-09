@@ -8,6 +8,20 @@
 ## Content
 
 ### Definition
+A knowledge graph is a type of graphical representation of the connections between real-world objects or abstract concepts. These connections form a conceptualization of the world in a particular domain. 
+
+The basic unit of the information contained in a knowledge graph is a fact. The “facts” are stored as triplets, which are made up of 2 nodes and an edge that connects them. There is more than one way to describe the 3 elements of a triplet [1]:
+- Real-world objects: <head, relation, tail>
+- Linguistic: <subject, predicate, object>
+- Technical components: <node, edge, node>
+- Example: <Hans, is a, cat>; <Hans, is the pet of, Megan>
+
+Another way to describe knowledge graphs is that they’re a way to implement knowledge models that allows for a database structure that’s more compatible with the conceptualization of data as a semantic web. The tail node of one triple is connected to other nodes, which forms a network of related “things". Both humans and computers are able to reasonably understand the web of data because it’s based on formal semantics and logic [2]. 
+
+There’s added complexity once you get into the semantics underlying the nodes and relations. They can be represented similarly to object-oriented design with classes. Hierarchical classification of nodes can represent sub-classes and their common superclass, such as a family tree. The edges that connect the nodes have types. Relationship types get at the meaning behind the connection by describing what the entities, are, do, are a part of, etc. There is underlying logic that allows for inferences to be made with the data by defining inverse and transitive relationship types. A third way of modeling semantic data is into categories. Categories describe an aspect of what an entity is [2].
+
+### Ontology
+The terms ontology and knowledge graph are often confused because there’s a lot of overlap in meaning. Google popularized the term knowledge graph in 2012, though they were building off of existing research such as knowledge representation, knowledge acquisition, natural language processing, ontology engineering, and the semantic web [3]. Ontologies represent the schema that uses formal semantics. When implemented correctly, the schema should map to a knowledge graph so that the meaning is properly represented. This ensures that there is a shared understanding between the creators of the graph and the users or software that will need to be able to effectively query the data [2]. There’s debate surrounding whether or not knowledge graphs and ontologies are essentially the same thing [5].
 
 ### Knowledge Graph vs Other Information Databases
 A Knowledge Graph, or simply referred to as KG, is an alternative form for representing relationships between informational data.  Unlike relational databases, a knowledge graph can provide insight to the deep understanding of the data within the scope of the defined ontology, or rules listed out to define the connections between data and relationships.  A knowledge graph provides detailed information for data integration, unification, linking, and reuse [2].  A knowledge graph differentiates itself from a normal graph by [1]:  
