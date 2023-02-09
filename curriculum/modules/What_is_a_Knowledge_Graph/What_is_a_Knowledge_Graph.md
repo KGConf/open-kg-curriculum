@@ -22,12 +22,8 @@ Although the focus of a knowledge graph is on relationship within data, the bene
 
 When compared against a traditional tabular database, a knowledge graph provides both  flexibility with data entry, and efficiency in data storage and the computational requirements for queries.
 
-### How Knowledge Graphs are Modeled and Used
-Knowledge Graphs are modeled through the use of ontology frameworks such as Resource Description Framework (RDF) and Web Ontology Language (OWL).  Both RDF and OWL are standardized frameworks used to represent ontologies on the web, allowing information to be expressed and exchanged across a variety of applications without losing meaning [1].  Ontologies are created and represented by RDF triple stores that express the formal semantics or schema of the dataset. These triple stores can then be used to visualize the knowledge graph or query the data using a language such as SPARQL.  
-
-
 ### Implementation of a Knowledge Graph
-The process in implementing a knowledge graph begins with a collection of data and representative relationships between the different pieces of data.  Defining how the data should be used is critical with formulating the relationships connecting data points.  A formal ontology of the dataset not only provides how the data and relationships can be utilized together to formulate queries to provide explicit and implicit understanding of the information, but also limits the implementation to a specific topic which provides the scope of the knowledge graph’s usage.  
+The process in implementing a knowledge graph begins with a collection of data and representative relationships between the different pieces of data.  Defining how the data should be used is critical with formulating the relationships connecting data points.  Defining this data can be done through the use of ontology frameworks such as Resource Description Framework (RDF) and Web Ontology Language (OWL).  Both RDF and OWL are standardized frameworks used to represent ontologies on the web, allowing information to be expressed and exchanged across a variety of applications without losing meaning [1].  A formal ontology of the dataset not only provides how the data and relationships can be utilized together to formulate queries to provide explicit and implicit understanding of the information, but also limits the implementation to a specific topic which provides the scope of the knowledge graph’s usage.  
 
 ### Example
 Google’s extended use of Knowledge Graph provides a resource to create a summarized box of relevant information within a search result.  With a large pool of data sources to logically reason with, users are able to efficiently find relevant information in these panels known as Knowledge Panels.  
