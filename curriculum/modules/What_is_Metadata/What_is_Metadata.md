@@ -32,7 +32,8 @@ There are different types of metadata that can be categorized based on the inten
 * Structural metadata: metadata that provides information on technical specifications, structure of data such as file format, page number, file sizeetc..
 * Administrative metadata: metadata used for organizatonal purposes. This can include unique identifiers, genre, keywords etc...
 
-Metadata is categorized into two based on the methods of generation[1]:
+Metadata is categorized into three based on the methods of generation[1]:
+* Deliberate metadata: metadata that is created deliberately either manually or computer generated to be used by the resource. These include name (to provide verification), alias (to provide anonymity), ISBN (for resource identification).
 * Data Exhaust: metadata that is created as a by-product of conducting operations or day-to-day activities. Data exhaust is metadata that is produced as a by-product of other processes. This type of metadata include items you buy, when items were purchased, what items were searched for  etc...
 * Paradata: metadata that is produced as a result of using resources. This type of metadata includes search history, access logs, cookies.
 
