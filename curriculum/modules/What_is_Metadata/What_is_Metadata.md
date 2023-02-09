@@ -11,7 +11,7 @@
 
 Metadata is simply *data about data*. Just as data enables humans to organize, track, and take intelligent action on objects in the real world, metadata empowers knowledge workers to organize, track, and act intelligently on data itself.
 
-It is sometimes claimed that the first metadata was a library catalog system—specifically, if one is looking for firsts, the catalog of the ancient Library of Alexandria. Supposedly, metadata kept at Alexandria listed Genre, title, author, and length for each book [1]. In fact, books remained one of the most important domains of metadata even at the opening of the 21st century. Amazon’s website, even from its humble beginnings when it was only a digital bookstore, used many of the same pieces of information. It added the sorts of information tracked by the library of Alexandria to more modern administrative metadata such as ISBN. Amazon's early adoption of this metadata has been cited as a contributing factor in its success. And not only did it succeed wildly as one of the world's first digital booksellers, its practices quickly spread to brick-and-mortar stores as well as libraries. Metadata enabled stores to efficiently organize their own inventory, and for consumers to efficiently discover titles they wanted to read. [2]
+It is sometimes claimed that the first metadata was a library catalog system—specifically, if one is looking for firsts, the catalog of the ancient Library of Alexandria. Supposedly, metadata kept at Alexandria listed genre, title, author, and length for each book [1]. In fact, books remained one of the most important domains of metadata even at the opening of the 21st century. Amazon’s website, even from its humble beginnings when it was only a digital bookstore, used many of the same pieces of information. It added the sorts of information tracked by the library of Alexandria to more modern administrative metadata such as ISBN. Amazon's early adoption of this metadata has been cited as a contributing factor in its success. And not only did it succeed wildly as one of the world's first digital booksellers, its practices quickly spread to brick-and-mortar stores as well as libraries. Metadata enabled stores to efficiently organize their own inventory, and for consumers to efficiently discover titles they wanted to read. [2]
 
 
 <img src="alexandria_book.png" width="50%" align="left"/>  
@@ -32,7 +32,7 @@ There are different types of metadata that can be categorized based on the inten
 * Structural metadata: metadata that provides information on technical specifications, structure of data such as file format, page number, file sizeetc..
 * Administrative metadata: metadata used for organizatonal purposes. This can include unique identifiers, genre, keywords etc...
 
-Metadata is categorized into three based on the methods of generation[1]:
+Metadata is also categorized into three types based on the methods of generation[1]:
 * Deliberate metadata: metadata that is created deliberately either manually or computer generated to be used by the resource. These include name (to provide verification), alias (to provide anonymity), ISBN (for resource identification).
 * Data Exhaust: metadata that is created as a by-product of conducting operations or day-to-day activities. Data exhaust is metadata that is produced as a by-product of other processes. This type of metadata include items you buy, when items were purchased, what items were searched for  etc...
 * Paradata: metadata that is produced as a result of using resources. This type of metadata includes search history, access logs, cookies.
@@ -45,7 +45,7 @@ A wide-spread application of metadata is targeted-marketing. Targeted marketing 
 
 ---
 
-_A Google web search for "Library of Alexandria" brings up this panel of information sourced from Wikipedia's Wikidata. Many of the entries on this metadata, such as the library's country of origin, are in fact links to other entities in Wikidata with identifiers and metadata of their own._ 
+_A Google web search for "Library of Alexandria" brings up this panel of information sourced from Wikipedia's Wikidata. Many of the entries in this metadata, such as the library's country of origin, are in fact links to other entities in Wikidata with identifiers (and more metadata) of their own._ 
 
 ---
 
@@ -93,7 +93,7 @@ Once it is decided that semantic, formal logic-based formalism will be used, the
 [8] P. Hitzler, M. Krotzsch, and S. Rudoplh, _Foundations of Semantic Web Technologies_. Boca Raton, FL, USA: CRC Press, 2010. https://doi.org/10.1201/9781420090512
 
 ## External Media References
-Canto. What is metadata? (and wy does it matter?). (Mar. 10, 2021). Accessed: Feb. 5, 2023. [Online Video]. Available: https://www.youtube.com/watch?v=fZWg0ClQkYQ
+Canto. What is metadata? (and why does it matter?). (Mar. 10, 2021). Accessed: Feb. 5, 2023. [Online Video]. Available: https://www.youtube.com/watch?v=fZWg0ClQkYQ
 
 ## Contributors
 * Jehan Fernando
