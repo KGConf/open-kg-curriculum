@@ -66,6 +66,11 @@ A schema or ontology is a formal description of knowledge within a certain domai
 
 A schema is the formal description that is used when conducting inferencing and reasoning by automatic reasoners. These automatic reasoners highlight inconsistencies and showcases the context of the knowledge graph. A schema provides a sharable and resusable representation of a knowledge graph that also provides a format, standards for the addition of new knowledge to the knowledge graph. 
 
+Creating an ontology can be seen as transferring knowledge into a computer-accessible form. It is clear that a thorough requirement analysis is crucial for the development of an ontology that is appropriate for a given purpose [8]. One of the initial questions that should be answered when developing an ontology is whether a semantic representation adds any value to the subject or not. If no value is being added, maybe a different representation is needed instead. One advantage of an ontology-based system is that the knowledge represented in a semantic format can be more easily incorporated knowledge from other sources. Additionally, the semantic format reveals implicit knowledge that may be useful. Another question that should be answered when creating an ontology is whether a representation based on formal logic is rational for the intended purpose of the ontology. 
+
+Once it is decided that semantic, formal logic-based formalism will be used, there are multiple tool options to choose from, including RDF(S) or OWL DL depending on the requirements for the given subject or scenario. After the tool is determined, the knowledge worker can determine which domain(s) need to be modeled and what aspects of the domain must be captured. This includes the level of detail in the ontology and the explicit and implicit tasks being answered by the ontology. Because there are many ways to model a situation in an ontology correctly, it may not be apparent how to do so. If a single word has many different, but related, meanings, the decision about how the word should be modeled in the system will depend on the purpose of the ontology. Ultimately, there is no perfectly correct manner in which to build a system that satisfies the requirements. Although there are certain methods can prove more viable or useful when building a system, design decisions typically need to be made in order represent the purpose of the ontology. 
+
+
 ## Related KGC Media
 * Workshop Example
 * Tutorial Example
@@ -84,6 +89,8 @@ A schema is the formal description that is used when conducting inferencing and 
 [6] "What are Ontologies?". ontotext.com. https://www.ontotext.com/knowledgehub/fundamentals/what-are-ontologies/ (accessed Feb. 8, 2023)
 
 [7] Shimizu, Cogan et al. "The enslaved ontology: Peoples of the historic slave trade". _The Journal of Web Semantics_. 2019. https://doi.org/10.1016/j.websem.2020.100567
+
+[8] P. Hitzler, M. Krotzsch, and S. Rudoplh, _Foundations of Semantic Web Technologies_. Boca Raton, FL, USA: CRC Press, 2010. https://doi.org/10.1201/9781420090512
 
 ## External Media References
 Canto. What is metadata? (and wy does it matter?). (Mar. 10, 2021). Accessed: Feb. 5, 2023. [Online Video]. Available: https://www.youtube.com/watch?v=fZWg0ClQkYQ
