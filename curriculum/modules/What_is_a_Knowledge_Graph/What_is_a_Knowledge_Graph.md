@@ -80,7 +80,6 @@ Knowledge Graphs serve the purpose of representing a database with the functiona
 * [A Reintroduction to our Knowledge Graph and Knowledge Panels](https://blog.google/products/search/about-knowledge-graph-and-knowledge-panels/)
 * [Knowledge Graph entry for Knowledge Graph](https://kgkg.factnexus.com/@3782~6.html)
 
-
 ## References
 [1] Mayank, M. (2021, August 30). A guide to the knowledge graphs. Medium. Retrieved
 February 1, 2023, <br> from https://towardsdatascience.com/a-guide-to-the-knowledge-graphs-bfb5c40272f1 <br>
@@ -94,7 +93,12 @@ https://www.turing.ac.uk/research/interest-groups/knowledge-graphs <br>
 
 [4] IBM. (n.d.). What is knowledge graph? IBM. Retrieved February 8, 2023, <br> from https://www.ibm.com/topics/knowledge-graph <br>
 
+## General References
+* Alan Morrison on the Semantic Web vs. Knowledge graphs: https://qr.ae/pr81kV
+
+
 ## Contributors
 * Brandon Dave
 * Megan Noble
 * Ryan Miller
+* Cogan Shimizu
