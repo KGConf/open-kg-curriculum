@@ -909,8 +909,8 @@ A Linked Data Fragment (LDF) is characterized by a specific selector (subject UR
 .
 :OWL
   rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/OWL>" ;
   dcterms:isReferencedBy "<https://knowledgegraphconference.vhx.tv/packages/kgc-21-attendees/videos/bookclub-chapter9>" ;
-  dcterms:isReferencedBy "https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/OWL" ;
   skos:broader :W3CRecommendations ;
   skos:exactMatch <http://www.knowledgegraph.tech/iri/00404> ;
   skos:prefLabel "OWL" ;
