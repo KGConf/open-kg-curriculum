@@ -909,9 +909,18 @@ A Linked Data Fragment (LDF) is characterized by a specific selector (subject UR
 .
 :OWL
   rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/OWL>" ;
+  dcterms:isReferencedBy "<https://knowledgegraphconference.vhx.tv/packages/kgc-21-attendees/videos/bookclub-chapter9>" ;
   skos:broader :W3CRecommendations ;
   skos:exactMatch <http://www.knowledgegraph.tech/iri/00404> ;
   skos:prefLabel "OWL" ;
+.
+:OWLProperty
+  rdf:type skos:Concept ;
+  dcterms:isReferencedBy "<https://knowledgegraphconference.vhx.tv/packages/kgc-21-attendees/videos/owlbookclub-chap4>" ;
+  skos:broader :OWL ;
+  skos:prefLabel "OWLProperty" ;
+  skos:related :RDFProperty ;
 .
 :Ontology
   rdf:type skos:Concept ;
@@ -1085,6 +1094,11 @@ A Linked Data Fragment (LDF) is characterized by a specific selector (subject UR
   rdf:type skos:Concept ;
   skos:prefLabel "RDF element" ;
 .
+:RDFProperty
+  rdf:type skos:Concept ;
+  skos:broader :RDFElement ;
+  skos:prefLabel "RDF property" ;
+.
 :RDFSerialization
   rdf:type skos:Concept ;
   dcterms:isReferencedBy <https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/RDF_Serializations/RDF_Serializations.md> ;
@@ -1104,7 +1118,7 @@ A Linked Data Fragment (LDF) is characterized by a specific selector (subject UR
 .
 :RDFSubproperty
   rdf:type skos:Concept ;
-  skos:broader :RDFproperty ;
+  skos:broader :RDFProperty ;
   skos:prefLabel "RDF subproperty" ;
 .
 :RDFXML
@@ -1119,11 +1133,6 @@ A Linked Data Fragment (LDF) is characterized by a specific selector (subject UR
   rdf:type skos:Concept ;
   skos:broader :RDF ;
   skos:prefLabel "RDF class" ;
-.
-:RDFproperty
-  rdf:type skos:Concept ;
-  skos:broader :RDFElement ;
-  skos:prefLabel "RDF property" ;
 .
 :RealEstate
   rdf:type skos:Concept ;
@@ -1435,6 +1444,6 @@ a server running on a computer device, listening for requests at a particular po
 .
 :rdfType
   rdf:type skos:Concept ;
-  skos:broader :RDFproperty ;
+  skos:broader :RDFProperty ;
   skos:prefLabel "RDF type" ;
 .
