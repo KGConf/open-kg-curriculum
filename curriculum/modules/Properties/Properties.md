@@ -24,7 +24,6 @@ In RDF triples, the predicate states the nature of the relationship between the 
 
 ### What other terms are used for properties?  ###
 
-In solid geometry, a vertex is the meeting point of two or more edges of a solid shape. an edge connects two vertices, defining how the two vertices are related spatially. An edge, like a predicate, connects two elements.  
 
 
 | Methodology | Subject | Predicate | Object|
@@ -39,6 +38,9 @@ In solid geometry, a vertex is the meeting point of two or more edges of a solid
 | RDFS and OWL | domain | object or data properties | range|
 | Description Logics | concept or instance | roles (object properties) or attributes (data properties) |  
 
+In solid geometry, a vertex is the meeting point of two or more edges of a solid shape. an edge connects two vertices, defining how the two vertices are related spatially. An edge, like a predicate, connects two elements.  
+
+![Edge, vertex, node, and arc.](images/Edge vertex node arc.jpg)
 
 
 ## Related KGC Media
