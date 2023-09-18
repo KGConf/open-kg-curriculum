@@ -6,15 +6,15 @@
 * Level: [Beginner](../../levels/Beginner.md)
 
 ## Content
-### What are properties in triples or knowledge graphs? 
+### What are *properties* in triples or knowledge graphs? 
 
 Triples are defined in the Resource Definition Framework (RDF) developed by the World Wide Web Consortium (W3C) and introduced in the Open Curriculum’s [RDF Module](../RDF/RDF.md). Triples, the fundamental data structure of RDF, are made up of a subject, predicate, and object. [1] 
 
     subject    predicate    object
 
-The *predicate* expresses how the subject is related to the object. Here are some sample definitions of knowledge graphs. Notice how relationships (italics ours) are integral to these definitions. 
+The *predicate* expresses how the subject is *related* to the object. Here are some sample definitions of knowledge graphs. Notice how relationships (italics ours) are integral to these definitions. 
 
->"A 'graph' . . . understands real-world entities and their *relationships* to one another: things, not strings."[2]
+>"[Google] has been working on an intelligent model—in geek-speak, a “graph”—that understands real-world entities and their *relationships* to one another: things, not strings." [2]
 
 >“Knowledge graphs are large networks of entities, their semantic types, *properties*, and *relationships* between entities” [3]. 
 
@@ -22,9 +22,30 @@ The *predicate* expresses how the subject is related to the object. Here are som
 
 In RDF triples, the predicate states the nature of the relationship between the subject and the object in a directional way, i.e., from subject to object. The RDF term for predicate is *property*. Predicate and property refer to the same concept and are often used interchangeably. [5, 6] 
 
+### What other terms are used for properties?  ###
+
+In solid geometry, a vertex is the meeting point of two or more edges of a solid shape. an edge connects two vertices, defining how the two vertices are related spatially. An edge, like a predicate, connects two elements.  
+
+
+| Methodology | Subject | Predicate | Object|
+| --- | --- | --- | --- |
+| RDF | Resource  | Property | Value|
+| Knowledge Graph Embedding (Fact) | head (h) | relation (r) | tail (t) |
+| Solid Geometry | vertex | edge | vertex|
+| Graphs | nodes  | arcs  | nodes|
+| Entity-Relationship (ER) Model | entity type (category) or entity (instance) | attribute or relationships | value|
+| Mind maps. Concept maps.  | Box, circle, diamond, etc.  | arrows | box, circle, diamond, etc. |
+| Topic map (for indexes) | topics| associations | occurrences |
+| RDFS and OWL | domain | object or data properties | range|
+| Description Logics | concept or instance | roles (object properties) or attributes (data properties) |  
+
+
+
 ## Related KGC Media
 * KGC Book Club: Michael Uschold, *Demystifying OWL for the Enterprise*, Spring 2021
 * KGC Book Club: Dean Allemang, *Semantic Web for the Working Ontologist*, Fall 2020
+
+
 
 ## References
 
