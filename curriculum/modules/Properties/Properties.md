@@ -60,6 +60,7 @@ Recall that graphs are directional, the subject has an *outgoing* edge (or arc),
 | Description Logics | concept or instance | roles (object properties) or attributes (data properties) | concept or instance |
 | Knowledge Graph Embedding (Fact) | tail (t) | relation (r) | head (h)  |
 
+
 ## Can I specify the type of subject and object that a property has?  ##
 | Methodology | Subject | Predicate | Object|
 | --- | --- | --- | --- |
