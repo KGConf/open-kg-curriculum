@@ -60,7 +60,6 @@ Graph theory uses different terms, describing networks in terms of *nodes* and *
 | Knowledge Graph Embedding (Fact) | tail (t) | relation (r) | head (h)  |
 
 
-
 ### Mind, concept, and topic maps ##
 | Methodology | Subject | Predicate | Object|
 | --- | --- | --- | --- |
@@ -68,7 +67,7 @@ Graph theory uses different terms, describing networks in terms of *nodes* and *
 | Topic map (for indexes) | topics| associations | occurrences |
 
 
-## Can I specify the type of subject and object that a property has?  ##
+## Can I specify the type of subject and object that a property connects?  ##
 | Methodology | Subject | Predicate | Object|
 | --- | --- | --- | --- |
 | RDFS and OWL | domain | object or data properties | range|
