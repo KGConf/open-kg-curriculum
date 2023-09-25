@@ -20,9 +20,13 @@ The *predicate* expresses how the subject is *related* to the object. Here are s
 
 >“A knowledge graph (i) mainly describes real-world entities and their *interrelations*, organized in a graph, (ii) defines possible classes and *relations* of entities in a schema, (iii) allows for potentially *interrelating* arbitrary entities with each other, and (iv) covers various topical domains.” [4]
 
+The RDF term for predicate is *property*. Predicate and property refer to the same concept and are often used interchangeably. [5, 6] 
+
+### Why are properties like arrows? ### 
 In RDF triples, the predicate states the nature of the relationship between the subject and the object in a *directional* way, i.e., from subject to object. This enables modeling of asymetrical relationships, such as hierarchy, influence, dependency, and causation.  
 
-The RDF term for predicate is *property*. Predicate and property refer to the same concept and are often used interchangeably. [5, 6] 
+![Edge, vertex, node, and arc.](images/Edge_vertex_node_arc.jpg)
+
 
 ### What other terms are used for properties?  ###
 There are many different contributors to the knowledge graph community. Properties are sometimes called *edges* (a term borrowed from solid geometry) or *arcs* (drawn from knowledge graph theory). Properties are similar to the *labeled link lines* of concept maps and *associations* used in creating topic maps. Properties are conceptually related to *relations* (knowledge graph embedding), *roles*, and *associations* (description logics).  
@@ -37,9 +41,7 @@ In solid geometry, a *vertex* is the meeting point of two or more edges of a sol
 
 ![Edge, vertex, node, and arc.](images/Edge_vertex_node_arc.jpg)
 
-Graph theory uses different terms, describing networks in terms of *nodes* and *arcs*. 
-
-Recall that graphs are directional, the subject has an *outgoing* edge (or arc), the object has an *incoming* edge. Now, you can decode definitions like these: 
+Graph theory uses different terms, describing networks in terms of *nodes* and *arcs*. Since graphs are directional, the subject has an *outgoing* edge (or arc), the object has an *incoming* edge. With this terminology you can decode these definitions: 
 
 >"A graph is a collection of *vertices* interconnected by *edges*" [7]
 
@@ -47,18 +49,20 @@ Recall that graphs are directional, the subject has an *outgoing* edge (or arc),
 
 >"*RDF Graph*: A labeled *directed* graph, i.e., a set of nodes connected by *directed-arcs*. [8]
 
-### Labeled link lines and associations: Mind, concept, and topic maps ##
-| Methodology | Subject | Predicate | Object|
-| --- | --- | --- | --- |
-| Mind maps. Concept maps.  | nodes (box, circle, diamond, etc.)  | labeled link lines, arrows | nodes |
-| Topic map (for indexes) | topics| associations | occurrences |
-
 ### Description Logics and Knowledge Graph Embedding  ###
 
 | Methodology | Subject | Predicate | Object|
 | --- | --- | --- | --- |
 | Description Logics | concept or instance | roles (object properties) or attributes (data properties) | concept or instance |
 | Knowledge Graph Embedding (Fact) | tail (t) | relation (r) | head (h)  |
+
+
+
+### Mind, concept, and topic maps ##
+| Methodology | Subject | Predicate | Object|
+| --- | --- | --- | --- |
+| Mind maps. Concept maps.  | nodes (box, circle, diamond, etc.)  | labeled link lines, arrows | nodes |
+| Topic map (for indexes) | topics| associations | occurrences |
 
 
 ## Can I specify the type of subject and object that a property has?  ##
