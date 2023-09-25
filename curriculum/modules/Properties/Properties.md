@@ -23,13 +23,25 @@ The *predicate* expresses how the subject is *related* to the object. Here are s
 The RDF term for predicate is *property*. Predicate and property refer to the same concept and are often used interchangeably. [5, 6] 
 
 ### Why are properties like arrows? ### 
-In RDF triples, the predicate states the nature of the relationship between the subject and the object in a *directional* way, i.e., from subject to object. This enables modeling of asymetrical relationships, such as hierarchy, influence, dependency, and causation.  
+In RDF triples, the predicate states the nature of the relationship between the subject and the object in a *directional* way, i.e., from subject to object. The subject is the point of origin and the object is the target of the arrow. This enables modeling of asymetrical relationships, such as hierarchy, influence, dependency, and causation.  
 
 <p align="center" width="100%">
     <img width="40%" src="images/Directionality_arrows.png">
 </p>
-A Knowledge Graph Conference has subevents, including sessions, which are on broad topics called tracks: e.g., ontologies, taxonomies, and data modeling. 
 
+For example, a Knowledge Graph Conference (KGC) has subevents, including workshops, tutorials, and sessions. The conference focuses on broad topics called tracks: e.g., ontologies, taxonomies, and data modeling. But the inverse is not true: a "Session" does not have a subevent called "Conference"; nor do tracks like the ontology track, taxonomy track, or data modeling track "have a Track" called "Conference". 
+
+A property is like a one way street. It is worded to describe how the subject relates to the object, *not* how the object relates to the subject. Note, you *can* invert (switch around) the subject and the object; then, typically, you need to rename the property, and then (in OWL) express the new property as `owl:inverseOf` the initial property. 
+
+Using a KGC triple as an example, if you reverse the direction of the arrow, switch the subject and object, rename `hasSubEvent` to `isSubeventOf`, and express `isSubeventOf` as the inverse of `hasSubEvent`, the triples would say:  
+
+>`kgc:Conference kgc:hasSubEvent kgc:Session`
+>
+>`kgc:Session kgc:isSubEventOf kgc:Conference`
+>
+>`kgc:isSubEventOf owl:inverseOf kgc:hasSubEvent` 
+
+In natural language, subject and objects can be switched around, but it requires transformation, e.g., an active verb becomes a passive verb. This module will discuss other ways to give properties meaning by relating them to other properties in another section.  
 
 ### What other terms are used for properties?  ###
 There are many different contributors to the knowledge graph community. Properties are sometimes called *edges* (a term borrowed from solid geometry) or *arcs* (drawn from knowledge graph theory). Properties are similar to the *labeled link lines* of concept maps and *associations* used in creating topic maps. Properties are conceptually related to *relations* (knowledge graph embedding), *roles*, and *associations* (description logics).  
@@ -42,8 +54,10 @@ There are many different contributors to the knowledge graph community. Properti
 
 In solid geometry, a *vertex* is the meeting point of two or more edges of a solid shape. An *edge* connects two vertices (the plural of vertex), defining how they are related spatially. Like a predicate, an edge connects two elements; so, edge is often used interchangably with predicate and property.   
 
-![Edge, vertex, node, and arc.](images/Edge_vertex_node_arc.jpg)
-
+<p align="center" width="100%">
+    <img width="40%" src="images/Edge_vertex_node_arc.jpg"
+</p>
+    
 Graph theory uses different terms, describing networks in terms of *nodes* and *arcs*. Since graphs are directional, the subject has an *outgoing* edge (or arc), the object has an *incoming* edge. With this terminology you can decode these definitions: 
 
 >"A graph is a collection of *vertices* interconnected by *edges*" [7]
