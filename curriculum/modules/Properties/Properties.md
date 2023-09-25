@@ -25,7 +25,10 @@ The RDF term for predicate is *property*. Predicate and property refer to the sa
 ### Why are properties like arrows? ### 
 In RDF triples, the predicate states the nature of the relationship between the subject and the object in a *directional* way, i.e., from subject to object. This enables modeling of asymetrical relationships, such as hierarchy, influence, dependency, and causation.  
 
-![Edge, vertex, node, and arc.](images/Edge_vertex_node_arc.jpg)
+<p align="center" width="100%">
+    <img width="40%" src="images/Directionality_arrows.png">
+</p>
+A Knowledge Graph Conference has subevents, including sessions, which are on broad topics called tracks: e.g., ontologies, taxonomies, and data modeling. 
 
 
 ### What other terms are used for properties?  ###
