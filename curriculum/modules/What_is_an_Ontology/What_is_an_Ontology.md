@@ -63,12 +63,48 @@ These three components are foundational in every ontology, forming essential bui
 
 `OWL (Web Ontology Language):` OWL is a powerful and expressive ontology language that extends RDF and RDFS. It offers a rich set of constructs for modeling complex ontologies, including classes, individuals, properties, and logical axioms. OWL supports formal reasoning and inference, making it suitable for advanced knowledge representation tasks, such as knowledge-based systems and automated reasoning applications. Please [click here](../OWL/OWL.md) to get more information on OWL.
 
+### Additional Information about Ontology
+Ontologies serve as the foundation for every Knowledge Graph (KG), and when available on the web, they can be seamlessly integrated into our KGs. Leading examples include OWL, RDF, and RDFS:
+
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        
+If you aim to address domain-specific challenges or create a generalized ontology, there's an opportunity to define a new ontology that can be adopted by KG developers across the board, ensuring consistent knowledge representation. For example:
+
+        @prefix kastle: <http://www.kastle-lab.org/2024/uowl#> .
+
+The above URI can be become base URI, if you create a generalized Universal Web Ontology Language (UOWL).
+        
+
 ## Related KGC Media
 * Workshop Example
 * Tutorial Example
 
+
 ## References
-[1] Reference example.
+[1] [Difference between Ontology and Knowledge Graph](https://enterprise-knowledge.com/whats-the-difference-between-an-ontology-and-a-knowledge-graph/)
+
+[2] [Understanding Ontologies](https://medium.com/codex/understanding-ontologies-and-knowledge-graphs-4664afc4f961)
+
+[3] [Schema.org Vocabulary](https://schema.org/)
+
+[4] [FOAF Vocabulary](http://xmlns.com/foaf/0.1/)
+
+[5] [RDF](https://www.w3.org/RDF/)
+
+[6] [RDFS Schema](https://www.w3.org/TR/rdf12-schema/)
+
+[7] [OWL](https://www.w3.org/OWL/)
+
+[8] Dean Allemang and Jim Hendler Semantic Web for Working Ontologist [link](https://www.sciencedirect.com/book/9780123859655/semantic-web-for-the-working-ontologist)
+
+
+## External Media References
+* [Detailed Explanation of Ontology by Synaptica](https://www.youtube.com/watch?v=7qIBex7a0kE&t=1856s)
+* [Brief Explantion Of Ontology](https://www.youtube.com/watch?v=5pKD1DgeLBA)
+* [The powerful duo: RDF and OWL](https://www.youtube.com/watch?v=zteyEk9LADs)
 
 ## Contributors
 * Cogan Shimizu
+* Rakesh Kandula
