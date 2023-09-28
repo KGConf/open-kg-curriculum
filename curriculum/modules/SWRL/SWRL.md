@@ -100,7 +100,7 @@ SWRL rules that use more built-in functions and variables which cannot be easily
 
 SWRL reasoners are software tools that can execute SWRL rules, perform rule-based reasoning, and make inferences based on the knowledge represented in RDF data. Pellet, Jena Rules, Protégé Reasoners Plugin are few such softwares.
 
-Protégé Reasoners Plugin:
+[Protégé](../../modules/Protege) Reasoners Plugin:
 
 The Protégé ontology editor provides a plugin system named SWRLTab to perform SWRL rules & reasoning on ontologies.
 
