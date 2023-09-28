@@ -50,10 +50,13 @@ p = Built-in names
 SWRL atoms in the antecedent (body) are satisfied,
 * if it is empty (trivially true)
 * or every atom of it is satisfied
+
 SWRL atom in the consequent (head) is satisfied,
 * if it is not empty
 * and it is satisfied
+
 A rule is satisfied by an interpretation of ‘I’ iff every binding B(I) that satisfies the antecedent B(I) satisfies the consequent
+
 Using this syntax, a rule asserting that the composition of parent and brother properties implies the uncle property can be written as:
 
 #### Example2: 
