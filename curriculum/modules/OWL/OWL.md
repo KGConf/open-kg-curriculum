@@ -6,10 +6,6 @@
 * Level: [Intermediate](../levels/Intermediate.md)
 
 ## Content
-What was Learned in the Course 
-	 
-   This course helped reinforce my understanding of description logic, propositional logic, and predicate logic. While I was familiar with the concept of each, it had been a few years since I had last used them. This course taught me about ontologies and knowledge representation. I had never worked with knowledge graphs before, so this was a good experience for me. Additionally, I hadn’t had any experience with ontologies or Protégé, so building the small family tree ontology and visualizing it was helpful. Finally, all the rule surrounding Systematic Axiomization were new to me, but they helped me understand the relationships that we need to look for between sets of information. 
-
 Web Ontology Language
    
   This research paper covers a brief history of Web Ontology, its relationship to Semantic Web, and its functionality.  To discuss Web Ontology Language effectively, one should first establish an understanding of ontology. Simply put, ontology is the study of being and the relationships surrounding it. An ontology in the concept of this paper, is the representation and organization of knowledge. 
