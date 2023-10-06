@@ -23,9 +23,9 @@ The *predicate* expresses how the subject is *related* to the object. Here are s
 The RDF term for predicate is *property*. Predicate and property refer to the same concept and are often used interchangeably. [5, 6] 
 
 ### Why are properties like arrows? ### 
-In RDF triples, the predicate states the nature of the relationship in a *directional* way, i.e., from subject to object. The subject is the point of origin and the object is the target of the arrow. Like a one way street sign, a property is worded to describe how the subject relates to the object, *not* how the object relates to the subject.  Saying "Bob is a parent of his daughter, Jan" is asymmetric because, in this case, Jan is not also a parent of her father, Bob. Directionality enables modeling of asymmetrical relationships, including properties describing hierarchy, influence, dependency, and causation. [7] 
+In RDF triples, the predicate states the nature of the relationship in a *directional* way, i.e., from subject to object. The subject is the point of origin and the object is the target of the arrow. Like a one way street sign, a property describes how the subject relates to the object, *not* how the object relates to the subject. Saying "Bob is a parent of his daughter, Jan" is asymmetric because the sentence, if inverted, doesn't work. Jan is not the parent of her father, Bob. Directionality enables modeling of asymmetrical relationships, including properties describing hierarchy, influence, dependency, and causation. [7] 
 
-Some properties _are_ symmetrical. If Jan is a sibling of Scott; Scott is also a sibling of Jan. In symmetrical relationships, the arrows go both ways, like a two-way street sign. Two equivalent classes are symmetrical, their Venn diagrams overlap perfectly. 
+Some properties _are_ symmetrical. If Jan is a sibling of Scott; Scott is also a sibling of Jan. In symmetrical relationships, the arrow goes both ways, like a two-way street sign. Two equivalent classes are symmetrical, their Venn diagrams overlap perfectly. 
 
 To give another example of directionality, an event like a KGC _Conference_ has subevents, `hasSubevent`, like workshops, tutorials, and sessions. But the inverse is not true: a workshop does not have a subevent called "Conference".
 
@@ -33,19 +33,21 @@ To give another example of directionality, an event like a KGC _Conference_ has 
     <img width="40%" src="images/Directionality_arrows.png">
 </p>
 
-Note, you *can* invert (switch around) the subject and the object if you rename the property: e.g., a workshop *is a subevent of* the conference. Then, in OWL, you can express the new property `isSubEventOf` as `owl:inverseOf` the initial property. If you reversed the direction of the arrow, the triples would say:  
+In natural language, you can switch the order of the subject and object, but the verb must switch, for example, from active to passive voice. The speaker _presents_ the session: The session _is presented by_ the speaker. 
+
+Similarly, you *can* invert (switch around) the subject and the object if you rename the property: e.g., a workshop *is a subevent of* the conference. Then, in OWL, you can express the new property `isSubEventOf` as `owl:inverseOf` the initial property. 
 ```
 kgc:Conference kgc:hasSubEvent kgc:Session
 kgc:Session kgc:isSubEventOf kgc:Conference
 kgc:isSubEventOf owl:inverseOf kgc:hasSubEvent
 ```
-
+If you reversed the direction of the arrow, the triples would say:  
 
 <p align="center" width="100%">
     <img width="40%" src="images/Inverse_directionality_arrows.png">
 </p>
 
-In natural language, subject and objects can be switched around, but it requires transformation, e.g., an active verb becomes a passive verb. The speaker presents the session. but the Vaishali Raghvani presents A Global Knowledge Graph of People, Skills, and Companies. This module will discuss other ways to give properties meaning by relating them to other properties in another section.  
+This module will discuss other ways to give properties meaning by relating them to other properties in another section.  
 
 ### What other terms are used for properties?  ###
 There are many different contributors to the knowledge graph community. Properties are sometimes called *edges* (a term borrowed from solid geometry) or *arcs* (drawn from knowledge graph theory). Properties are similar to the *labeled link lines* of concept maps and *associations* used in creating topic maps. Properties are conceptually related to *relations* (knowledge graph embedding), *roles*, and *associations* (description logics).  
