@@ -12,7 +12,7 @@ Triples are defined in the Resource Definition Framework (RDF) developed by the 
 
     subject    predicate    object
 
-The *predicate* expresses how the subject is *related* to the object. Here are some sample definitions of knowledge graphs. Notice how relationships (italics ours) are integral to these definitions. 
+The *predicate*, like a verb in natural language, expresses how the subject is *related* to the object. Here are some sample definitions of knowledge graphs. Notice how relationships (italics ours) are integral to these definitions. 
 
 >"[Google] has been working on an intelligent model—in geek-speak, a “graph”—that understands real-world entities and their *relationships* to one another: things, not strings." [2]
 
@@ -23,17 +23,17 @@ The *predicate* expresses how the subject is *related* to the object. Here are s
 The RDF term for predicate is *property*. Predicate and property refer to the same concept and are often used interchangeably. [5, 6] 
 
 ### Why are properties like arrows? ### 
-In RDF triples, the predicate states the nature of the relationship in a *directional* way, i.e., from subject to object. The subject is the point of origin and the object is the target of the arrow. Like a one way street sign, a property describes how the subject relates to the object, *not* how the object relates to the subject. Saying "Bob is a parent of his daughter, Jan" is asymmetric because the sentence, if inverted, doesn't work. Jan is not the parent of her father, Bob. Directionality enables modeling of asymmetrical relationships, including properties describing hierarchy, influence, dependency, and causation. [7] 
+In RDF triples, the predicate states the nature of the relationship in a *directional* way, i.e., from subject to object. The subject is the point of origin and the object is the target of the arrow. Like a one way street sign, a property describes how the subject relates to the object, *not* how the object relates to the subject. 
 
-Some properties _are_ symmetrical. If Jan is a sibling of Scott; Scott is also a sibling of Jan. In symmetrical relationships, the arrow goes both ways, like a two-way street sign. Two equivalent classes are symmetrical, their Venn diagrams overlap perfectly. 
+Specifying direction enables modeling _asymmetrical_ relationships, including hierarchy, influence, dependency, and causation, which we explore in later sections. [7] As most of us have learned, how a parent relates to a child is not the same as how a child relates to a parent. It is asymmetric. Why? One reason (among many): Saying (1) "Bob _is a parent_ of Jan, his daughter" is not the same as saying (2) "Jan _is a parent_ of Bob, her father." If the subject and object of the first sentence are inverted, the resulting second sentence is obviously false.  
 
-To give another example of directionality, an event like a KGC _Conference_ has subevents, `hasSubevent`, like workshops, tutorials, and sessions. But the inverse is not true: a workshop does not have a subevent called "Conference".
+Similarly, using an example from KGC, a _conference_ has related subevents described in the property `hasSubevent`, like workshops, tutorials, and sessions. But the inverse is not true: a workshop does not have a subevent called "Conference".
 
 <p align="center" width="100%">
     <img width="40%" src="images/Directionality_arrows.png">
 </p>
 
-In natural language, you can switch the order of the subject and object, but the verb must switch, for example, from active to passive voice. The speaker _presents_ the session: The session _is presented by_ the speaker. 
+In natural language, you can switch the order of subject and object; but, the verb must change, for example, from active to passive voice. "The speaker _presents_ the session" is active; but, in passive voice, the sentence reads "The session _is presented by_ the speaker." 
 
 Similarly, you *can* invert (switch around) the subject and the object if you rename the property: e.g., a workshop *is a subevent of* the conference. Then, in OWL, you can express the new property `isSubEventOf` as `owl:inverseOf` the initial property. 
 ```
@@ -46,6 +46,8 @@ If you reversed the direction of the arrow, the triples would say:
 <p align="center" width="100%">
     <img width="40%" src="images/Inverse_directionality_arrows.png">
 </p>
+
+Some properties _are_ symmetrical. If Jan is a sibling of Scott, her brother; Scott is also a sibling of Jan. In symmetrical relationships, the arrow goes both ways, like a two-way street sign. Two equivalent classes are symmetrical, their Venn diagrams overlap perfectly. But, like a tautology, they don't add new information. 
 
 This module will discuss other ways to give properties meaning by relating them to other properties in another section.  
 
