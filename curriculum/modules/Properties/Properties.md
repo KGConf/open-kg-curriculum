@@ -12,7 +12,7 @@ Triples are defined in the Resource Definition Framework (RDF) developed by the 
 
     subject    predicate    object
 
-The *predicate* expresses how the subject is *related* to the object. Here are some sample definitions of knowledge graphs. Notice how relationships (italics ours) are integral to these definitions. 
+The *predicate*, like a verb in natural language, expresses how the subject is *related* to the object. Here are some sample definitions of knowledge graphs. Notice how relationships (italics ours) are integral to these definitions. 
 
 >"[Google] has been working on an intelligent model—in geek-speak, a “graph”—that understands real-world entities and their *relationships* to one another: things, not strings." [2]
 
@@ -23,25 +23,33 @@ The *predicate* expresses how the subject is *related* to the object. Here are s
 The RDF term for predicate is *property*. Predicate and property refer to the same concept and are often used interchangeably. [5, 6] 
 
 ### Why are properties like arrows? ### 
-In RDF triples, the predicate states the nature of the relationship between the subject and the object in a *directional* way, i.e., from subject to object. The subject is the point of origin and the object is the target of the arrow. This enables modeling of asymetrical relationships, such as hierarchy, influence, dependency, and causation.  
+In RDF triples, the predicate states the nature of the relationship in a *directional* way, i.e., from subject to object. The subject is the point of origin and the object is the target of the arrow. Like a one way street sign, a property describes how the subject relates to the object, *not* how the object relates to the subject. 
+
+Specifying direction enables modeling _asymmetrical_ relationships, including hierarchy, influence, dependency, and causation, which we explore in later sections. [7] As most of us have learned, how a parent relates to a child is not the same as how a child relates to a parent. It is asymmetric. Why? One reason (among many): Saying (1) "Bob _is a parent_ of Jan, his daughter" is not the same as saying (2) "Jan _is a parent_ of Bob, her father." If the subject and object of the first sentence are inverted, the resulting second sentence is obviously false.  
+
+Similarly, using an example from KGC, a _conference_ has related subevents described in the property `hasSubevent`, like workshops, tutorials, and sessions. But the inverse is not true: a workshop does not have a subevent called "Conference".
 
 <p align="center" width="100%">
     <img width="40%" src="images/Directionality_arrows.png">
 </p>
 
-For example, a Knowledge Graph Conference (KGC) has subevents, including workshops, tutorials, and sessions. The conference focuses on broad topics called tracks: e.g., ontologies, taxonomies, and data modeling. But the inverse is not true: a "Session" does not have a subevent called "Conference"; nor do tracks like the ontology track, taxonomy track, or data modeling track "have a Track" called "Conference". 
+In natural language, you can switch the order of subject and object; but, the verb must change, for example, from active to passive voice. "The speaker _presents_ the session" is active; but, in passive voice, the sentence reads "The session _is presented by_ the speaker." 
 
-A property is like a one way street. It is worded to describe how the subject relates to the object, *not* how the object relates to the subject. Note, you *can* invert (switch around) the subject and the object; then, typically, you need to rename the property, and then (in OWL) express the new property as `owl:inverseOf` the initial property. 
+Similarly, you *can* invert (switch around) the subject and the object if you rename the property: e.g., a workshop *is a subevent of* the conference. Then, in OWL, you can express the new property `isSubEventOf` as `owl:inverseOf` the initial property. 
+```
+kgc:Conference kgc:hasSubEvent kgc:Session
+kgc:Session kgc:isSubEventOf kgc:Conference
+kgc:isSubEventOf owl:inverseOf kgc:hasSubEvent
+```
+If you reversed the direction of the arrow, the triples would say:  
 
-Using a KGC triple as an example, if you reverse the direction of the arrow, switch the subject and object, rename `hasSubEvent` to `isSubeventOf`, and express `isSubeventOf` as the inverse of `hasSubEvent`, the triples would say:  
+<p align="center" width="100%">
+    <img width="40%" src="images/Inverse_directionality_arrows.png">
+</p>
 
->`kgc:Conference kgc:hasSubEvent kgc:Session`
->
->`kgc:Session kgc:isSubEventOf kgc:Conference`
->
->`kgc:isSubEventOf owl:inverseOf kgc:hasSubEvent` 
+Some properties _are_ symmetrical. If Jan is a sibling of Scott, her brother; Scott is also a sibling of Jan. In symmetrical relationships, the arrow goes both ways, like a two-way street sign. Two equivalent classes are symmetrical, their Venn diagrams overlap perfectly. But, like a tautology, they don't add new information. 
 
-In natural language, subject and objects can be switched around, but it requires transformation, e.g., an active verb becomes a passive verb. This module will discuss other ways to give properties meaning by relating them to other properties in another section.  
+This module will discuss other ways to give properties meaning by relating them to other properties in another section.  
 
 ### What other terms are used for properties?  ###
 There are many different contributors to the knowledge graph community. Properties are sometimes called *edges* (a term borrowed from solid geometry) or *arcs* (drawn from knowledge graph theory). Properties are similar to the *labeled link lines* of concept maps and *associations* used in creating topic maps. Properties are conceptually related to *relations* (knowledge graph embedding), *roles*, and *associations* (description logics).  
@@ -60,11 +68,11 @@ In solid geometry, a *vertex* is the meeting point of two or more edges of a sol
     
 Graph theory uses different terms, describing networks in terms of *nodes* and *arcs*. Since graphs are directional, the subject has an *outgoing* edge (or arc), the object has an *incoming* edge. With this terminology you can decode these definitions: 
 
->"A graph is a collection of *vertices* interconnected by *edges*" [7]
+>"A graph is a collection of *vertices* interconnected by *edges*" [8]
 
->"An object is a *node* in a linked data graph with at least one incoming *edge*." [8] 
+>"An object is a *node* in a linked data graph with at least one incoming *edge*." [9] 
 
->"*RDF Graph*: A labeled *directed* graph, i.e., a set of nodes connected by *directed-arcs*. [8]
+>"*RDF Graph*: A labeled *directed* graph, i.e., a set of nodes connected by *directed-arcs*. [9]
 
 ### Description Logics and Knowledge Graph Embedding  ###
 
@@ -107,11 +115,13 @@ In RDF, the *domain* is the set of resources that can serve as the subject of a 
 
 [5] WC3, RDF 1.1 Primer [3.1 Triples](https://www.w3.org/TR/rdf11-primer/#:~:text=The%20subject%20and%20the%20object,elements%20they%20are%20called%20triples)
 
-[6] Uschold, Michael. *Demystifying OWL for the Enterprise.* Morgan & Claypool, 2018. Section 2.4.3, p 45
+[6] Uschold, Michael. *Demystifying OWL for the Enterprise.* Morgan & Claypool, 2018. Section 2.4.3 Properties, p 45
 
-[7] D3 Graph Theory, Vertices and Edges (https://d3gt.com/unit.html)
+[7] Uschold, ibid. Section 4.6.3 Symmetric and Asymmetric Properties, p 100
 
-[8] WC3, JSON-LD 1.1, 1.4 Terminology (https://www.w3.org/TR/json-ld11/)
+[8] D3 Graph Theory, Vertices and Edges (https://d3gt.com/unit.html)
+
+[9] WC3, JSON-LD 1.1, 1.4 Terminology (https://www.w3.org/TR/json-ld11/)
 
 
 
