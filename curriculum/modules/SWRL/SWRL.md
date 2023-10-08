@@ -37,7 +37,13 @@ For example, "If X has a parent of Y and Y has a brother of Z, then it infers th
 
 The [constructs of atoms](https://protege.stanford.edu/conference/2009/slides/SWRL2009ProtegeConference.pdf) can either be in the form of OWL-DL class descriptions, individual-valued properties, data-valued properties, OWL same individuals, OWL different individuals, or the specific built-in functions.
 
-        | C(i) | R(i, j) | D(v) | U(i,v) | builtIn(p, v1,…,vn) | i = j | i ≠ j |
+        C(i)
+        R(i, j)
+        D(v)
+        U(i,v)
+        builtIn(p, v1,…,vn)
+        i = j
+        i ≠ j
 
 C = Class;						
 D = Data type;
@@ -78,7 +84,7 @@ The correct way to negate is as follows:
 
 #### Example3.2:
 
-        Person(?x) ∧  swrlb:not(hasParent(?x, ?y)) -> ParentlessPerson(?x)
+        Person(?x) ∧  swrlb:not(hasParent(?x, ?y)) → ParentlessPerson(?x)
 
 ### SWRL - OWL syntactic sugar & not OWL syntactic sugar
 
@@ -88,7 +94,7 @@ SWRL rules which are easy to relate to OWL axioms, as in, making use of OWL clas
 
 #### Example4.1:
 
-        Person(?p) ∧   hasParent(?p, ?parent) -> Parent(?parent)
+        Person(?p) ∧   hasParent(?p, ?parent) → Parent(?parent)
 
 #### Not OWL Syntactic Sugar
 
@@ -97,7 +103,7 @@ SWRL rules that use more built-in functions and variables which cannot be easily
 #### Example4.2:
 
         
-        swrlb:greaterThan(?age, 18)  ∧  hasLicense(?person, ?license) -> hasDrivingPrivileges(?person)
+        swrlb:greaterThan(?age, 18)  ∧  hasLicense(?person, ?license) → hasDrivingPrivileges(?person)
         
 ### SWRL reasoners
 
@@ -160,15 +166,15 @@ OWL can only succesfully represent knowledge, describe classes, properties and e
 
 #### Sample SWRL Rules onto the Ontology:
 
-        ex:Student(Student1) ^ ex:hasAge(Student1, ?age) ^ swrlb:greaterThanOrEqual(?age, 18) -> ex:AdultStudent(Student1)
+        ex:Student(Student1) ^ ex:hasAge(Student1, ?age) ^ swrlb:greaterThanOrEqual(?age, 18) → ex:AdultStudent(Student1)
 
-        ex:Student(Student2) ^ ex:enrolledIn(Student2, ?c) ^ ex:Course(?c) -> ex:EnrolledStudent(Student2)
+        ex:Student(Student2) ^ ex:enrolledIn(Student2, ?c) ^ ex:Course(?c) → ex:EnrolledStudent(Student2)
 
 Here, from the represented knowledge, SWRL was able to infer that the Students with age greater than or equal to 18 as Adult Students, which cannot be acheived through OWL alone. We can perform logical reasoning and infer new knowledge by using SWRL rules.
 
 #### Applying Negation:
 
-        ex:Student(Student2) ^ swrlb:not(enrolledIn(Student2, CourseA)) ^ ex:Course(CourseA) -> ex:notEnrolledIn(Student2)
+        ex:Student(Student2) ^ swrlb:not(enrolledIn(Student2, CourseA)) ^ ex:Course(CourseA) → ex:notEnrolledIn(Student2)
 
 This shows how SWRL can be used to make inferences based on negation, which allows us to deduce information about the absence of certain conditions in any given ontology. This is particularly useful in scenarios where reasoning about the presence or absence of specific data or conditions is cruicial.
 
