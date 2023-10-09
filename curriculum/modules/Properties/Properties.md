@@ -8,7 +8,7 @@
 ## Content
 ### What are *properties* in triples or knowledge graphs? 
 
-Triples are defined in the Resource Definition Framework (RDF) developed by the World Wide Web Consortium (W3C) and introduced in the Open Curriculum’s [RDF Module](../RDF/RDF.md). Triples, the fundamental data structure of RDF, are made up of a subject, predicate, and object. [1] 
+Triples are the fundamental data structure of the Resource Definition Framework (RDF) developed by the World Wide Web Consortium (W3C), introduced in the Open Curriculum’s [RDF Module](../RDF/RDF.md). Triples are made up of a subject, predicate, and object. [1] 
 
     subject    predicate    object
 
@@ -23,7 +23,7 @@ The *predicate*, like a verb in natural language, expresses how the subject is *
 The RDF term for predicate is *property*. Predicate and property refer to the same concept and are often used interchangeably. [5, 6] 
 
 ### Why are properties like arrows? ### 
-In RDF triples, the predicate states the nature of the relationship in a *directional* way, i.e., from subject to object. The subject is the point of origin and the object is the target of the arrow. Like a one way street sign, a property describes how the subject relates to the object, *not* how the object relates to the subject. 
+Like a one way street sign, the predicate states the nature of the relationship in a *directional* way, i.e., from subject to object. The subject is the point of origin and the object is the target of the arrow. Properties describe how subjects relates to objects, *not* how objects relate to subjects. 
 
 Specifying direction enables modeling _asymmetrical_ relationships, including hierarchy, influence, dependency, and causation, which we explore in later sections. [7] As most of us have learned, how a parent relates to a child is not the same as how a child relates to a parent. It is asymmetric. Why? One reason (among many): Saying (1) "Bob _is a parent_ of Jan, his daughter" is not the same as saying (2) "Jan _is a parent_ of Bob, her father." If the subject and object of the first sentence are inverted, the resulting second sentence is obviously false.  
 
@@ -41,7 +41,7 @@ kgc:Conference kgc:hasSubEvent kgc:Session
 kgc:Session kgc:isSubEventOf kgc:Conference
 kgc:isSubEventOf owl:inverseOf kgc:hasSubEvent
 ```
-If you reversed the direction of the arrow, the triples would say:  
+This reverses the direction of the arrow, and the triples would say:  
 
 <p align="center" width="100%">
     <img width="40%" src="images/Inverse_directionality_arrows.png">
