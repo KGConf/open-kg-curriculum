@@ -25,17 +25,17 @@ The RDF term for predicate is *property*. Predicate and property refer to the sa
 ### Why are properties like arrows? ### 
 Like a one way street sign, the predicate states the nature of the relationship in a *directional* way, i.e., from subject to object. The subject is the point of origin and the object is the target of the arrow. Properties describe how subjects relates to objects, *not* how objects relate to subjects. 
 
-Specifying direction enables modeling _asymmetrical_ relationships, including hierarchy, influence, dependency, and causation, which we explore in later sections. [7] As most of us have learned, how a parent relates to a child is not the same as how a child relates to a parent. It is asymmetric. Why? One reason (among many): Saying (1) "Bob _is a parent_ of Jan, his daughter" is not the same as saying (2) "Jan _is a parent_ of Bob, her father." If the subject and object of the first sentence are inverted, the resulting second sentence is obviously false.  
+Specifying direction enables modeling _asymmetrical_ relationships, including hierarchy, influence, dependency, and causation, which we explore in later sections. [7] As you know, how a parent relates to a child is not the same as how a child relates to a parent. It is asymmetric. Why? One reason (among many): Saying (1) "Bob _is a parent_ of Jan, his daughter" is not the same as saying (2) "Jan _is a parent_ of Bob, her father." If the subject and object of the first sentence are switched, or inverted, the resulting second sentence is obviously false.  
 
-Similarly, using an example from KGC, a _conference_ has related subevents, described by the property `hasSubevent`, like workshops, tutorials, and sessions. But the inverse is not true: a workshop does not have a subevent called "Conference".
+Similarly, using an example from KGC, a _Conference_ has related subevents, such as tutorials and sessions. So a triple that says "Conference _hasSubevent_ Workshop" makes sense. But the inverse, saying  "Workshop _hasSubevent_ Conference" is not true:
 
 <p align="center" width="100%">
-    <img width="40%" src="images/Directionality_arrows.png">
+    <img width="30%" src="images/Directionality_arrows.png">
 </p>
 
-In natural language, when you switch the order of (invert) the subject and object, the verb must change, e.g., from active to passive voice. "The speaker _presents_ the session" is active; but, in passive voice, the sentence reads "The session _is presented by_ the speaker." 
+Natural language is directional. You can you invert (switch) the subject and object of a sentence, but the verb must change, e.g., from active to passive voice. "The speaker _presents_ the session" is active; but in passive voice, the verb becomes "The session _is presented by_ the speaker." 
 
-Similarly, when you invert the subject and the object, the property must change.  For example, "a workshop `isSubeventOf` the conference. In OWL, you express the new property `isSubEventOf` as `owl:inverseOf` the `isSubEventOf` property. 
+Similarly, when you invert the subject and the object of a triple, the property must change. For example, the property in the triple, "Conference _hasSubevent_ Workshop" changes to "Workshop _isSubeventOf_ Conference." In OWL, you express the new property `isSubEventOf` as `owl:inverseOf` the `isSubEventOf` property. 
 ```
 kgc:Conference kgc:hasSubEvent kgc:Session
 kgc:Session kgc:isSubEventOf kgc:Conference
