@@ -44,7 +44,7 @@ kgc:isSubEventOf owl:inverseOf kgc:hasSubEvent
 This reverses the direction of the arrow, and the triples would say:  
 
 <p align="center" width="100%">
-    <img width="50%" src="images/Inverse_directionality_arrows.png">
+    <img width="30%" src="images/Inverse_directionality_arrows.png">
 </p>
 
 Some properties _are_ symmetrical. If Jan is a sibling of Scott, her brother; Scott is also a sibling of Jan. In symmetrical relationships, the arrow goes both ways, like a two-way street sign. Two equivalent classes are symmetrical, their Venn diagrams overlap perfectly. But, like a tautology, they don't add new information. 
