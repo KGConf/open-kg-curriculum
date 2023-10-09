@@ -27,15 +27,15 @@ Like a one way street sign, the predicate states the nature of the relationship 
 
 Specifying direction enables modeling _asymmetrical_ relationships, including hierarchy, influence, dependency, and causation, which we explore in later sections. [7] As most of us have learned, how a parent relates to a child is not the same as how a child relates to a parent. It is asymmetric. Why? One reason (among many): Saying (1) "Bob _is a parent_ of Jan, his daughter" is not the same as saying (2) "Jan _is a parent_ of Bob, her father." If the subject and object of the first sentence are inverted, the resulting second sentence is obviously false.  
 
-Similarly, using an example from KGC, a _conference_ has related subevents described in the property `hasSubevent`, like workshops, tutorials, and sessions. But the inverse is not true: a workshop does not have a subevent called "Conference".
+Similarly, using an example from KGC, a _conference_ has related subevents, described by the property `hasSubevent`, like workshops, tutorials, and sessions. But the inverse is not true: a workshop does not have a subevent called "Conference".
 
 <p align="center" width="100%">
     <img width="40%" src="images/Directionality_arrows.png">
 </p>
 
-In natural language, you can switch the order of subject and object; but, the verb must change, for example, from active to passive voice. "The speaker _presents_ the session" is active; but, in passive voice, the sentence reads "The session _is presented by_ the speaker." 
+In natural language, when you switch the order of (invert) the subject and object, the verb must change, e.g., from active to passive voice. "The speaker _presents_ the session" is active; but, in passive voice, the sentence reads "The session _is presented by_ the speaker." 
 
-Similarly, you *can* invert (switch around) the subject and the object if you rename the property: e.g., a workshop *is a subevent of* the conference. Then, in OWL, you can express the new property `isSubEventOf` as `owl:inverseOf` the initial property. 
+Similarly, when you invert the subject and the object, the property must change.  For example, "a workshop `isSubeventOf` the conference. In OWL, you express the new property `isSubEventOf` as `owl:inverseOf` the `isSubEventOf` property. 
 ```
 kgc:Conference kgc:hasSubEvent kgc:Session
 kgc:Session kgc:isSubEventOf kgc:Conference
@@ -44,7 +44,7 @@ kgc:isSubEventOf owl:inverseOf kgc:hasSubEvent
 This reverses the direction of the arrow, and the triples would say:  
 
 <p align="center" width="100%">
-    <img width="40%" src="images/Inverse_directionality_arrows.png">
+    <img width="50%" src="images/Inverse_directionality_arrows.png">
 </p>
 
 Some properties _are_ symmetrical. If Jan is a sibling of Scott, her brother; Scott is also a sibling of Jan. In symmetrical relationships, the arrow goes both ways, like a two-way street sign. Two equivalent classes are symmetrical, their Venn diagrams overlap perfectly. But, like a tautology, they don't add new information. 
