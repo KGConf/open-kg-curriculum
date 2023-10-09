@@ -20,27 +20,34 @@ Ontology in Knowledge Graph (KG) is used to represent the entities and relations
 
 `Axioms:` Ontologies may include logical axioms that define constraints, rules, or inference rules for reasoning about the domain. These axioms help ensure the consistency and accuracy of the ontology. We can define a rule for Father like, Father is-a Person and there exists a relation hasChild to a node of type Person.
 
-Below is the example ontology of product:
+Below is the example ontology of a Knowledge Graph Conference:
 
-    @prefix kastle: <http://www.kastle-lab.org/ld/ontology/>
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix schema: <http://schema.org/> .
+        @prefix kgc: <http://www.knowledgegraph.tech/> .
+        @prefix kgcr: <http://www.knowledgegraph.tech/iri/> .
+        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+        @prefix schema: <http://schema.org/> .
 
-    kastle:N1 a schema:Product ,
-       schema:hasPart kastle:P1 ,
-       schema:hasPart kastle:P2;
-       
-    kastle:N2 a schema:Product ,
-       schema:hasPart kastle:P2 ,
-       schema:hasPart kastle:P3;
+        kgc: a owl:Ontology ;
+            rdfs:label "Knowledge Graph Conference Ontology" ;
+            rdfs:comment "Designed By Bita Banihashemi",
+                "Email: firstName DOT lastName AT gmail DOT com" ;
+            owl:versionInfo "1.0" .
+            
+        kgc:LinkedInProfile a owl:Class ;
+            rdfs:subClassOf schema:ProfilePage .
 
-    kastle:P1 a kastle:Part .
-    kastle:P2 a kastle:Part .
-    kastle:P3 a kastle:Part .
+        kgc:Tutorial a owl:Class ;
+            rdfs:subClassOf schema:Event .
+        
+        kgc:Workshop a owl:Class ;
+            rdfs:subClassOf schema:Event .
 
-    kastle:Part rdfs:subClassOf schema:Product
-    
+        kgcr:000616 a schema:Person ;
+            rdfs:label "David Newman" ;
+            schema:name "David Newman" ;
+            schema:worksFor kgcr:000617 .
 In examining the components of ontology, it becomes evident that the examples provided span various domains intentionally. This diversity underscores a crucial point: ontological descriptions are distinct and tailored to the unique requirements of each domain. For instance, consider the attributes associated with the concept of a "person" in a family knowledge graph versus a medical knowledge graph. In the family knowledge graph, attributes like "relationship status" and "family role" might be pertinent, reflecting the familial context. On the other hand, in a medical knowledge graph, attributes such as "medical history," "diagnoses," and "allergies" become central, aligning with the healthcare focus. This illustrates how ontology construction necessitates domain-specific customization to accurately represent the knowledge within that domain.
 
 ### Vocabulary in Ontology
