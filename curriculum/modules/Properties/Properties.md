@@ -31,23 +31,22 @@ Natural language is directional when describing asymmetrical relationships. For 
 
 Sometimes, in natural language, when you invert the subject and object of a sentence, the verb changes from active to passive voice. "The speaker _presents_ the session" is active; but in passive voice, the verb becomes "The session _is presented by_ the speaker." 
 
-Similarly, using an example from KGC, a _conference_ has related subevents, such as tutorials and sessions. So a triple that says "Conference _hasSubevent_ Workshop" would make sense. 
+To use an example from KGC, a _conference_ has related subevents, such as workshops, tutorials, and sessions. So a triple like "Conference _hasSubevent_ Workshop" would make sense. 
 
 <p align="center" width="100%">
     <img width="30%" src="images/Directionality_arrows.png">
 </p>
 
-But the inverse, "Workshop _hasSubevent_ Conference" would not make sense. When you invert the subject and the object of a triple, the property must change. In this example, the property in the triple, "_hasSubevent_ " changes to "_isSubeventOf_" as the direction of the arrow changes. 
+But the inverse, "Workshop _hasSubevent_ Conference" would not make sense. When you invert the subject and the object of this triple, the property "_hasSubevent_ " changes to "_isSubeventOf_" as the direction of the arrow changes. 
 
 <p align="center" width="100%">
     <img width="30%" src="images/Inverse_directionality_arrows.png">
 </p>
 
-In OWL, you can formally express that two properties are the inverse of each other. This reverses directionality. In this example, the  _isSubEventOf_ is `owl:inverseOf` the _hasSubEvent_ property. 
+In OWL, you can formally express that two properties are the inverse of each other. In this example, the  _isSubEventOf_ is `owl:inverseOf` the _hasSubEvent_ property. 
 ```
 kgc:isSubEventOf owl:inverseOf kgc:hasSubEvent
 ```
-
 
 Some properties _are_ symmetrical. If Jan is a sibling of Scott, her brother; Scott is also a sibling of Jan. In symmetrical relationships, the arrow goes both ways, like a two-way street sign. Two equivalent classes are symmetrical, their Venn diagrams overlap perfectly. But, like a tautology, they don't add new information. 
 
