@@ -8,7 +8,7 @@
 ## Content
 ### What are *properties* in triples or knowledge graphs? 
 
-Triples are defined in the Resource Definition Framework (RDF) developed by the World Wide Web Consortium (W3C) and introduced in the Open Curriculum’s [RDF Module](../RDF/RDF.md). Triples, the fundamental data structure of RDF, are made up of a subject, predicate, and object. [1] 
+Triples are the fundamental data structure of the Resource Definition Framework (RDF) developed by the World Wide Web Consortium (W3C), introduced in the Open Curriculum’s [RDF Module](../RDF/RDF.md). Triples are made up of a subject, predicate, and object. [1] 
 
     subject    predicate    object
 
@@ -23,33 +23,32 @@ The *predicate*, like a verb in natural language, expresses how the subject is *
 The RDF term for predicate is *property*. Predicate and property refer to the same concept and are often used interchangeably. [5, 6] 
 
 ### Why are properties like arrows? ### 
-In RDF triples, the predicate states the nature of the relationship in a *directional* way, i.e., from subject to object. The subject is the point of origin and the object is the target of the arrow. Like a one way street sign, a property describes how the subject relates to the object, *not* how the object relates to the subject. 
+Like a one way street sign, the predicate states the nature of the relationship in a *directional* way, i.e., from subject to object. The subject is the point of origin and the object is the target of the arrow. Properties describe how subjects relates to objects, *not* how objects relate to subjects. 
 
-Specifying direction enables modeling _asymmetrical_ relationships, including hierarchy, influence, dependency, and causation, which we explore in later sections. [7] As most of us have learned, how a parent relates to a child is not the same as how a child relates to a parent. It is asymmetric. Why? One reason (among many): Saying (1) "Bob _is a parent_ of Jan, his daughter" is not the same as saying (2) "Jan _is a parent_ of Bob, her father." If the subject and object of the first sentence are inverted, the resulting second sentence is obviously false.  
+Specifying direction enables modeling _asymmetrical_ relationships, including hierarchy, influence, dependency, and causation, which we explore in later sections. [7] 
 
-Similarly, using an example from KGC, a _conference_ has related subevents described in the property `hasSubevent`, like workshops, tutorials, and sessions. But the inverse is not true: a workshop does not have a subevent called "Conference".
+Natural language is directional when describing asymmetrical relationships. For example, a parent-child relationship is directional. Saying (1) "Bob _is a parent of_ Jan, his daughter" is not the same as saying (2) "Jan _is a parent of_  Bob, her father." The relationship  "_is a parent of_" works one way not both ways. If the subject and object are switched, or inverted, the verb needs to change. Changing the verb—saying "Jan _is a child of_ Bob, her father"—makes the second sentence true.  
+
+Sometimes, in natural language, when you invert the subject and object of a sentence, the verb changes from active to passive voice. "The speaker _presents_ the session" is active; but in passive voice, the verb becomes "The session _is presented by_ the speaker." 
+
+To use an example from KGC, a _conference_ has related subevents, such as workshops, tutorials, and sessions. So a triple like "Conference _hasSubevent_ Workshop" would make sense. 
 
 <p align="center" width="100%">
-    <img width="40%" src="images/Directionality_arrows.png">
+    <img width="30%" src="images/Directionality_arrows.png">
 </p>
 
-In natural language, you can switch the order of subject and object; but, the verb must change, for example, from active to passive voice. "The speaker _presents_ the session" is active; but, in passive voice, the sentence reads "The session _is presented by_ the speaker." 
+But the inverse, "Workshop _hasSubevent_ Conference" would not make sense. When you invert the subject and the object of this triple, the property "_hasSubevent_ " changes to "_isSubeventOf_" as the direction of the arrow changes. 
 
-Similarly, you *can* invert (switch around) the subject and the object if you rename the property: e.g., a workshop *is a subevent of* the conference. Then, in OWL, you can express the new property `isSubEventOf` as `owl:inverseOf` the initial property. 
+<p align="center" width="100%">
+    <img width="30%" src="images/Inverse_directionality_arrows.png">
+</p>
+
+In OWL, you can formally express that two properties are the inverse of each other. In this example, the  _isSubEventOf_ is `owl:inverseOf` the _hasSubEvent_ property. 
 ```
-kgc:Conference kgc:hasSubEvent kgc:Session
-kgc:Session kgc:isSubEventOf kgc:Conference
 kgc:isSubEventOf owl:inverseOf kgc:hasSubEvent
 ```
-If you reversed the direction of the arrow, the triples would say:  
-
-<p align="center" width="100%">
-    <img width="40%" src="images/Inverse_directionality_arrows.png">
-</p>
 
 Some properties _are_ symmetrical. If Jan is a sibling of Scott, her brother; Scott is also a sibling of Jan. In symmetrical relationships, the arrow goes both ways, like a two-way street sign. Two equivalent classes are symmetrical, their Venn diagrams overlap perfectly. But, like a tautology, they don't add new information. 
-
-This module will discuss other ways to give properties meaning by relating them to other properties in another section.  
 
 ### What other terms are used for properties?  ###
 There are many different contributors to the knowledge graph community. Properties are sometimes called *edges* (a term borrowed from solid geometry) or *arcs* (drawn from knowledge graph theory). Properties are similar to the *labeled link lines* of concept maps and *associations* used in creating topic maps. Properties are conceptually related to *relations* (knowledge graph embedding), *roles*, and *associations* (description logics).  
