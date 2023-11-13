@@ -27,7 +27,7 @@ Like a one way street sign, the predicate states the nature of the relationship 
 
 Specifying direction enables modeling _asymmetrical_ relationships, including hierarchy, influence, dependency, and causation, which we explore in later sections. [7] 
 
-Natural language is directional when describing asymmetrical relationships. For example, a parent-child relationship is directional. Saying (1) "Bob _is a parent of_ Jan, his daughter" is not the same as saying (2) "Jan _is a parent of_  Bob, her father." The relationship  "_is a parent of_" works one way not both ways. If the subject and object are switched, or inverted, the verb needs to change. Changing the verb—saying "Jan _is a child of_ Bob, her father"—makes the second sentence true.  
+Natural language is directional when describing asymmetrical relationships. For example, a parent-child relationship is directional. Saying (1) "Bob _is a parent of_ Jan, his daughter" is not the same as saying (2) "Jan _is a parent of_  Bob, her father." The relationship  "_is a parent of_" works one way not both ways. If the subject and object are switched, or inverted, the verb changes. Changing the verb—saying "Jan _is a child of_ Bob, her father"—makes the second sentence true.  
 
 Sometimes, in natural language, when you invert the subject and object of a sentence, the verb changes from active to passive voice. "The speaker _presents_ the session" is active; but in passive voice, the verb becomes "The session _is presented by_ the speaker." 
 
@@ -51,10 +51,10 @@ kgc:isSubEventOf owl:inverseOf kgc:hasSubEvent
 Some properties _are_ symmetrical. If Jan is a sibling of Scott, her brother; Scott is also a sibling of Jan. In symmetrical relationships, the arrow goes both ways, like a two-way street sign. Two equivalent classes are symmetrical, their Venn diagrams overlap perfectly. But, like a tautology, they don't add new information. 
 
 ### What other terms are used for properties?  ###
-There are many different contributors to the knowledge graph community. Properties are sometimes called *edges* (a term borrowed from solid geometry) or *arcs* (drawn from knowledge graph theory). Properties are similar to the *labeled link lines* of concept maps and *associations* used in creating topic maps. Properties are conceptually related to *relations* (knowledge graph embedding), *roles*, and *associations* (description logics).  
+There are many different contributors to the knowledge graph community. Borrowing from solid geometry, properties are sometimes called *edges*. In graph theory properties are called *arcs*. Properties are similar to the *labeled link lines* of concept maps and *associations* used in creating topic maps. Properties are conceptually related to *relations* (knowledge graph embedding), *roles*, and *associations* (description logics).  
 
-### Edges and arcs: Solid geometry and graph theory
-| Methodology | Subject | Predicate | Object|
+### Properties as edges and arcs
+| Methodology | Subject | Property | Object|
 | --- | --- | --- | --- |
 | Solid Geometry | vertex | edge | vertex|
 | Graph Theory | nodes  | arcs  | nodes|
@@ -73,20 +73,27 @@ Graph theory uses different terms, describing networks in terms of *nodes* and *
 
 >"*RDF Graph*: A labeled *directed* graph, i.e., a set of nodes connected by *directed-arcs*. [9]
 
-### Description Logics and Knowledge Graph Embedding  ###
+### Properties as roles, attributes, relation, labeled link lines, and associations   ###
 
-| Methodology | Subject | Predicate | Object|
+Other disciplines for modeling knowledge have terms synonymous with property.   
+
+| Methodology | Subject | Property | Object|
 | --- | --- | --- | --- |
 | Description Logics | concept or instance | roles (object properties) or attributes (data properties) | concept or instance |
 | Knowledge Graph Embedding (Fact) | tail (t) | relation (r) | head (h)  |
-
-
-### Mind, concept, and topic maps ##
-| Methodology | Subject | Predicate | Object|
-| --- | --- | --- | --- |
 | Mind maps. Concept maps.  | nodes (box, circle, diamond, etc.)  | labeled link lines, arrows | nodes |
 | Topic map (for indexes) | topics| associations | occurrences |
 
+### Properties are expressed in lower camel case ### 
+
+Lower camel case is a naming convention joining multiple words into a single word with no spaces. Like humps on a camel, capitalization goes up and down when you combine words.  All letters of the first word are lowercase but the first letter of each subsequent word is capitalized. [10]
+
+```rdfs:subClassOf
+rdf:type
+isSubsidiaryOf
+rdf:predicate 
+owl:sameAs
+```
 
 ## Can I specify the type of subject and object that a property connects?  ##
 | Methodology | Subject | Predicate | Object|
@@ -122,7 +129,7 @@ In RDF, the *domain* is the set of resources that can serve as the subject of a 
 
 [9] WC3, JSON-LD 1.1, 1.4 Terminology (https://www.w3.org/TR/json-ld11/)
 
-
+[10]  Terrell Hanna, Katie. "lowerCamelCase", https://www.techtarget.com/whatis/definition/lowerCamelCase
 
 ## Contributors
 * Steve Gillespie
