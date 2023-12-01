@@ -51,9 +51,9 @@ kgc:isSubEventOf owl:inverseOf kgc:hasSubEvent
 Some properties _are_ symmetrical. If Jan is a sibling of Scott, her brother; Scott is also a sibling of Jan. In symmetrical relationships, the arrow goes both ways, like a two-way street sign. Two equivalent classes are symmetrical, their Venn diagrams overlap perfectly. But, like a tautology, they don't add new information. 
 
 ### What other terms are used for properties?  ###
-There are many different contributors to the knowledge graph community. Borrowing from solid geometry, properties are sometimes called *edges*. In graph theory properties are called *arcs*. Properties are similar to the *labeled link lines* of concept maps and *associations* used in creating topic maps. Properties are conceptually related to *relations* (knowledge graph embedding), *roles*, and *associations* (description logics).  
+There are many different contributors to the knowledge graph community. Borrowing from solid geometry, properties are sometimes called *edges*. In graph theory properties are called *arcs*. 
 
-### Properties as edges and arcs
+#### Properties can be called edges and arcs
 | Methodology | Subject | Property | Object|
 | --- | --- | --- | --- |
 | Solid Geometry | vertex | edge | vertex|
@@ -73,20 +73,23 @@ Graph theory uses different terms, describing networks in terms of *nodes* and *
 
 >"*RDF Graph*: A labeled *directed* graph, i.e., a set of nodes connected by *directed-arcs*. [9]
 
-### Properties as roles, attributes, relation, labeled link lines, and associations   ###
-
-Other disciplines for modeling knowledge have terms synonymous with property.   
+#### Properties as roles, attributes, relation, labeled link lines, and associations   ###
+Properties are similar to the *labeled link lines* of concept maps and *associations* used in creating topic maps. Properties are conceptually related to *relations* (knowledge graph embedding), *roles*, and *associations* (description logics).  
+Other methods for modeling knowledge, e.g., approaches description logic and knowledge graph embedding, use terms synonymous with property.   
 
 | Methodology | Subject | Property | Object|
 | --- | --- | --- | --- |
 | Description Logics | concept or instance | roles (object properties) or attributes (data properties) | concept or instance |
-| Knowledge Graph Embedding (Fact) | tail (t) | relation (r) | head (h)  |
+| Knowledge Graph Embedding (Fact)* | head (h)  | relation (r) | tail (t) |
+| Graph Theory | tail | arc or directed edge | head |
 | Mind maps. Concept maps.  | nodes (box, circle, diamond, etc.)  | labeled link lines, arrows | nodes |
 | Topic map (for indexes) | topics| associations | occurrences |
 
+Like knowledge graph embedding [10], graph theory uses "head" and "tail" to distinguish the endpoints of an arc in a directed graph (digraph). But unlike knowledge graph embedding, graph theory calls the _starting point_ the tail and the _arrival point_ the head. [11]
+
 ### Properties are expressed in lower camel case ### 
 
-Lower camel case is a naming convention joining multiple words into a single word with no spaces. Like humps on a camel, capitalization goes up and down when you combine words.  All letters of the first word are lowercase but the first letter of each subsequent word is capitalized. [10]
+Lower camel case is a naming convention joining multiple words into a single word with no spaces. Like humps on a camel, capitalization goes up and down when you combine words.  All letters of the first word are lowercase but the first letter of each subsequent word is capitalized. [12]
 
 ```rdfs:subClassOf
 rdf:type
@@ -129,7 +132,11 @@ In RDF, the *domain* is the set of resources that can serve as the subject of a 
 
 [9] WC3, JSON-LD 1.1, 1.4 Terminology (https://www.w3.org/TR/json-ld11/)
 
-[10]  Terrell Hanna, Katie. "lowerCamelCase", https://www.techtarget.com/whatis/definition/lowerCamelCase
+[10] "Knowledge Graph Embedding", [Wikipedia](https://en.wikipedia.org/wiki/Knowledge_graph_embedding)
+
+[11] Éric D. Taillard, section 1.2.2 Directed Graph, Arcs in ["Elements of Graphs and Complexity Theory," _Design of Heuristic Algorithms for Hard Optimization_](https://link.springer.com/chapter/10.1007/978-3-031-13714-3_1#auth-_ric_D_-Taillard) See also "Graph (discrete mathematics)", [Wikipedia](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)#Directed_graph) 
+
+[12]  Terrell Hanna, Katie. "lowerCamelCase", https://www.techtarget.com/whatis/definition/lowerCamelCase
 
 ## Contributors
 * Steve Gillespie
