@@ -73,9 +73,9 @@ Graph theory uses different terms, describing networks in terms of *nodes* and *
 
 >"*RDF Graph*: A labeled *directed* graph, i.e., a set of nodes connected by *directed-arcs*. [9]
 
-#### Properties are related terms like roles, attributes, relations, labeled link lines, and associations 
+#### Properties are similar to roles, attributes, relations, labeled link lines, and associations 
 
-There are many methods for modeling knowledge, e.g., approaches to description logic and knowledge graph embedding. It helps to be familiar with terms synonymous with property so you can interact with a wide group of stakeholders and understand their terms.  
+There are many methods for modeling knowledge, e.g., approaches to description logic and knowledge graph embedding. It helps to be familiar with terms synonymous with property so you can interact with a wide group of stakeholders, understand their terms, and incorporate their insights.  
 
 | Methodology | Subject | Property | Object|
 | --- | --- | --- | --- |
