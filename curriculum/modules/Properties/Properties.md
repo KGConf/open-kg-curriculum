@@ -51,7 +51,7 @@ kgc:isSubEventOf owl:inverseOf kgc:hasSubEvent
 Some properties _are_ symmetrical. If Jan is a sibling of Scott, her brother; Scott is also a sibling of Jan. In symmetrical relationships, the arrow goes both ways, like a two-way street sign. Two equivalent classes are symmetrical, their Venn diagrams overlap perfectly. But, like a tautology, they don't add new information. 
 
 ### What other terms are used for properties?  ###
-There are many different contributors to the knowledge graph community. Borrowing from solid geometry, properties are sometimes called *edges*. In graph theory properties are called *arcs*. 
+There are many different contributors to the knowledge graph community. Borrowing from solid geometry, properties are sometimes called *edges*. In graph theory properties are often called *arcs*. 
 
 #### Properties can be called edges and arcs
 | Methodology | Subject | Property | Object|
@@ -73,29 +73,29 @@ Graph theory uses different terms, describing networks in terms of *nodes* and *
 
 >"*RDF Graph*: A labeled *directed* graph, i.e., a set of nodes connected by *directed-arcs*. [9]
 
-#### Properties as roles, attributes, relation, labeled link lines, and associations   ###
-Properties are similar to the *labeled link lines* of concept maps and *associations* used in creating topic maps. Properties are conceptually related to *relations* (knowledge graph embedding), *roles*, and *associations* (description logics).  
-Other methods for modeling knowledge, e.g., approaches description logic and knowledge graph embedding, use terms synonymous with property.   
+#### Properties are related terms like roles, attributes, relations, labeled link lines, and associations 
+
+There are many methods for modeling knowledge, e.g., approaches to description logic and knowledge graph embedding. It helps to be familiar with terms synonymous with property so you can interact with a wide group of stakeholders and understand their terms.  
 
 | Methodology | Subject | Property | Object|
 | --- | --- | --- | --- |
 | Description Logics | concept or instance | roles (object properties) or attributes (data properties) | concept or instance |
 | Knowledge Graph Embedding (Fact)* | head (h)  | relation (r) | tail (t) |
-| Graph Theory | tail | arc or directed edge | head |
-| Mind maps. Concept maps.  | nodes (box, circle, diamond, etc.)  | labeled link lines, arrows | nodes |
+| Graph Theory | endpoint or tail | arc or directed edge | endpoint or head |
+| Mind maps. Concept maps.  | nodes (boxes, circles, diamonds, etc.)  | labeled link lines, arrows | nodes |
 | Topic map (for indexes) | topics| associations | occurrences |
 
-Like knowledge graph embedding [10], graph theory uses "head" and "tail" to distinguish the endpoints of an arc in a directed graph (digraph). But unlike knowledge graph embedding, graph theory calls the _starting point_ the tail and the _arrival point_ the head. [11]
+This is a quirk: Both knowledge graph embedding [10] and graph theory use "head" and "tail" to distinguish the endpoints of an arc in a directed graph (digraph). But unlike knowledge graph embedding, graph theory calls the _starting point_ the tail and the _arrival point_ the head. [11]. It's a flip of a coin.
 
 ### Properties are expressed in lower camel case ### 
 
-Lower camel case is a naming convention joining multiple words into a single word with no spaces. Like humps on a camel, capitalization goes up and down when you combine words.  All letters of the first word are lowercase but the first letter of each subsequent word is capitalized. [12]
+Properties are conventioally written in lower camel case: a naming convention joining multiple words into a single word with no spaces. Like humps on a camel, lower camel case capitalization goes up and down when you combine words: all letters of the first word are lowercase but the first letter of each subsequent word is capitalized. [12]
 
 ```rdfs:subClassOf
 rdf:type
-isSubsidiaryOf
 rdf:predicate 
 owl:sameAs
+xyz:isSubsidiaryOf
 ```
 
 ## Can I specify the type of subject and object that a property connects?  ##
