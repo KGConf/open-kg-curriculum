@@ -8,7 +8,7 @@
 ## Content
 ### What are *properties* in triples or knowledge graphs? 
 
-Triples are the fundamental data structure of the Resource Definition Framework (RDF) developed by the World Wide Web Consortium (W3C), introduced in the Open Curriculum’s [RDF Module](../RDF/RDF.md). Triples are made up of a subject, predicate, and object. [1] 
+Triples are the fundamental data structure of the Resource Definition Framework (RDF) developed by the World Wide Web Consortium (W3C) and introduced in the Open Curriculum’s [RDF Module](../RDF/RDF.md). Triples are made up of a subject, predicate, and object. [1] 
 
     subject    predicate    object
 
@@ -27,7 +27,7 @@ Like a one way street sign, the predicate states the nature of the relationship 
 
 Specifying direction enables modeling _asymmetrical_ relationships, including hierarchy, influence, dependency, and causation, which we explore in later sections. [7] 
 
-Natural language is directional when describing asymmetrical relationships. For example, a parent-child relationship is directional. Saying (1) "Bob _is a parent of_ Jan, his daughter" is not the same as saying (2) "Jan _is a parent of_  Bob, her father." The relationship  "_is a parent of_" works one way not both ways. If the subject and object are switched, or inverted, the verb needs to change. Changing the verb—saying "Jan _is a child of_ Bob, her father"—makes the second sentence true.  
+Natural language is directional when describing asymmetrical relationships. For example, a parent-child relationship is directional. Saying (1) "Bob _is a parent of_ Jan, his daughter" is not the same as saying (2) "Jan _is a parent of_  Bob, her father." The relationship  "_is a parent of_" works one way not both ways. If the subject and object are switched, or inverted, the verb changes. Changing the verb—saying "Jan _is a child of_ Bob, her father"—makes the second sentence true.  
 
 Sometimes, in natural language, when you invert the subject and object of a sentence, the verb changes from active to passive voice. "The speaker _presents_ the session" is active; but in passive voice, the verb becomes "The session _is presented by_ the speaker." 
 
@@ -51,10 +51,10 @@ kgc:isSubEventOf owl:inverseOf kgc:hasSubEvent
 Some properties _are_ symmetrical. If Jan is a sibling of Scott, her brother; Scott is also a sibling of Jan. In symmetrical relationships, the arrow goes both ways, like a two-way street sign. Two equivalent classes are symmetrical, their Venn diagrams overlap perfectly. But, like a tautology, they don't add new information. 
 
 ### What other terms are used for properties?  ###
-There are many different contributors to the knowledge graph community. Properties are sometimes called *edges* (a term borrowed from solid geometry) or *arcs* (drawn from knowledge graph theory). Properties are similar to the *labeled link lines* of concept maps and *associations* used in creating topic maps. Properties are conceptually related to *relations* (knowledge graph embedding), *roles*, and *associations* (description logics).  
+There are many different contributors to the knowledge graph community. Borrowing from solid geometry, properties are sometimes called *edges*. In graph theory properties are often called *arcs*. 
 
-### Edges and arcs: Solid geometry and graph theory
-| Methodology | Subject | Predicate | Object|
+#### Properties can be called edges and arcs
+| Methodology | Subject | Property | Object|
 | --- | --- | --- | --- |
 | Solid Geometry | vertex | edge | vertex|
 | Graph Theory | nodes  | arcs  | nodes|
@@ -73,20 +73,30 @@ Graph theory uses different terms, describing networks in terms of *nodes* and *
 
 >"*RDF Graph*: A labeled *directed* graph, i.e., a set of nodes connected by *directed-arcs*. [9]
 
-### Description Logics and Knowledge Graph Embedding  ###
+#### Properties are similar to roles, attributes, relations, labeled link lines, and associations 
 
-| Methodology | Subject | Predicate | Object|
+There are many methods for modeling knowledge, e.g., approaches to description logic and knowledge graph embedding. It helps to be familiar with terms synonymous with property so you can interact with a wide group of stakeholders, understand their terms, and incorporate their insights.  
+
+| Methodology | Subject | Property | Object|
 | --- | --- | --- | --- |
 | Description Logics | concept or instance | roles (object properties) or attributes (data properties) | concept or instance |
-| Knowledge Graph Embedding (Fact) | tail (t) | relation (r) | head (h)  |
-
-
-### Mind, concept, and topic maps ##
-| Methodology | Subject | Predicate | Object|
-| --- | --- | --- | --- |
-| Mind maps. Concept maps.  | nodes (box, circle, diamond, etc.)  | labeled link lines, arrows | nodes |
+| Knowledge Graph Embedding (Fact)* | head (h)  | relation (r) | tail (t) |
+| Graph Theory | endpoint or tail | arc or directed edge | endpoint or head |
+| Mind maps. Concept maps.  | nodes (boxes, circles, diamonds, etc.)  | labeled link lines, arrows | nodes |
 | Topic map (for indexes) | topics| associations | occurrences |
 
+This is a quirk: Both knowledge graph embedding [10] and graph theory use "head" and "tail" to distinguish the endpoints of an arc in a directed graph (digraph). But unlike knowledge graph embedding, graph theory calls the _starting point_ the tail and the _arrival point_ the head. [11]. It's a flip of a coin.
+
+### Properties are expressed in lower camel case ### 
+
+Properties are conventioally written in lower camel case: a naming convention joining multiple words into a single word with no spaces. Like humps on a camel, lower camel case capitalization goes up and down when you combine words: all letters of the first word are lowercase but the first letter of each subsequent word is capitalized. [12]
+
+```rdfs:subClassOf
+rdf:type
+rdf:predicate 
+owl:sameAs
+xyz:isSubsidiaryOf
+```
 
 ## Can I specify the type of subject and object that a property connects?  ##
 | Methodology | Subject | Predicate | Object|
@@ -122,7 +132,11 @@ In RDF, the *domain* is the set of resources that can serve as the subject of a 
 
 [9] WC3, JSON-LD 1.1, 1.4 Terminology (https://www.w3.org/TR/json-ld11/)
 
+[10] "Knowledge Graph Embedding", [Wikipedia](https://en.wikipedia.org/wiki/Knowledge_graph_embedding)
 
+[11] Éric D. Taillard, section 1.2.2 Directed Graph, Arcs in ["Elements of Graphs and Complexity Theory," _Design of Heuristic Algorithms for Hard Optimization_](https://link.springer.com/chapter/10.1007/978-3-031-13714-3_1#auth-_ric_D_-Taillard) See also "Graph (discrete mathematics)", [Wikipedia](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)#Directed_graph) 
+
+[12]  Terrell Hanna, Katie. "lowerCamelCase", https://www.techtarget.com/whatis/definition/lowerCamelCase
 
 ## Contributors
 * Steve Gillespie
