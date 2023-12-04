@@ -80,16 +80,16 @@ There are many methods for modeling knowledge, e.g., approaches to description l
 | Methodology | Subject | Property | Object|
 | --- | --- | --- | --- |
 | Description Logics | concept or instance | roles (object properties) or attributes (data properties) | concept or instance |
-| Knowledge Graph Embedding (Fact)* | head (h)  | relation (r) | tail (t) |
-| Graph Theory | endpoint or tail | arc or directed edge | endpoint or head |
+| Knowledge Graph Embedding Fact* | head (h)  | relation (r) | tail (t) |
+| Graph Theory | starting point or tail | arc or directed edge | arrival point or head |
 | Mind maps. Concept maps.  | nodes (boxes, circles, diamonds, etc.)  | labeled link lines, arrows | nodes |
 | Topic map (for indexes) | topics| associations | occurrences |
 
-This is a quirk: Both knowledge graph embedding [10] and graph theory use "head" and "tail" to distinguish the endpoints of an arc in a directed graph (digraph). But unlike knowledge graph embedding, graph theory calls the _starting point_ the tail and the _arrival point_ the head. [11]. It's a flip of a coin.
+This is a quirk you may encounter. We mentioned graph theory uses the terms "node" and "arc". Graph theory also uses "head" and "tail" to distinguish the endpoints of an arc in a directed graph, as does knowledge graph embedding (KGE). However, in graph theory the subject is the tail (or _starting point_ connected to the outgoing arc) and object is the head (or _arrival point_ connected to the incoming arc).[11] For KGE, the subject is the head and the object is the tail. They agree it's a flip of a coin.
 
 ### Properties are expressed in lower camel case ### 
 
-Properties are conventioally written in lower camel case: a naming convention joining multiple words into a single word with no spaces. Like humps on a camel, lower camel case capitalization goes up and down when you combine words: all letters of the first word are lowercase but the first letter of each subsequent word is capitalized. [12]
+Properties are conventionally written in lower camel case: a naming convention joining multiple words into a single word with no spaces. Like humps on a camel, lower camel case capitalization goes up and down when you combine words: all letters of the first word are lowercase but the first letter of each subsequent word is capitalized. [12]
 
 ```rdfs:subClassOf
 rdf:type
