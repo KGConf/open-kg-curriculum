@@ -87,14 +87,27 @@ There are many methods for modeling knowledge, e.g., approaches to description l
 
 This is a quirk you may encounter. We mentioned graph theory uses the terms "node" and "arc". Graph theory also uses "head" and "tail" to distinguish the endpoints of an arc in a directed graph, as does knowledge graph embedding (KGE). However, in graph theory the _subject_ is the tail (or starting point connected to the outgoing arc) and _object_ is the head (or rrival point connected to the incoming arc).[11] For KGE, the subject is the _head_ and the object is the _tail_. It's a flip of a coin.
 
-#### Equivalency Relationships
-These terms (arc, edge, labelled link, relation, and association) are semantically linked as synonyms or near synonyms to the concept of _properties_. When the same concept can be expressed with different terms the terms are _equivalent_ and those developing controlled vocabulary select one of them as a preferred term. The W3C developed RDF which uses the preferred term _properties_.
+### What semantic relationships can properties model? 
+The National Institute of Standards (NISO) has published helpful guidelines for developing and managing controlled vocabulary (ANSI/NISO Z39.19-2005).[12] Controlled vocabularies are "standardized and organized arrangements of words and phrases [that] provide a consistent way to describe data." [13]  Metadata, taxonomies, knowledge graphs, and ontologies all require controlled vocabulary. 
 
-Earlier we said knowledge graphs are directional because they model asymetrical relationships. But knowledge graphs can also model equivalent or symmetrical relationships. Equivalent terms are interchangeable, one can substitute for the other. As we noted, equivalent terms are symmetrical: the directional arrow goes both ways, like a two-way street sign. 
+Section 8 in ANSI/NISO Z39.19-2005 describes three types of semantic relationships: equivalency, hierarchy, and associations (Section 8, Table 1).[12]
+
+<p align="center" width="100%">
+    <img width="40%" src="images/ANSI Z39.19-2005_Table_1.jpg"
+</p>
+   
+
+#### Equivalency Relationships
+Terms like arc, edge, labelled link, relation, and association are semantically linked as synonyms or near synonyms to _properties_ as a concept. When the same concept can be expressed with different terms, the terms are _equivalent_ and those developing controlled vocabulary select one of the terms as a preferred term. The W3C developed RDF which uses the preferred term _properties_.
+
+We said knowledge graphs are directional because they model asymetrical relationships. But knowledge graphs can also model equivalent or symmetrical relationships. Equivalent terms are interchangeable, one can substitute for the other. We also noted, equivalent terms are symmetrical: the directional arrow goes both ways, like a two-way street sign.
+
+#### Hierarchy
+
 
 ### Properties are expressed in lower camel case ### 
 
-Properties are conventionally written in lower camel case: a naming convention joining multiple words into a single word with no spaces. Like humps on a camel, lower camel case capitalization goes up and down when you combine words: all letters of the first word are lowercase but the first letter of each subsequent word is capitalized. [12]
+Properties are conventionally written in lower camel case: a naming convention joining multiple words into a single word with no spaces. Like humps on a camel, lower camel case capitalization goes up and down when you combine words: all letters of the first word are lowercase but the first letter of each subsequent word is capitalized. [13]
 
 ```rdfs:subClassOf
 rdf:type
@@ -141,7 +154,12 @@ In RDF, the *domain* is the set of resources that can serve as the subject of a 
 
 [11] Éric D. Taillard, section 1.2.2 Directed Graph, Arcs in ["Elements of Graphs and Complexity Theory," _Design of Heuristic Algorithms for Hard Optimization_](https://link.springer.com/chapter/10.1007/978-3-031-13714-3_1#auth-_ric_D_-Taillard) See also "Graph (discrete mathematics)", [Wikipedia](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)#Directed_graph) 
 
-[12]  Terrell Hanna, Katie. "lowerCamelCase", https://www.techtarget.com/whatis/definition/lowerCamelCase
+[12] ANSI/NISO Z39.19-2005 (R2010), "Guidelines for the Construction, Format, and Management of Monolingual Controlled Vocabularies." [NISO](https://www.niso.org/publications/ansiniso-z3919-2005-r2010)
+
+[13] _Metadata Basics_, “Controlled Vocabularies” [University of Texas Libraries]( 
+https://guides.lib.utexas.edu/metadata-basics/controlled-vocabs)
+
+[14]  Terrell Hanna, Katie. "lowerCamelCase", [TechTarget](https://www.techtarget.com/whatis/definition/lowerCamelCase)
 
 ## Contributors
 * Steve Gillespie
