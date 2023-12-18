@@ -85,7 +85,12 @@ There are many methods for modeling knowledge, e.g., approaches to description l
 | Mind maps. Concept maps.  | nodes (boxes, circles, diamonds, etc.)  | labeled link lines, arrows | nodes |
 | Topic map (for indexes) | topics| associations | occurrences |
 
-This is a quirk you may encounter. We mentioned graph theory uses the terms "node" and "arc". Graph theory also uses "head" and "tail" to distinguish the endpoints of an arc in a directed graph, as does knowledge graph embedding (KGE). However, in graph theory the subject is the tail (or _starting point_ connected to the outgoing arc) and object is the head (or _arrival point_ connected to the incoming arc).[11] For KGE, the subject is the head and the object is the tail. They agree it's a flip of a coin.
+This is a quirk you may encounter. We mentioned graph theory uses the terms "node" and "arc". Graph theory also uses "head" and "tail" to distinguish the endpoints of an arc in a directed graph, as does knowledge graph embedding (KGE). However, in graph theory the _subject_ is the tail (or starting point connected to the outgoing arc) and _object_ is the head (or rrival point connected to the incoming arc).[11] For KGE, the subject is the _head_ and the object is the _tail_. It's a flip of a coin.
+
+#### Equivalency Relationships
+Now you know various terms used for the same concept--properties. Terms like arc, edge, labelled link, relation, and association are synonymous or nearly synonymous with property and come from the many disciplines and methods that contribute to knowledge graphs: e.g., discrete math, philosophy, logic, library science. 
+
+This discussion also illustrates _equivalency_, one of the primary relationships used in controlled in controlled vocabularies. Earlier we said knowledge graphs are directional because they model asymetrical relationships. But knowledge graphs can also model equivalent or symmetrical relationships.  symmetrical: the arrow goes both ways, like a two-way street sign. Two equivalent classes are symmetrical,
 
 ### Properties are expressed in lower camel case ### 
 
