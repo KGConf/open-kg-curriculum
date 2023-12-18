@@ -88,9 +88,9 @@ There are many methods for modeling knowledge, e.g., approaches to description l
 This is a quirk you may encounter. We mentioned graph theory uses the terms "node" and "arc". Graph theory also uses "head" and "tail" to distinguish the endpoints of an arc in a directed graph, as does knowledge graph embedding (KGE). However, in graph theory the _subject_ is the tail (or starting point connected to the outgoing arc) and _object_ is the head (or rrival point connected to the incoming arc).[11] For KGE, the subject is the _head_ and the object is the _tail_. It's a flip of a coin.
 
 #### Equivalency Relationships
-Now you know various terms used for the same concept--properties. Terms like arc, edge, labelled link, relation, and association are synonymous or nearly synonymous with property and come from the many disciplines and methods that contribute to knowledge graphs: e.g., discrete math, philosophy, logic, library science. 
+These terms (arc, edge, labelled link, relation, and association) are semantically linked as synonyms or near synonyms to the concept of _properties_. When the same concept can be expressed with different terms the terms are _equivalent_ and those developing controlled vocabulary select one of them as a preferred term. The W3C developed RDF which uses the preferred term _properties_.
 
-This discussion also illustrates _equivalency_, one of the primary relationships used in controlled in controlled vocabularies. Earlier we said knowledge graphs are directional because they model asymetrical relationships. But knowledge graphs can also model equivalent or symmetrical relationships.  symmetrical: the arrow goes both ways, like a two-way street sign. Two equivalent classes are symmetrical,
+Earlier we said knowledge graphs are directional because they model asymetrical relationships. But knowledge graphs can also model equivalent or symmetrical relationships. Equivalent terms are interchangeable, one can substitute for the other. As we noted, equivalent terms are symmetrical: the directional arrow goes both ways, like a two-way street sign. 
 
 ### Properties are expressed in lower camel case ### 
 
