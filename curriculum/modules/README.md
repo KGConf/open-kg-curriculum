@@ -272,13 +272,6 @@ The vocabulary that we use:
   * Level: Advanced
   * Covered Concepts: missing, missing
 
-* Survey of Modeling Tools
-  * Category: Survey, Technology
-  * Module Prerequisites: Introduction to KE
-  * Audience: Any
-  * Level: Intermediate
-  * Covered Concepts: missing, missing
-
 * Survey of Triplestores
   * Category: Survey, Technology
   * Module Prerequisites: Deploying a KG
